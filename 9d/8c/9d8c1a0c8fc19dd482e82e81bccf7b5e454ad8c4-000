@@ -1139,3 +1139,48 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:19:09 +0200)
 
 > L'envoi cloud de la version 4 est encore en file, derrière ceux des versions 2 et 3. Je reprends dès que l'attente en arrière-plan me prévient qu'il est terminé. (23 October 2026, 23:19:09 +0200)
+
+## 23 October 2026, 23:22:27 +0200 : Prompt
+
+<!-- feedback-event:4337db3122d339812dda48bd8b2e303f25272eb7030c1082314e01e76ad4875d (23 October 2026, 23:22:27 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:22:27 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:22:27 +0200)
+
+> <task-notification> (23 October 2026, 23:22:27 +0200)
+> <task-id>bato1c3hy</task-id> (23 October 2026, 23:22:27 +0200)
+> <tool-use-id>toolu_01K9RMu6VQVm7LAwkovHFpJX</tool-use-id> (23 October 2026, 23:22:27 +0200)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4/tasks/bato1c3hy.output</output-file> (23 October 2026, 23:22:27 +0200)
+> <status>completed</status> (23 October 2026, 23:22:27 +0200)
+> <summary>Background command "Attendre la fin de l'envoi cloud de l'article" completed (exit code 0)</summary> (23 October 2026, 23:22:27 +0200)
+> </task-notification> (23 October 2026, 23:22:27 +0200)
+
+## 23 October 2026, 23:23:04 +0200 : Iteration
+
+<!-- feedback-event:1cb6a3fe3c546c158875ef6b65a97bbfa6627592d571066d8767569b5009ba7d (23 October 2026, 23:23:04 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:23:04 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:23:04 +0200)
+
+> Le problème ne venait pas de ZenRay Assets : l'envoi cloud de la première version avait bien fonctionné. Il venait de la façon dont j'avais construit l'article. Je l'avais écrit à la main, une seule fois, dans un fichier séparé du skill, et rien ne les reliait. Quand on a corrigé la règle du déjeuner, j'ai modifié le skill, mais l'article est resté figé. Pire, une phrase du skill lui-même disait encore « déjeuner gardé libre et jamais écrit », et c'est exactement ce que tu as surligné. (23 October 2026, 23:23:04 +0200)
+>
+> J'ai corrigé la conception plutôt que le texte, pour que ça ne puisse plus se reproduire. (23 October 2026, 23:23:04 +0200)
+>
+> - **L'article n'a plus de texte à lui.** Il est fabriqué à partir du skill : chaque section du skill devient une section de l'article. Ils ne peuvent donc plus dire deux choses différentes. (23 October 2026, 23:23:04 +0200)
+> - **La consignation le met à jour toute seule.** Chaque fois que je consigne un skill qui a un article, l'article est refait, vérifié (pas de tiret long, rien qui déborde sur ordinateur ou sur téléphone), publié dans Assets et envoyé au cloud. Si une de ces étapes échoue, la consignation échoue bruyamment au lieu de se taire. (23 October 2026, 23:23:04 +0200)
+> - **Une vérification dit oui ou non.** Elle répond « à jour » seulement si l'article correspond au skill actuel et que son envoi cloud est terminé. Je l'ai testée dans les deux sens : elle a dit « en retard » juste après une modification du skill, puis « à jour » une fois la synchronisation faite. (23 October 2026, 23:23:04 +0200)
+> - **Les repas sont écrits par défaut.** L'outil ajoute maintenant seul un déjeuner et un dîner à chaque journée qui n'en a pas. (23 October 2026, 23:23:04 +0200)
+> - **« Consigner » a maintenant ton sens partout.** Il veut dire : le skill, l'article, le cloud, la mémoire, puis le commit et le push. C'est écrit dans les skills zenray-assets, zenray-edit et ctrl-s, et dans les règles globales sur les skills et la mémoire. La phrase « l'article pas à jour » suffit désormais à charger cette règle. (23 October 2026, 23:23:04 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (23 October 2026, 23:23:04 +0200)
+> |---|---|---| (23 October 2026, 23:23:04 +0200)
+> | L'article dit la même chose que le skill | Oui | La version 4 dit que les repas sont toujours écrits, et la phrase fausse n'apparaît plus nulle part | (23 October 2026, 23:23:04 +0200)
+> | Mise à jour systématique à chaque consignation | Oui | En modifiant le skill puis en le synchronisant, la version 4 a été publiée sans intervention de ma part | (23 October 2026, 23:23:04 +0200)
+> | Envoyé dans le cloud | Oui | L'envoi est terminé sans erreur, et le projet affiche bien la version 4 | (23 October 2026, 23:23:04 +0200)
+> | Tout poussé | Oui | Les deux dépôts sont alignés avec GitHub (commits `ac57ab42` et `43f3f015b`) | (23 October 2026, 23:23:04 +0200)
+>
+> En passant, les versions 2 et 3 sont parties pendant que je corrigeais l'outil : la 2 débordait sur mobile, la 3 était une republication de contrôle. Elles restent dans l'historique du projet, mais c'est la version 4 qui est affichée. (23 October 2026, 23:23:04 +0200)
+>
+> L'article de zenray-sales a le même défaut, puisqu'il a lui aussi été écrit à la main. Le brancher sur ce mécanisme remplacerait son texte actuel, rédigé à part en ton neutre, par le contenu du skill. (23 October 2026, 23:23:04 +0200)
+>
+> Fichiers : (23 October 2026, 23:23:04 +0200)
+> - [/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs](/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs) : le script qui refait l'article depuis le skill. (23 October 2026, 23:23:04 +0200)
+> - [/Users/zenray/.claude/skills/zenray-calendar-plan/ARTICLE.json](/Users/zenray/.claude/skills/zenray-calendar-plan/ARTICLE.json) : ce qui relie le skill à son article (projet, titre, image d'ouverture). (23 October 2026, 23:23:04 +0200)
