@@ -1263,3 +1263,63 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:36:55 +0200)
 
 > Tout est consigné et poussé. Il ne reste qu'à constater la fin des envois cloud ; l'attente en arrière-plan me préviendra. (24 October 2026, 00:36:55 +0200)
+
+## 24 October 2026, 00:46:33 +0200 : Prompt
+
+<!-- feedback-event:9aa74ea330b57386898e9b7a214a39839add09d5f23b9098be050a30e8f12e9c (24 October 2026, 00:46:33 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (24 October 2026, 00:46:33 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:46:33 +0200)
+
+> <task-notification> (24 October 2026, 00:46:33 +0200)
+> <task-id>bvxa3hjmm</task-id> (24 October 2026, 00:46:33 +0200)
+> <tool-use-id>toolu_01VdySLGmdof8VM5GCW7v5xF</tool-use-id> (24 October 2026, 00:46:33 +0200)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4/tasks/bvxa3hjmm.output</output-file> (24 October 2026, 00:46:33 +0200)
+> <status>completed</status> (24 October 2026, 00:46:33 +0200)
+> <summary>Background command "Attendre que tous les articles soient à jour dans le cloud" completed (exit code 0)</summary> (24 October 2026, 00:46:33 +0200)
+> </task-notification> (24 October 2026, 00:46:33 +0200)
+
+## 24 October 2026, 00:47:01 +0200 : Iteration
+
+<!-- feedback-event:1a375509228d7eede8c7fcba569330ec82996c2d22b90d215509bef46525de76 (24 October 2026, 00:47:01 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:47:01 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:47:01 +0200)
+
+> Tous les articles ZenRay Assets suivent maintenant leurs sources automatiquement, y compris ceux de Louisiana Bayou. (24 October 2026, 00:47:01 +0200)
+>
+> **Le principe.** Une liste unique recense chaque article : ce qu'il lit, comment il se reconstruit et comment il part dans le cloud. Dès qu'une source bouge, l'article est refait, republié dans Assets et envoyé au cloud. Il y a trois sortes d'articles : (24 October 2026, 00:47:01 +0200)
+>
+> | Article | Source | Comment il se refait | (24 October 2026, 00:47:01 +0200)
+> |---|---|---| (24 October 2026, 00:47:01 +0200)
+> | ZenRay Calendar Plan, ZenRay Sales | le texte du skill | il est fabriqué à partir du skill, jamais écrit à la main | (24 October 2026, 00:47:01 +0200)
+> | UV-Match Height | son brouillon (texte et images) | il est remis en page puis republié | (24 October 2026, 00:47:01 +0200)
+> | Louisiana Bayou (7 articles et l'index) | les pages de leçons et de bancs, et la documentation Houdini | la documentation est reconstruite d'abord, puis les articles, puis l'archive du projet | (24 October 2026, 00:47:01 +0200)
+>
+> **Qui déclenche.** Deux déclencheurs se complètent : (24 October 2026, 00:47:01 +0200)
+> - chaque synchronisation d'un skill, en arrière-plan ; (24 October 2026, 00:47:01 +0200)
+> - une tâche de fond du Mac toutes les 10 minutes, pour ce qui change en dehors des skills, comme une page de banc modifiée dans l'atelier. (24 October 2026, 00:47:01 +0200)
+>
+> Quand rien n'a changé, un passage prend 0,2 seconde et ne republie rien. (24 October 2026, 00:47:01 +0200)
+>
+> **Ce qui a été rattrapé ce soir.** L'article ZenRay Sales était écrit à la main ; il est maintenant fabriqué à partir du skill, comme tu l'as accepté. La documentation Houdini et les articles Louisiana Bayou étaient en retard sur leurs sources ; ils ont été reconstruits. (24 October 2026, 00:47:01 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (24 October 2026, 00:47:01 +0200)
+> |---|---|---| (24 October 2026, 00:47:01 +0200)
+> | Tous les articles rafraîchis automatiquement | Oui | J'ai modifié une leçon du toit : le contrôle a dit « en retard », la tâche de fond a reconstruit et republié seule, sans erreur | (24 October 2026, 00:47:01 +0200)
+> | Louisiana Bayou compris | Oui | Ses articles sont « à jour » et leur envoi cloud est terminé | (24 October 2026, 00:47:01 +0200)
+> | Que ce soit dans le cloud | Oui | Le contrôle final dit « tous les articles sont à jour », avec les envois terminés | (24 October 2026, 00:47:01 +0200)
+> | Consigné | Oui | La règle est écrite dans les skills zenray-assets, zenray-edit, zenray-sales et zenray-calendar-plan, dans les règles globales, et dans les règles du projet Louisiana Bayou | (24 October 2026, 00:47:01 +0200)
+> | Poussé | Oui | Les commits `8404bdae` et `0a06172ee` sont sur GitHub | (24 October 2026, 00:47:01 +0200)
+>
+> **Ce qui reste à surveiller.** (24 October 2026, 00:47:01 +0200)
+> - **Un nouvel article n'est fini qu'une fois ajouté à la liste.** Sinon il ne sera jamais rafraîchi. Cette règle est consignée. (24 October 2026, 00:47:01 +0200)
+> - **Plus de relecture avant chaque republication.** Ta demande remplace la règle du 20 October, qui voulait que tu relises chaque version d'article avant de la publier. (24 October 2026, 00:47:01 +0200)
+>
+> Fichiers : (24 October 2026, 00:47:01 +0200)
+> - [/Users/zenray/.claude/skills/zenray-edit/articles/Registry.json](/Users/zenray/.claude/skills/zenray-edit/articles/Registry.json) : la liste des articles. (24 October 2026, 00:47:01 +0200)
+> - [/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-articles.mjs](/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-articles.mjs) : le script qui les rafraîchit. (24 October 2026, 00:47:01 +0200)
+>
+> Pour tout vérifier toi-même en une commande : (24 October 2026, 00:47:01 +0200)
+>
+> ```bash (24 October 2026, 00:47:01 +0200)
+> node /Users/zenray/.claude/skills/zenray-edit/scripts/refresh-articles.mjs --check (24 October 2026, 00:47:01 +0200)
+> ``` (24 October 2026, 00:47:01 +0200)
