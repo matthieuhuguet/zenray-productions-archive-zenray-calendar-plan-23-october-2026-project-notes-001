@@ -1184,3 +1184,82 @@
 > Fichiers : (23 October 2026, 23:23:04 +0200)
 > - [/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs](/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs) : le script qui refait l'article depuis le skill. (23 October 2026, 23:23:04 +0200)
 > - [/Users/zenray/.claude/skills/zenray-calendar-plan/ARTICLE.json](/Users/zenray/.claude/skills/zenray-calendar-plan/ARTICLE.json) : ce qui relie le skill à son article (projet, titre, image d'ouverture). (23 October 2026, 23:23:04 +0200)
+
+## 24 October 2026, 00:30:56 +0200 : Prompt
+
+<!-- feedback-event:1f1abcdbed9561474a94968f339c062eab4f6aae65d3acc2722f9d6fde828f04 (24 October 2026, 00:30:56 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (24 October 2026, 00:30:56 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:30:56 +0200)
+
+> oui tout les articles / même ceux de louisiana bayou doivent suivre ce principe de rafraichissement et ce doit être consigné. tout les articles liés à /zenray-assets doivent être refresh automatiquement (24 October 2026, 00:30:56 +0200)
+
+## 24 October 2026, 00:31:11 +0200 : Iteration
+
+<!-- feedback-event:65af12067a30e470f9ac1cd1de1d1032b6b765cba46292eec42288ebe99d1fdb (24 October 2026, 00:31:11 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:31:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:31:11 +0200)
+
+> Les articles de Louisiana Bayou ne sont pas dans ce dossier : ils passent par un autre chemin. Je lis comment ils sont faits. (24 October 2026, 00:31:11 +0200)
+
+## 24 October 2026, 00:32:05 +0200 : Iteration
+
+<!-- feedback-event:2c75106051c18e4b5d53c6a6764b714e62852a96518ffddbb7e1a05cd6486a5e (24 October 2026, 00:32:05 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:32:05 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:32:05 +0200)
+
+> Le mécanisme doit couvrir trois sortes d'articles. Avant de l'écrire, je mesure ce que la documentation Houdini lit pour se construire, afin de savoir quoi surveiller. (24 October 2026, 00:32:05 +0200)
+
+## 24 October 2026, 00:32:16 +0200 : Iteration
+
+<!-- feedback-event:37c6f2e1baaa65f2a2a4c0cc8f763703bd2657284dd5f525a7770586ce9b1606 (24 October 2026, 00:32:16 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:32:16 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:32:16 +0200)
+
+> Une empreinte du skill Houdini entier prend 0,04 s : on peut surveiller large sans rien ralentir. Je regarde les brouillons de UV-Match Height et de ZenRay Sales. (24 October 2026, 00:32:16 +0200)
+
+## 24 October 2026, 00:33:32 +0200 : Iteration
+
+<!-- feedback-event:a1701d5702199058751ed84023116a19acb721997776e0afce8b4e7777e78f5a (24 October 2026, 00:33:32 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:33:32 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:33:32 +0200)
+
+> Le contrôle voit bien les trois articles à rattraper. Je lance le premier rafraîchissement complet (reconstruction de la documentation Houdini et des articles Louisiana Bayou, environ une minute). (24 October 2026, 00:33:32 +0200)
+
+## 24 October 2026, 00:34:29 +0200 : Iteration
+
+<!-- feedback-event:90cd6f77e521912402b33b6e8ba00b3c899af15c8366868787600df40eb18f28 (24 October 2026, 00:34:29 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:34:29 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:34:29 +0200)
+
+> Tout est reconstruit. Je vérifie qu'un second passage ne refait rien quand rien n'a changé, sinon la tâche automatique republierait en boucle. (24 October 2026, 00:34:29 +0200)
+
+## 24 October 2026, 00:35:02 +0200 : Iteration
+
+<!-- feedback-event:d929a82fcb32e0a3fe6379be65d8b534b0ac85351f1e999a72ae8a657714f9a3 (24 October 2026, 00:35:02 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:35:02 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:35:02 +0200)
+
+> Rouge comme attendu après avoir touché une leçon du toit. Je déclenche la tâche de fond elle-même pour prouver qu'elle rattrape seule. (24 October 2026, 00:35:02 +0200)
+
+## 24 October 2026, 00:35:50 +0200 : Iteration
+
+<!-- feedback-event:b8af73cdf00d98855ba2d71af792e61cfc39eb094322372ae9cc1e48b019c736 (24 October 2026, 00:35:50 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:35:50 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:35:50 +0200)
+
+> La tâche de fond a reconstruit et republié seule (sortie 0). J'attends la fin des envois cloud en arrière-plan et j'inscris la règle pendant ce temps. (24 October 2026, 00:35:50 +0200)
+
+## 24 October 2026, 00:36:09 +0200 : Standing rule
+
+<!-- feedback-event:2fddac93e2de368dffa5154e90dab91dd24da4f8951c48685749038fb264875b (24 October 2026, 00:36:09 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: rule. (24 October 2026, 00:36:09 +0200)
+
+> Tout article Assets suit ses sources automatiquement (Registry.json, refresh-articles.mjs) ; consigner = skill + article + cloud + push. (24 October 2026) (24 October 2026, 00:36:09 +0200)
+
+## 24 October 2026, 00:36:55 +0200 : Iteration
+
+<!-- feedback-event:0457cf0ad6b8cdbb52f825a56f8388b00f17bce5edf55cdfb53e4833a28a4b3c (24 October 2026, 00:36:55 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 00:36:55 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 00:36:55 +0200)
+
+> Tout est consigné et poussé. Il ne reste qu'à constater la fin des envois cloud ; l'attente en arrière-plan me préviendra. (24 October 2026, 00:36:55 +0200)
