@@ -1,0 +1,6 @@
+# zenray-calendar-plan-23-october-2026 : rules, append only (23 October 2026)
+
+Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (23 October 2026)
+
+- Une journée se place en blocs de 15 minutes (4 par session, 5 minutes de pause), 5 à 15 minutes entre deux événements, jamais deux choses en même temps ; CalendarPlan.mjs check doit être vert avant de rendre la main. (23 October 2026) (23 October 2026) <!-- rule:ee032edf8bff -->
+- Prospection = mails aux studios = contacts missions : une seule tâche par jour, jamais deux. (23 October 2026) (23 October 2026) <!-- rule:1157a5bee372 -->

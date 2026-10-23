@@ -1,0 +1,1008 @@
+# zenray-calendar-plan-23-october-2026 : project feedback, append only (23 October 2026, 22:56:51 +0200)
+
+## 23 October 2026, 22:56:51 +0200 : Log
+
+<!-- feedback-event:200c95a8d128cb7972312e786d68de6a731442e629f59f23fbb98b95830e1da5 (23 October 2026, 22:56:51 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: log. (23 October 2026, 22:56:51 +0200)
+
+> Project initialized: ZenRay Calendar Plan. Workshop: /Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026. (23 October 2026, 22:56:51 +0200)
+
+## 23 October 2026, 22:51:54 +0200 : Prompt
+
+<!-- feedback-event:3354674d065cecfc778501920c055351c929b36882871e53aaf29039ab0ac33a (23 October 2026, 22:51:54 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 22:51:54 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:51:54 +0200)
+
+> <pasted_content id="7fca"> (23 October 2026, 22:51:54 +0200)
+> /zenray-plan En fait, ce qu'il me faut, c'est un skill qui s'appelle ZenReCalendar, mais normalement le skill existe déjà, mais je vais t'expliquer ce que je veux faire avec ce skill. En fait, ah oui, OK, j'ai déjà un skill en fait qui s'appelle ZenRePlan, mais en fait on va l'appeler ZenReCalendarPlan. Et en fait ce que ça va faire, c'est que ça va organiser directement sur mon Google Calendar et mon plan directement ce que je veux, journée par journée. Et en fait, tu vas l'indexer à Google, non, à Claude MD global, claude.md, pour faire en sorte que En fait, ce que je veux faire avec ce skill, c'est c'est très simple, c'est que ça m'organise ma journée par rapport aux tâches que j'ai à faire. C'est-à-dire, en fait c'est très simple, c'est juste, par exemple je te dis, je vais faire, par exemple demain, je vais faire du sport. J'ai un rendez-vous normalement qui est déjà noté et du coup il faut que tu cherches dans mes rendez-vous, dans mes mails, etc. les bonnes personnes. Là, j'ai un rendez-vous avec quelqu'un que j'ai contacté sur LinkedIn et j'ai mon objectif où je dois envoyer des messages à des studios et ça, ça va me prendre une heure, une heure et demie. En fait, chaque tâche, elle va soit me prendre 15 minutes. En fait, je la découpe par bloc de 15 minutes et en général il me faut quatre sessions de 15 minutes avec une petite pause de 5 minutes par 15 minutes, tu vois. Donc ça fait peut-être beaucoup de pauses, mais je trouve que je travaille bien justement quand je me rappelle de faire des petites pauses pour que mon cerveau il décompresse un petit peu. Et aussi demain je dois aller faire du sport. Donc en fait, il faut que tu arrives à fit tout ça dans ma journée. Tu vois là, ça fait déjà trois tâches et en fait il faut pas il faut pas que les choses soient faites par erreur, tu vois. Donc en fait, il faut que chaque journée ou chaque session de Claude qui où ça commence la journée et tu vois qu'il y a un trou, eh ben il faut que tu l'organises par rapport à un calendrier. Et globalement en fait, il faudrait aussi le relier aux sessions context memory et à ZenReKnowledge et à ZenRe à plein de trucs, tu vois, que j'ai déjà développés, mais bon, flemme de tout faire. Donc soit tu comprends tout le contexte et tu crées la version parfaite de ZenReCalendarPlan, soit tu crées déjà une version minimale de ce skill et tu consignes déjà pour demain tous les objectifs. Mais chose importante à regarder, c'est que tu dois get toujours la durée pour faire en sorte d'organiser par bloc par bloc, ça c'est le plus important. C'est chaque session qui va du coup être inscrite dans plan, etc. Il y a déjà le code pour avoir la le micro temps que ça va me prendre, mais mais en fait, il faut que tu l'organises de manière à ce que ce soit bien indexé et enroulé de manière propre, tu vois. Et par exemple par exemple aujourd'hui, j'avais un rendez-vous à 14h30 avec Andreas. Donc ça, c'était noté, tu vois. Et ça, je l'ai bien noté et tu peux voir dans le 23 octobre 2026 que ça, ça a bien été fait. Mais par exemple, quand je te demande d'organiser ma journée, ben avec environ 5 à 15 minutes de pause entre les événements, mais il faut que tu fasses en sorte que les choses soient bien mises et qu'il n'y ait pas un événement pendant un autre. Ce serait critique de mettre deux choses en même temps parce que du coup ça ferait que je pourrais pas m'organiser. Et du coup, le but c'est que chaque jour je te dise bon ben je vais commencer ma journée par ça et que voilà, tu vois, le but c'est pas qu'il y ait jamais de trous dans mon emploi du temps parce que c'est bien que je puisse me reposer aussi et cetera. Mais l'objectif là pour octobre et pour novembre, c'est on a dit avec Andreas, donc Andreas on va dire c'est mon ami, tu vois, mais c'est aussi mon coach, c'est de faire environ 10k. C'est 10k de CA, donc envoyer des sessions et cetera, tu vois. Mais normalement tous mes objectifs sont déjà consignés dans Claude.md. Donc en soi, tu as surtout à le relier à Ah oui, il y avait le Skill Zen Sales aussi. Mais il y avait Zen Progress, mais bref, il y a surtout beaucoup de projets que j'ai développés et du coup c'est un peu difficile pour moi de tout gérer ça en même temps. Donc en fait, il faut surtout créer déjà un plan calendar qui va être très sérieux parce que voilà. Donc ensuite tu peux aussi relire Zen Sales parce que là on avait dit qu'on va réduire un peu le temps de développement pour se concentrer surtout sur la prospection et sur la vente, ce qui me semble plus intéressant. Et ensuite comme ça je recontacte Andreas le plus rapidement possible pour lui dire bon ben j'ai dégoté une mission et comme ça maintenant tu peux m'aider. Donc lis un peu tout le contexte, le contexte de Memory, le contexte de Zen Sales, le contexte de Zen Knowledge, même si Zen Knowledge il est pas vraiment fini, et globalement créer le skill parfait. Tu peux faire un skill long ou un skill court, mais il faut que tu fasses un skill (23 October 2026, 22:51:54 +0200)
+> parfait Et ensuite, tu supprimes l'ancien Skill Zenrai Plan parce qu'il y aura un nouveau Skill Zenrai Calendar. plan (23 October 2026, 22:51:54 +0200)
+>
+>
+> lexique = zenray-calendar-plan a indexer directement dans /zenray-assets avec un article dédié ton neutre + indexer dans claude.md global (23 October 2026, 22:51:54 +0200)
+> /dont-stop (23 October 2026, 22:51:54 +0200)
+> </pasted_content id="7fca"> (23 October 2026, 22:51:54 +0200)
+
+## 23 October 2026, 22:52:23 +0200 : Iteration
+
+<!-- feedback-event:1b1fb3ef57e5a84164f717ce0e6145f18f4de0991e8f2c0f90fab39a734ba2dd (23 October 2026, 22:52:23 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:52:23 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:52:23 +0200)
+
+> Je lis le Plan et cherche le rendez-vous LinkedIn de demain ; je continue. (23 October 2026, 22:52:23 +0200)
+
+## 23 October 2026, 22:53:06 +0200 : Iteration
+
+<!-- feedback-event:e3a892b9b0e23dafddef045070e79fb17c0cbf033b2013376f5b738d55b423f8 (23 October 2026, 22:53:06 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:53:06 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:53:06 +0200)
+
+> Pas d'accès Gmail dans cette session ; Google Calendar est lisible par le jeton déjà utilisé par la synchro du Plan. J'écris maintenant l'outil du skill. (23 October 2026, 22:53:06 +0200)
+
+## 23 October 2026, 22:54:44 +0200 : Iteration
+
+<!-- feedback-event:0bcea30cf9c94aefbb57dc4a5b71da74ee40507a6b25b3117018eb8905f225a5 (23 October 2026, 22:54:44 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:54:44 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:54:44 +0200)
+
+> Le vérificateur voit bien le chevauchement réel de demain à 9 h. J'écris le placement. (23 October 2026, 22:54:44 +0200)
+
+## 23 October 2026, 22:55:36 +0200 : Iteration
+
+<!-- feedback-event:189ce6a836e8356b559a3f4f4541e68e9085eb1b878946b2b8f0993ad86571fb (23 October 2026, 22:55:36 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:55:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:55:36 +0200)
+
+> Google Calendar montre déjà la journée de demain recalée. Je supprime l'ancien skill et mets à jour les renvois. (23 October 2026, 22:55:36 +0200)
+
+## 23 October 2026, 22:56:33 +0200 : Iteration
+
+<!-- feedback-event:9cba67cdee535c4cbc0c40c4d50ddc8f8b8cda6a35f1e3e5556025accd983777 (23 October 2026, 22:56:33 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:56:33 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:56:33 +0200)
+
+> J'ajoute le vocabulaire « agenda, journée » au routeur de règles, puis je crée le projet Assets et l'article. (23 October 2026, 22:56:33 +0200)
+
+## 23 October 2026, 22:57:03 +0200 : Iteration
+
+<!-- feedback-event:876efbb37f1e36dad6dc9fbcdefcd68e6a74128fdac0a3c146d8968c4184f5dc (23 October 2026, 22:57:03 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:57:03 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:57:03 +0200)
+
+> Projet Assets créé. Je fabrique maintenant l'image de la journée de demain et l'article en ton neutre. (23 October 2026, 22:57:03 +0200)
+
+## 23 October 2026, 22:57:45 +0200 : Iteration
+
+<!-- feedback-event:31f6aebc4af9ca17dedbb7fcf99bc3d45f3eea8856e17c05ca7781aef08e4822 (23 October 2026, 22:57:45 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:57:45 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:57:45 +0200)
+
+> L'image tient ; je redresse les chiffres du titre (règle typographique) puis j'écris l'article. (23 October 2026, 22:57:45 +0200)
+
+## 23 October 2026, 22:58:22 +0200 : Iteration
+
+<!-- feedback-event:98db70d6792720681311828303b5eb30461a8006325f6283a7149a7c068aa795 (23 October 2026, 22:58:22 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:58:22 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:58:22 +0200)
+
+> Rendu propre (0 débordement, police chargée). Je classe l'article dans le projet Assets. (23 October 2026, 22:58:22 +0200)
+
+## 23 October 2026, 22:58:27 +0200 : Iteration
+
+<!-- feedback-event:8e3eea6fff71c36ea91d84920e81eaca15816659713a5679fa6669174fee81e5 (23 October 2026, 22:58:27 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:58:27 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:58:27 +0200)
+
+> Les chemins doivent être relatifs au dossier de l'article ; je relance. (23 October 2026, 22:58:27 +0200)
+
+## 23 October 2026, 22:58:53 +0200 : Standing rule
+
+<!-- feedback-event:4802bc01f15409f72dfdb9cd8faa06f6addd7b566d6b1c4adeda8c0bc4e2b1a3 (23 October 2026, 22:58:53 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: rule. (23 October 2026, 22:58:53 +0200)
+
+> Une journée se place en blocs de 15 minutes (4 par session, 5 minutes de pause), 5 à 15 minutes entre deux événements, jamais deux choses en même temps ; CalendarPlan.mjs check doit être vert avant de rendre la main. (23 October 2026) (23 October 2026, 22:58:53 +0200)
+
+## 23 October 2026, 22:58:42 +0200 : Iteration
+
+<!-- feedback-event:0210df149e9cf39eb2375344ace58fa676db2d7ad73d1a91632c7b7c0b91fa26 (23 October 2026, 22:58:42 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:58:42 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:58:42 +0200)
+
+> Article publié dans le projet (archive cloud en file). Je consigne la mémoire, le journal et la reprise. (23 October 2026, 22:58:42 +0200)
+
+## 23 October 2026, 22:59:28 +0200 : Iteration
+
+<!-- feedback-event:6eb07a126c60c8a968ffa7d631755f51590306218fbced06cb0b3ba90007d913 (23 October 2026, 22:59:28 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 22:59:28 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 22:59:28 +0200)
+
+> J'ai créé le skill zenray-calendar-plan et posé ta journée de demain. Avant mon passage, ton rendez-vous avec Nibir Khan et la série « 10 mails par jour aux studios » tombaient tous les deux à 9 h. L'outil a repéré ce conflit et déplacé la prospection. (23 October 2026, 22:59:28 +0200)
+>
+> **Ta journée du samedi 24 October 2026**, dans le Plan et aussi dans Google Calendar : (23 October 2026, 22:59:28 +0200)
+>
+> | Heure | Tâche | (23 October 2026, 22:59:28 +0200)
+> |---|---| (23 October 2026, 22:59:28 +0200)
+> | 09:00-10:30 | Nibir Khan RDV (laissé à l'heure où tu l'avais mis) | (23 October 2026, 22:59:28 +0200)
+> | 10:40-11:55 | 10 mails par jour aux studios (4 blocs de 15 min, 3 pauses de 5 min) | (23 October 2026, 22:59:28 +0200)
+> | 12:30-13:30 | Déjeuner, gardé libre et non écrit | (23 October 2026, 22:59:28 +0200)
+> | 13:40-14:55 | Prospection et contacts missions (4 blocs) | (23 October 2026, 22:59:28 +0200)
+> | 17:00-18:00 | Sport | (23 October 2026, 22:59:28 +0200)
+>
+> Chaque tâche de travail a dans sa note le détail heure par heure de ses blocs et de ses pauses. Les jours suivants, du 25 au 30, gardent la série de prospection de 9 h à 10 h 30, et aucun conflit n'y a été trouvé. (23 October 2026, 22:59:28 +0200)
+>
+> **Comment ça marche.** Tu me dis ce que tu fais et combien de temps ça prend. Je place d'abord ce qui a une heure fixe (rendez-vous, sport), puis le reste dans le premier trou libre, avec 10 minutes de marge entre deux événements. Une commande de vérification refuse de donner son accord dès que deux choses se chevauchent. J'écris toujours dans le Plan, et le service de synchronisation déjà en place le recopie dans Google Calendar en une minute environ. Tous les réglages sont en tête de [/Users/zenray/.claude/skills/zenray-calendar-plan/scripts/CalendarPlan.mjs](/Users/zenray/.claude/skills/zenray-calendar-plan/scripts/CalendarPlan.mjs) : début de journée, durée d'un bloc, durée de la pause, marge, heure du déjeuner. (23 October 2026, 22:59:28 +0200)
+>
+> **Deux choses ne sont pas vérifiées.** (23 October 2026, 22:59:28 +0200)
+> - **L'heure du RDV Nibir Khan :** je n'avais pas accès à Gmail dans cette session. Ce rendez-vous a été posé à la main avec la durée par défaut de 90 minutes, donc l'heure et la durée réelles restent à confirmer. (23 October 2026, 22:59:28 +0200)
+> - **L'archive cloud de l'article :** elle est en file d'attente, mais je n'ai pas encore constaté qu'elle soit arrivée. (23 October 2026, 22:59:28 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (23 October 2026, 22:59:28 +0200)
+> |---|---|---| (23 October 2026, 22:59:28 +0200)
+> | Un skill qui organise ta journée par blocs de 15 minutes | Oui | Son autotest passe : il accepte un bon cas et refuse un chevauchement | (23 October 2026, 22:59:28 +0200)
+> | Jamais deux choses en même temps | Oui | La vérification refusait demain avant le placement et l'accepte après | (23 October 2026, 22:59:28 +0200)
+> | Demain posé dans le Plan et Google Calendar | Oui | En relisant Google Calendar, j'ai retrouvé les mêmes heures | (23 October 2026, 22:59:28 +0200)
+> | L'ancien zenray-plan supprimé | Oui | Il n'existe plus dans Claude, Codex ni Memory, et son historique est gardé dans le nouveau skill | (23 October 2026, 22:59:28 +0200)
+> | Indexé dans CLAUDE.md global | Oui | Le routeur de règles répond à « organise ma journée de demain », et CLAUDE.md reste sous la limite de taille | (23 October 2026, 22:59:28 +0200)
+> | Lié à zenray-sales, zenray-knowledge et zenray-progress | Oui | Les renvois sont écrits et synchronisés | (23 October 2026, 22:59:28 +0200)
+> | Projet Assets avec un article en ton neutre | Oui en local, cloud non vérifié | L'article s'affiche sans débordement sur ordinateur et sur mobile, avec la bonne police chargée | (23 October 2026, 22:59:28 +0200)
+>
+> Fichiers : (23 October 2026, 22:59:28 +0200)
+> - [/Users/zenray/.claude/skills/zenray-calendar-plan/SKILL.md](/Users/zenray/.claude/skills/zenray-calendar-plan/SKILL.md) (23 October 2026, 22:59:28 +0200)
+> - [/Users/zenray/.claude/skills/zenray-edit/articles/23-October-2026-zenray-calendar-plan/index.html](/Users/zenray/.claude/skills/zenray-edit/articles/23-October-2026-zenray-calendar-plan/index.html) (23 October 2026, 22:59:28 +0200)
+>
+> Ta demande en plus court : « Remplace zenray-plan par zenray-calendar-plan : il place mes tâches de la journée dans le Plan et Google Calendar, en blocs de 15 minutes avec 5 minutes de pause, 5 à 15 minutes entre les événements, sans jamais de chevauchement. Pose demain : RDV LinkedIn, messages aux studios (1 h à 1 h 30), sport. Indexe-le dans CLAUDE.md et dans Assets avec un article. » (23 October 2026, 22:59:28 +0200)
+>
+> - **Time blocking :** découper la journée en créneaux réservés chacun à une seule tâche. (23 October 2026, 22:59:28 +0200)
+> - **Vérificateur :** un contrôle automatique qui dit oui ou non, ici « il y a un chevauchement » ou « il n'y en a pas ». (23 October 2026, 22:59:28 +0200)
+
+## 23 October 2026, 23:00:14 +0200 : Prompt
+
+<!-- feedback-event:e002851b6576ce664e832c52fa6c75f4a148e749905c6e0a93e504228fc4ab2b (23 October 2026, 23:00:14 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:00:14 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:00:14 +0200)
+
+> Ça dépend, c'est quoi ma journée demain ? du coup Avant de savoir si j'ajoute ou si je supprime, j'aimerais que tu me fasses un petit brief. (23 October 2026, 23:00:14 +0200)
+
+## 23 October 2026, 23:00:25 +0200 : Iteration
+
+<!-- feedback-event:939ea8e280694df8331d18e34efc2eb5d50ebdffbb736798ddba1abc88be46da (23 October 2026, 23:00:25 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:00:25 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:00:25 +0200)
+
+> Demain, samedi 24 October 2026, tu as quatre rendez-vous avec toi-même, et je viens de relire le Plan et Google Calendar : aucun chevauchement. (23 October 2026, 23:00:25 +0200)
+>
+> | Heure | Tâche | (23 October 2026, 23:00:25 +0200)
+> |---|---| (23 October 2026, 23:00:25 +0200)
+> | 09:00-10:30 | Rendez-vous avec Nibir Khan (heure et durée à confirmer de ton côté) | (23 October 2026, 23:00:25 +0200)
+> | 10:40-11:55 | 10 mails aux studios, 4 blocs de 15 minutes | (23 October 2026, 23:00:25 +0200)
+> | 12:30-13:30 | Déjeuner, libre | (23 October 2026, 23:00:25 +0200)
+> | 13:40-14:55 | Prospection et contacts missions, 4 blocs | (23 October 2026, 23:00:25 +0200)
+> | 17:00-18:00 | Sport | (23 October 2026, 23:00:25 +0200)
+>
+> La matinée est donc entièrement consacrée à la vente, ce qui suit la règle convenue avec Andreas, et l'après-midi garde un créneau libre de 15:05 à 16:50, soit un peu moins de deux heures avant le sport, puis toute la soirée après 18:10. (23 October 2026, 23:00:25 +0200)
+>
+> Un bloc de japonais tiendrait sans rien déplacer de 15:05 à 16:20 (une session de 75 minutes), et il te resterait encore une demi-heure de repos avant le sport. Si tu préfères garder ce trou pour souffler, la journée se tient très bien telle quelle : deux sessions de prospection, un rendez-vous et le sport, c'est déjà une journée pleine. (23 October 2026, 23:00:25 +0200)
+
+## 23 October 2026, 23:00:54 +0200 : Prompt
+
+<!-- feedback-event:daffa050af32af73c6505c2b159d434cc932df53748442af6c682bd0d4eddc16 (23 October 2026, 23:00:54 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:00:54 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:00:54 +0200)
+
+> Non, pour l'instant, le rendez-vous avec Nibir Khan n'est pas encore défini. Pour l'instant, il ne m'a pas encore répondu. (23 October 2026, 23:00:54 +0200)
+
+## 23 October 2026, 23:01:30 +0200 : Iteration
+
+<!-- feedback-event:28bc7130aaa011d72b66c875e82f178ee8d9f99a2e85b1e2f9ea6b17055b95d5 (23 October 2026, 23:01:30 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:01:30 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:01:30 +0200)
+
+> Puisque Nibir Khan n'a pas encore répondu, j'ai retiré son rendez-vous de demain. Il n'est pas supprimé : il passe au statut « abandonné » dans le Plan, et on pourra le reposer dès qu'il aura donné une date. Son créneau libéré a permis de regrouper toute la prospection le matin, ce qui correspond à la règle convenue avec Andreas : (23 October 2026, 23:01:30 +0200)
+>
+> | Heure | Tâche | (23 October 2026, 23:01:30 +0200)
+> |---|---| (23 October 2026, 23:01:30 +0200)
+> | 09:00-10:15 | 10 mails aux studios, 4 blocs de 15 minutes | (23 October 2026, 23:01:30 +0200)
+> | 10:25-11:40 | Prospection et contacts missions, 4 blocs | (23 October 2026, 23:01:30 +0200)
+> | 17:00-18:00 | Sport | (23 October 2026, 23:01:30 +0200)
+>
+> L'après-midi est donc libre de 11:50 à 16:50. Le japonais y tiendrait facilement, et il reste quand même du temps pour te reposer. J'ai relu le Plan après le changement et il n'y a aucun chevauchement. (23 October 2026, 23:01:30 +0200)
+>
+> Pour retirer une tâche d'une journée comme ici, l'outil accepte maintenant une instruction de retrait, et j'en ai ajouté la description au skill. (23 October 2026, 23:01:30 +0200)
+
+## 23 October 2026, 23:02:27 +0200 : Prompt
+
+<!-- feedback-event:9cbab953670eb5e1462713ed882f2d6272e309fc75ce5750bc464c18f13a1ab6 (23 October 2026, 23:02:27 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:02:27 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:02:27 +0200)
+
+> Je comprends pas pourquoi tu dis que d'email au studio et prospection et contact mission c'est différent, en fait c'est la même chose. Je fais pas de candidatures spontanées en fait au final. Donc en fait c'est la même chose. ... (23 October 2026, 23:02:27 +0200)
+
+## 23 October 2026, 23:02:50 +0200 : Standing rule
+
+<!-- feedback-event:8b65022c5c587de3139180b96f18c9f39192343773cb871f1f1d57e9d1501f8a (23 October 2026, 23:02:50 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: rule. (23 October 2026, 23:02:50 +0200)
+
+> Prospection = mails aux studios = contacts missions : une seule tâche par jour, jamais deux. (23 October 2026) (23 October 2026, 23:02:50 +0200)
+
+## 23 October 2026, 23:02:59 +0200 : Iteration
+
+<!-- feedback-event:bfd11e9e36edcb214e2a30c1dca0787c324eace97888d47cba7d35beb4d15d3e (23 October 2026, 23:02:59 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:02:59 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:02:59 +0200)
+
+> Tu as raison, et l'erreur vient de moi : j'ai traité comme deux tâches différentes deux titres qui désignent le même travail, puisque tu ne fais pas de candidatures spontanées. J'ai retiré le doublon, et ta journée de demain devient très simple : (23 October 2026, 23:02:59 +0200)
+>
+> | Heure | Tâche | (23 October 2026, 23:02:59 +0200)
+> |---|---| (23 October 2026, 23:02:59 +0200)
+> | 09:00-10:15 | Prospection : 10 mails aux studios, 4 blocs de 15 minutes | (23 October 2026, 23:02:59 +0200)
+> | 17:00-18:00 | Sport | (23 October 2026, 23:02:59 +0200)
+>
+> Le reste de la journée est libre. Le doublon n'existait que demain, les jours suivants n'avaient que la série de prospection. La règle « une seule tâche de prospection par jour » est maintenant écrite dans le skill et dans les règles du projet, pour que l'erreur ne revienne pas. (23 October 2026, 23:02:59 +0200)
+>
+> Il reste une différence avec ce que tu m'avais dit au départ : tu estimais l'envoi des messages à 1 h ou 1 h 30. Le créneau actuel compte 1 h de travail, découpée en blocs de 15 minutes avec des pauses de 5 minutes. (23 October 2026, 23:02:59 +0200)
+
+## 23 October 2026, 23:03:53 +0200 : Prompt
+
+<!-- feedback-event:7b02e397012eafc4569a1e2ec10fd621e70fffa1a190733697fb7c6e0e19d519 (23 October 2026, 23:03:53 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:03:53 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:03:53 +0200)
+
+> Demain, juste après l'envoi des 10 messages, je vais continuer Louisiana Bayou jusqu'à midi environ. Ensuite, je vais aller au sport direct, je pense que ce sera à midi. Ensuite, je vais rentrer pour manger et ensuite je ferai du japonais à ce moment-là. (23 October 2026, 23:03:53 +0200)
+
+## 23 October 2026, 23:04:13 +0200 : Iteration
+
+<!-- feedback-event:fdca9f83cc1777c43f1d7f12a7c39b62d91da5e90d02e7f9ff8043ef105e9947 (23 October 2026, 23:04:13 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:04:13 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:04:13 +0200)
+
+> Petit défaut : le sport a perdu son titre lors du déplacement. Je corrige l'outil et la tâche. (23 October 2026, 23:04:13 +0200)
+
+## 23 October 2026, 23:04:36 +0200 : Iteration
+
+<!-- feedback-event:41c592edd7f0b95cf39a8279f6e039121741444c0f394e58e495e1cd9831465e (23 October 2026, 23:04:36 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:04:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:04:36 +0200)
+
+> Ta journée de demain est posée dans le Plan et Google Calendar, dans l'ordre que tu as décrit : (23 October 2026, 23:04:36 +0200)
+>
+> | Heure | Tâche | (23 October 2026, 23:04:36 +0200)
+> |---|---| (23 October 2026, 23:04:36 +0200)
+> | 09:00-10:15 | Prospection : 10 mails aux studios | (23 October 2026, 23:04:36 +0200)
+> | 10:25-12:00 | Louisiana Bayou | (23 October 2026, 23:04:36 +0200)
+> | 12:00-13:00 | Sport | (23 October 2026, 23:04:36 +0200)
+> | 13:10-14:00 | Retour et déjeuner, laissé libre et non inscrit | (23 October 2026, 23:04:36 +0200)
+> | 14:10-15:25 | Japonais, 4 blocs de 15 minutes | (23 October 2026, 23:04:36 +0200)
+>
+> Le sport suit Louisiana Bayou sans marge, parce que tu as dit y aller directement à midi. Pour le japonais, je n'avais pas de durée, j'ai donc pris une heure de travail par défaut ; dis-moi s'il faut l'allonger. J'ai relu la journée après l'écriture : il n'y a aucun chevauchement, et l'après-midi est libre après 15:25. (23 October 2026, 23:04:36 +0200)
+>
+> En déplaçant le sport, l'outil lui a fait perdre son titre, qui est devenu « undefined ». J'ai remis « Sport » sur la tâche et corrigé l'outil pour que ça ne se reproduise pas. J'ai aussi ajouté la possibilité de déplacer le déjeuner selon la journée, ce qui était nécessaire ici puisque tu manges après le sport. (23 October 2026, 23:04:36 +0200)
+
+## 23 October 2026, 23:07:08 +0200 : Prompt
+
+<!-- feedback-event:b845b54bbe32a56057125f4a1535ff8fed4c4ef437c4b37376bc66dfce58d1fc (23 October 2026, 23:07:08 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:07:08 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:07:08 +0200)
+
+> <command-message>claude-md-global</command-message> (23 October 2026, 23:07:08 +0200)
+> <command-name>/claude-md-global</command-name> (23 October 2026, 23:07:08 +0200)
+> <command-args>Note-moi les repas dans mon calendrier. J'aime bien le fait que tu me le notes, mais par contre là, je le vois pas sur mon calendrier directement dans ZenReProgressPlan. Je le vois pas actuellement. Par contre, est-ce que tu as bien indexé dans Claude.md de chaque jour si les tâches sont pas définies, tu les définis au début en posant la question. Ça c'est une priorité zéro absolue.  (23 October 2026, 23:07:08 +0200)
+>
+> Mais actuellement, oui, je ne vois pas les choses que tu m'as marquées. Mais en soi, ça peut être une bonne journée, tu vois, genre en mode prospection au début de la journée. Ensuite, je bosse sur Louisiana Bayou et je termine. Ensuite, je vais faire du sport. Ensuite, je reviens et je déjeune. Et ensuite, je fais du japonais. Et ensuite, tu vois, on peut marquer par exemple quartier libre ou temps libre.</command-args> (23 October 2026, 23:07:08 +0200)
+
+## 23 October 2026, 23:07:08 +0200 : Prompt
+
+<!-- feedback-event:386fe113484915ff7d75f9428fe96e9f000e966d6bb04b004ce5263c39bcdcb9 (23 October 2026, 23:07:08 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:07:08 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:07:08 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/claude-md-global (23 October 2026, 23:07:08 +0200)
+>
+> # La doctrine globale : la porte, pas le fichier (23 October 2026, 23:07:08 +0200)
+>
+> ## Ce qui a changé le 2026-09-15, et qu'il faut savoir avant tout le reste (23 October 2026, 23:07:08 +0200)
+>
+> `CLAUDE.md` pesait **218 431 octets** et dépassait la limite de **65 536 octets** du contexte de (23 October 2026, 23:07:08 +0200)
+> délégation aux sous-agents : il était donc **tronqué en silence**, ce qui est pire qu'une règle (23 October 2026, 23:07:08 +0200)
+> absente puisque rien ne le signale. Il pèse désormais **50 320 octets**, avec 15 216 de marge, et ne (23 October 2026, 23:07:08 +0200)
+> porte plus que les concepts. (23 October 2026, 23:07:08 +0200)
+>
+> Le texte intégral, rien de résumé ni de supprimé, vit dans **douze fichiers anglais** (23 October 2026, 23:07:08 +0200)
+> `~/.claude/rules/<Name>1.md`. Le contrôle d'intégrité a comparé le résultat à la sauvegarde : 88 (23 October 2026, 23:07:08 +0200)
+> titres sur 88 et 1 841 lignes de contenu sur 1 841 retrouvés. (23 October 2026, 23:07:08 +0200)
+>
+> | Fichier | Ce qu'il gouverne | Octets | (23 October 2026, 23:07:08 +0200)
+> |---|---|---| (23 October 2026, 23:07:08 +0200)
+> | `CardinalValues1.md` | doute, légitimité, report conditionnel, paliers, levier, objectifs, LifeOS, agency | 39 167 | (23 October 2026, 23:07:08 +0200)
+> | `Tone1.md` | ton, verbosité, prose française, récap, plan, clarification | 27 535 | (23 October 2026, 23:07:08 +0200)
+> | `Toolbox1.md` | parallélisme, encodage, CDN, quotas, git, scripts, déploiement, commandes | 26 586 | (23 October 2026, 23:07:08 +0200)
+> | `ParametricHda1.md` | loi HDA, valeur en dur, duplication, jetons, valeurs système | 23 562 | (23 October 2026, 23:07:08 +0200)
+> | `GameAndShipping1.md` | jeu, Unreal, devlog, tranche verticale, publier, périmètre | 20 136 | (23 October 2026, 23:07:08 +0200)
+> | `SkillsIndex1.md` | index auto-généré des skills personnels | 17 219 | (23 October 2026, 23:07:08 +0200)
+> | `SkillsAndMemory1.md` | skills, synchronisation, mémoire, PROGRESS.md, reprise | 16 591 | (23 October 2026, 23:07:08 +0200)
+> | `SilentBugs1.md` | bugs invisibles : ancêtres CSS, portails, thèmes, cache, erreur avalée | 14 179 | (23 October 2026, 23:07:08 +0200)
+> | `Typography1.md` | police, graisse, taille, webfont, icônes, jetons visuels, curseurs | 13 461 | (23 October 2026, 23:07:08 +0200)
+> | `ZenRayProjects1.md` | les trois entités ZenRay, domaines, Japon 2027, PVT, chantiers | 11 184 | (23 October 2026, 23:07:08 +0200)
+> | `JapaneseRules1.md` | règles japonaises : leçon, drill, sauvegarde. La matière est dans Memory1 | 8 145 | (23 October 2026, 23:07:08 +0200)
+> | `ShowYourWork1.md` | montrer son travail : promotion, ads, organique, audience, handles | 5 754 | (23 October 2026, 23:07:08 +0200)
+>
+> ## PRIORITÉ 0 : LE CHARGEMENT SE CALCULE, IL NE SE DEVINE PAS (23 October 2026, 23:07:08 +0200)
+>
+> Devant toute demande sérieuse, **avant de répondre** : (23 October 2026, 23:07:08 +0200)
+>
+> ```bash (23 October 2026, 23:07:08 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/which-rule.mjs "<le texte de la demande>" (23 October 2026, 23:07:08 +0200)
+> ``` (23 October 2026, 23:07:08 +0200)
+>
+> Il rend les fichiers de doctrine à charger, par ordre de pertinence, les termes qui ont déclenché, et (23 October 2026, 23:07:08 +0200)
+> les fichiers de mémoire de projet à ouvrir en même temps. Quand rien ne se déclenche, il le dit : le (23 October 2026, 23:07:08 +0200)
+> noyau de `CLAUDE.md` suffit alors. (23 October 2026, 23:07:08 +0200)
+>
+> **Un seul terme suffit à déclencher un fichier**, et le vocabulaire est délibérément sur-inclusif, (23 October 2026, 23:07:08 +0200)
+> **829 termes** en français, en anglais et dans les tournures que Matthieu emploie réellement, y (23 October 2026, 23:07:08 +0200)
+> compris « je suis nul », « une fois sur deux », « tu me saoules » ou « c'est pas sorcier ». (23 October 2026, 23:07:08 +0200)
+>
+> > **La règle qui prime sur l'économie de tokens** : mieux vaut charger un fichier pour rien que rater (23 October 2026, 23:07:08 +0200)
+> > la doctrine qui gouverne la demande. Lire deux fois le même fichier dans une session ne coûte (23 October 2026, 23:07:08 +0200)
+> > presque rien ; répondre à côté de la doctrine coûte un aller-retour entier, et parfois une décision (23 October 2026, 23:07:08 +0200)
+> > fausse. **Dans le doute, on charge.** (23 October 2026, 23:07:08 +0200)
+>
+> ```bash (23 October 2026, 23:07:08 +0200)
+> node .../which-rule.mjs --all              # tous les fichiers et leur nombre de termes (23 October 2026, 23:07:08 +0200)
+> node .../which-rule.mjs --terms <fichier>  # le vocabulaire complet d'un fichier (23 October 2026, 23:07:08 +0200)
+> grep -n "<mot>" ~/.claude/rules/*.md       # les triggers sont aussi inscrits dans les fichiers (23 October 2026, 23:07:08 +0200)
+> ``` (23 October 2026, 23:07:08 +0200)
+>
+> Le vocabulaire vit dans `~/.claude/rules/triggers.json` et il est aussi inscrit en tête de chaque (23 October 2026, 23:07:08 +0200)
+> fichier, entre `TRIGGERS:START` et `TRIGGERS:END`, pour qu'un simple `grep` le trouve. Contrat HDA : (23 October 2026, 23:07:08 +0200)
+> le script est la définition, `triggers.json` son interface de paramètres, aucun terme n'est écrit en (23 October 2026, 23:07:08 +0200)
+> dur dans le code. (23 October 2026, 23:07:08 +0200)
+>
+> **Quand une règle nouvelle entre, son vocabulaire entre avec elle.** Sans terme déclencheur, un (23 October 2026, 23:07:08 +0200)
+> fichier ne se charge jamais et devient un décor : on croit les règles actives alors qu'elles dorment. (23 October 2026, 23:07:08 +0200)
+>
+> ## Le lien avec la mémoire de projet, `~/.claude/Memory1` (23 October 2026, 23:07:08 +0200)
+>
+> Les deux corpus ne répondent pas à la même question et ne se remplacent jamais. **Les règles disent (23 October 2026, 23:07:08 +0200)
+> COMMENT travailler, la mémoire dit ce que le PROJET sait.** Une demande sérieuse ouvre souvent les (23 October 2026, 23:07:08 +0200)
+> deux, et le routeur nomme les fichiers de mémoire liés à chaque doctrine. (23 October 2026, 23:07:08 +0200)
+>
+> | Mémoire | Doctrine qui l'appelle | (23 October 2026, 23:07:08 +0200)
+> |---|---| (23 October 2026, 23:07:08 +0200)
+> | `Identity/Matthieu1.md` (547 Ko, routeur `matthieu-context`) | `CardinalValues1.md`, `Tone1.md`, `ZenRayProjects1.md`, `SkillsAndMemory1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Japanese/Japanese1.md` (491 Ko, routeur `japanese-context`) | `JapaneseRules1.md` | (23 October 2026, 23:07:08 +0200)
+> | `ZenRayShards/ZenRayShards1.md` (138 Ko, routeur `zenrayshards-context`) | `GameAndShipping1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Design/Design1.md` | `Typography1.md`, `SilentBugs1.md`, `ParametricHda1.md`, `Toolbox1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Business/Business1.md`, `Business/Freelance1.md` | `CardinalValues1.md`, `ZenRayProjects1.md`, `ShowYourWork1.md` | (23 October 2026, 23:07:08 +0200)
+> | `HealthSport/HealthSport1.md` | `CardinalValues1.md` | (23 October 2026, 23:07:08 +0200)
+> | `SocialMedia/SocialMedia1.md` | `ShowYourWork1.md`, `ZenRayProjects1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Houdini/Houdini1.md`, `Substance/Substance1.md` | `ParametricHda1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Animation/Animation1.md`, `UnrealEngine/UnrealEngine1.md`, `ZenRayProductions/LouisianaBayou/LouisianaBayou1.md` | `GameAndShipping1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Culture/Culture1.md` | `JapaneseRules1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Storytelling/Storytelling1.md` | `Tone1.md` | (23 October 2026, 23:07:08 +0200)
+> | `Mails/Mails1.md` (index + un fichier par jour, `Année/Mois/Mails_<date>.md`) | `SkillsAndMemory1.md` | (23 October 2026, 23:07:08 +0200)
+> | `AudioProductions/Audio1.md`, `Stock/Stock1.md` | `Toolbox1.md` | (23 October 2026, 23:07:08 +0200)
+>
+> **Le cas japonais demande une vigilance particulière**, parce que deux fichiers se ressemblent sans (23 October 2026, 23:07:08 +0200)
+> porter la même chose. `rules/JapaneseRules1.md` porte les RÈGLES, la manière d'enseigner et de (23 October 2026, 23:07:08 +0200)
+> sauvegarder ; `Memory1/Japanese/Japanese1.md` porte la MATIÈRE, les leçons, les kanji, le (23 October 2026, 23:07:08 +0200)
+> vocabulaire et les jauges. On ne les confond pas, et on n'écrit jamais l'un dans l'autre. (23 October 2026, 23:07:08 +0200)
+>
+> Les trois gros fichiers ne se lisent **jamais** en entier : leurs skills routeurs trouvent la section (23 October 2026, 23:07:08 +0200)
+> utile. La chronologie est ailleurs et reste unique, `~/.claude/PROGRESS.md`, écrite par le skill (23 October 2026, 23:07:08 +0200)
+> `progress` ; une connaissance durable va d'abord dans le bon `Memory1/**/<Nom>1.md`, puis l'entrée du (23 October 2026, 23:07:08 +0200)
+> journal cite ce chemin sans recopier le détail. (23 October 2026, 23:07:08 +0200)
+>
+> ## Les chemins, une fois pour toutes (23 October 2026, 23:07:08 +0200)
+>
+> ``` (23 October 2026, 23:07:08 +0200)
+> /Users/zenray/.claude/CLAUDE.md          les concepts, lus à chaque session (23 October 2026, 23:07:08 +0200)
+> /Users/zenray/.claude/rules/             les douze fichiers de doctrine + INDEX1.md + triggers.json (23 October 2026, 23:07:08 +0200)
+> /Users/zenray/.claude/Memory1/           la mémoire de projet, un <Nom>1.md par domaine (23 October 2026, 23:07:08 +0200)
+> /Users/zenray/.claude/PROGRESS.md        la chronologie unique, append only (23 October 2026, 23:07:08 +0200)
+> ``` (23 October 2026, 23:07:08 +0200)
+>
+> `~/.codex/AGENTS.md` et les quatre fichiers Gemini sont **générés** depuis `CLAUDE.md` par (23 October 2026, 23:07:08 +0200)
+> `zsh ~/.claude/skills/skill-sync/scripts/mirror-agents.sh`, jamais édités ; ils héritent donc de (23 October 2026, 23:07:08 +0200)
+> l'allègement, et tiennent à 48 301 octets. Attention, ce script est en zsh et utilise `print` : (23 October 2026, 23:07:08 +0200)
+> lancé avec `bash`, il échoue à la ligne 12. Les skills, eux, sont partagés par lien symbolique, (23 October 2026, 23:07:08 +0200)
+> `~/.gemini/config/skills` pointant vers `~/.claude/skills`. (23 October 2026, 23:07:08 +0200)
+>
+> ## Contexte des mails : charger et décharger (2026-09-30) (23 October 2026, 23:07:08 +0200)
+>
+> Les mails envoyés ou reçus qui comptent sont sauvegardés dans `~/.claude/Memory1/Mails/`, un fichier par (23 October 2026, 23:07:08 +0200)
+> jour : `<Année>/<MM-Month>/Mails_<YYYY-MM-DD>.md` (mois en anglais). L'index vit dans `Mails/Mails1.md`. (23 October 2026, 23:07:08 +0200)
+>
+> - **Charger** quand Matthieu demande le contexte des mails : lire `Mails/Mails1.md` (le tableau seul), (23 October 2026, 23:07:08 +0200)
+>   puis ouvrir UNIQUEMENT le fichier du jour utile. Ne jamais lire tout le dossier. (23 October 2026, 23:07:08 +0200)
+> - **Décharger** dès que le sujet change : ne plus rien relire des mails, et ne pas les recopier ailleurs. (23 October 2026, 23:07:08 +0200)
+> - **Absent de l'index ?** Aller le lire directement par le MCP Gmail (`search_threads`, `get_message` (23 October 2026, 23:07:08 +0200)
+>   en `PLAIN_TEXT`), puis le sauvegarder : (23 October 2026, 23:07:08 +0200)
+>   `python3 ~/.claude/Memory1/Mails/Scripts/save_mail.py <mails.json>` (idempotent par id de message). (23 October 2026, 23:07:08 +0200)
+> - Le mail réellement ENVOYÉ fait foi, pas le brouillon : relire depuis `in:sent` avant de sauvegarder. (23 October 2026, 23:07:08 +0200)
+> - Un rebond (`mailer-daemon`, 550) s'inscrit dans le champ Status du mail concerné. (23 October 2026, 23:07:08 +0200)
+>
+> ## Décharger une section nouvelle (23 October 2026, 23:07:08 +0200)
+>
+> Le script est la définition, `scripts/rules-plan.json` son interface de paramètres, chaque lot une (23 October 2026, 23:07:08 +0200)
+> instance. On essaie toujours à blanc d'abord. (23 October 2026, 23:07:08 +0200)
+>
+> ```bash (23 October 2026, 23:07:08 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs \ (23 October 2026, 23:07:08 +0200)
+>   --plan ~/.claude/skills/claude-md-global/scripts/rules-plan.json --lot <id> --dry-run (23 October 2026, 23:07:08 +0200)
+> ``` (23 October 2026, 23:07:08 +0200)
+>
+> Un lot nomme les titres **exacts** des sections à sortir, le fichier cible, et le **noyau** qui les (23 October 2026, 23:07:08 +0200)
+> remplace dans `CLAUDE.md`. Le noyau doit tenir seul : un agent qui ne lit que `CLAUDE.md` doit agir (23 October 2026, 23:07:08 +0200)
+> correctement sans le détail. (23 October 2026, 23:07:08 +0200)
+>
+> ## Le vérificateur ferme le travail (23 October 2026, 23:07:08 +0200)
+>
+> ```bash (23 October 2026, 23:07:08 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs --verify   # poids et pointeurs (23 October 2026, 23:07:08 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/build-rules-index.mjs         # regenere rules/INDEX1.md (23 October 2026, 23:07:08 +0200)
+> ``` (23 October 2026, 23:07:08 +0200)
+>
+> Il échoue aussi bien sur un dépassement de la limite que sur un pointeur vers un fichier absent, et il (23 October 2026, 23:07:08 +0200)
+> a été éprouvé dans les deux sens, rouge avant la décharge, vert après. À lancer après toute (23 October 2026, 23:07:08 +0200)
+> modification de `CLAUDE.md`, dans le même mouvement, comme un commit suit un correctif. (23 October 2026, 23:07:08 +0200)
+>
+> ## Un piège déjà payé, propre à ce système (23 October 2026, 23:07:08 +0200)
+>
+> `update-skill-index.py` réinjectait **16 Ko** d'index des skills dans `CLAUDE.md` à chaque (23 October 2026, 23:07:08 +0200)
+> `sync-skill.sh`, et le fichier est effectivement repassé à 64 108 octets pendant le chantier. Le (23 October 2026, 23:07:08 +0200)
+> générateur écrit désormais dans `rules/SkillsIndex1.md`. Moralité générale : **tout script qui écrit (23 October 2026, 23:07:08 +0200)
+> dans `CLAUDE.md` doit être vérifié après une décharge**, sinon elle se défait toute seule et (23 October 2026, 23:07:08 +0200)
+> silencieusement. (23 October 2026, 23:07:08 +0200)
+>
+> ## Comment lire, selon le besoin (23 October 2026, 23:07:08 +0200)
+>
+> **Doute sur la MANIÈRE de travailler** → `Tone1.md` et `CardinalValues1.md`, qui gouvernent quelle que (23 October 2026, 23:07:08 +0200)
+> soit la demande. (23 October 2026, 23:07:08 +0200)
+>
+> **Question sur un SUJET précis** → passer par le routeur, puis lire le fichier qu'il nomme. Les (23 October 2026, 23:07:08 +0200)
+> sections de `CLAUDE.md` lui-même sont indexées par ligne dans [INDEX.md](INDEX.md), régénéré par (23 October 2026, 23:07:08 +0200)
+> `node ~/.claude/skills/claude-md-global/scripts/build-index.mjs` et vérifiable par son empreinte. (23 October 2026, 23:07:08 +0200)
+>
+> **Avant d'ÉCRIRE une règle nouvelle** → chercher d'abord. La règle existe déjà une fois sur deux, et (23 October 2026, 23:07:08 +0200)
+> la bonne action est alors de compléter la section existante, jamais d'en ouvrir une seconde sur le (23 October 2026, 23:07:08 +0200)
+> même sujet. Si elle est de priorité 0 et tient en quelques lignes, elle va dans `CLAUDE.md` ; sinon (23 October 2026, 23:07:08 +0200)
+> dans le fichier de son sujet, avec son vocabulaire ajouté à `triggers.json`, et une phrase de renvoi (23 October 2026, 23:07:08 +0200)
+> dans le noyau. (23 October 2026, 23:07:08 +0200)
+>
+> ## Pourquoi un index plutôt qu'une lecture complète (23 October 2026, 23:07:08 +0200)
+>
+> Un fichier de règles ne sert que s'il est lu. Passé une certaine taille il cesse d'être lu et devient (23 October 2026, 23:07:08 +0200)
+> un décor : on croit les règles actives alors qu'elles dorment. Pire encore, au-delà de 65 536 octets (23 October 2026, 23:07:08 +0200)
+> il était tronqué sans le dire. L'index rend la lecture PARTIELLE possible, donc la lecture tout court (23 October 2026, 23:07:08 +0200)
+> probable, et le routeur rend le bon choix automatique plutôt que dépendant de ma mémoire. (23 October 2026, 23:07:08 +0200)
+>
+> ## Erreurs déjà payées (23 October 2026, 23:07:08 +0200)
+>
+> | Erreur | Ce qu'elle coûte | La parade | (23 October 2026, 23:07:08 +0200)
+> |---|---|---| (23 October 2026, 23:07:08 +0200)
+> | Laisser `CLAUDE.md` dépasser 65 536 octets | Il est tronqué en silence, et on croit les règles actives | `--verify` après toute modification | (23 October 2026, 23:07:08 +0200)
+> | Un script qui réécrit `CLAUDE.md` après la décharge | La décharge se défait sans un mot | Vérifier après chaque `sync-skill.sh` | (23 October 2026, 23:07:08 +0200)
+> | Une règle nouvelle sans vocabulaire déclencheur | Le fichier ne se charge jamais, la règle dort | Ajouter les termes à `triggers.json` dans le même mouvement | (23 October 2026, 23:07:08 +0200)
+> | Chercher une règle par `grep` sans lire sa section | On lit une phrase hors contexte et on applique l'inverse | Lire la section entière autour du résultat | (23 October 2026, 23:07:08 +0200)
+> | Écrire une règle sans chercher | Deux sections contradictoires, et personne ne sait laquelle vaut | Chercher dans l'index AVANT d'écrire | (23 October 2026, 23:07:08 +0200)
+> | Éditer `~/.codex/AGENTS.md` | L'édition est écrasée à la synchronisation suivante | N'éditer que `CLAUDE.md`, puis lancer le miroir | (23 October 2026, 23:07:08 +0200)
+> | Économiser un chargement par prudence de tokens | On répond à côté de la doctrine, ce qui coûte bien plus cher | Dans le doute, charger | (23 October 2026, 23:07:08 +0200)
+>
+> ## Projet disponible : google/woff2 (23 October 2026, 23:07:08 +0200)
+>
+> Le projet officiel [google/woff2](https://github.com/google/woff2) est installé localement dans (23 October 2026, 23:07:08 +0200)
+> `/Users/zenray/.claude/tmp/tmp-fonts/google-woff2`. Il fournit les exécutables (23 October 2026, 23:07:08 +0200)
+> `woff2_decompress`, `woff2_compress` et `woff2_info` pour convertir et inspecter des fontes WOFF2. (23 October 2026, 23:07:08 +0200)
+> Les trois commandes sont aussi accessibles directement dans le terminal par des liens installés dans (23 October 2026, 23:07:08 +0200)
+> `/Users/zenray/.local/bin`. (23 October 2026, 23:07:08 +0200)
+>
+> Sur ce Mac, la compilation fiable passe par `xcrun --sdk macosx make -j16 all`. La commande `make` (23 October 2026, 23:07:08 +0200)
+> seule sélectionne le SDK des Command Line Tools 27.0, dont l'éditeur de liens échoue sur les (23 October 2026, 23:07:08 +0200)
+> architectures déclarées ; le SDK Xcode 26.5 utilisé par `xcrun` fonctionne. (23 October 2026, 23:07:08 +0200)
+>
+> `woff2_decompress` produit toujours un fichier `.ttf`. Quand `woff2_info` indique le flavor `OTTO`, (23 October 2026, 23:07:08 +0200)
+> le contenu est une fonte OpenType CFF et le fichier doit être renommé en `.otf` avant installation. (23 October 2026, 23:07:08 +0200)
+> Les fontes utilisateur installées dans `/Users/zenray/Library/Fonts` sont ensuite reconnues par (23 October 2026, 23:07:08 +0200)
+> Font Book sans modifier les fontes système protégées. (23 October 2026, 23:07:08 +0200)
+>
+> ## Règle renforcée : chercher les valeurs système dans leur source de vérité (23 October 2026, 23:07:08 +0200)
+>
+> Cette règle est la porte d’entrée vers la section complète du global (23 October 2026, 23:07:08 +0200)
+> `LES VALEURS SYSTÈME SE CHERCHENT AVANT DE SE DEVINER`. Elle s’applique dès (23 October 2026, 23:07:08 +0200)
+> qu’une valeur du code dépend de macOS, d’un réglage utilisateur, d’un écran, (23 October 2026, 23:07:08 +0200)
+> d’une permission, d’un runtime, d’un fichier de configuration ou d’une (23 October 2026, 23:07:08 +0200)
+> application externe. (23 October 2026, 23:07:08 +0200)
+>
+> Un correctif ne choisit jamais une hauteur, une position, une marge, une taille (23 October 2026, 23:07:08 +0200)
+> de fenêtre ou une constante système à l’œil lorsqu’une API, une préférence ou (23 October 2026, 23:07:08 +0200)
+> un état runtime peut la fournir. Il cherche d’abord le propriétaire réel de la (23 October 2026, 23:07:08 +0200)
+> donnée, lit la valeur avec une commande ou une API locale, compare le résultat (23 October 2026, 23:07:08 +0200)
+> par une seconde voie indépendante, puis centralise la valeur dans le paramètre (23 October 2026, 23:07:08 +0200)
+> HDA du projet. (23 October 2026, 23:07:08 +0200)
+>
+> L’incident qui fixe cette règle est Sleep Shutdown. Matthieu a dû insister pour (23 October 2026, 23:07:08 +0200)
+> que la hauteur du Dock soit vraiment cherchée. Les premières valeurs de widget (23 October 2026, 23:07:08 +0200)
+> étaient `96`, `80`, `72` puis `67` points. `visibleFrame.minY = 67` décrivait la (23 October 2026, 23:07:08 +0200)
+> zone réservée au Dock, mais pas la barre visible. La source Accessibility (23 October 2026, 23:07:08 +0200)
+> `AXList` a ensuite donné `61 pt`. La préférence native (23 October 2026, 23:07:08 +0200)
+> `com.apple.dock tilesize = 47`, augmentée du padding vertical mesuré de `14`, (23 October 2026, 23:07:08 +0200)
+> a fourni le repli `61 pt` quand l’application n’avait pas l’autorisation AX. (23 October 2026, 23:07:08 +0200)
+>
+> Le mot-clé `AXList` devient donc un exemple de méthode, pas une valeur à (23 October 2026, 23:07:08 +0200)
+> recopier. Pour toute situation équivalente : (23 October 2026, 23:07:08 +0200)
+>
+> 1. nommer la donnée, son unité et son repère ; (23 October 2026, 23:07:08 +0200)
+> 2. chercher l’API ou le fichier qui la possède réellement ; (23 October 2026, 23:07:08 +0200)
+> 3. lire la donnée avant d’écrire le layout ; (23 October 2026, 23:07:08 +0200)
+> 4. comparer la mesure à une observation indépendante ; (23 October 2026, 23:07:08 +0200)
+> 5. distinguer la source primaire, le repli et l’estimation ; (23 October 2026, 23:07:08 +0200)
+> 6. logguer la source utilisée ; (23 October 2026, 23:07:08 +0200)
+> 7. centraliser la valeur dans un seul paramètre ; (23 October 2026, 23:07:08 +0200)
+> 8. conserver la commande et la preuve dans le workflow concerné. (23 October 2026, 23:07:08 +0200)
+>
+> Commandes de contrôle pour l’exemple Dock : (23 October 2026, 23:07:08 +0200)
+>
+> ```zsh (23 October 2026, 23:07:08 +0200)
+> defaults read com.apple.dock tilesize (23 October 2026, 23:07:08 +0200)
+> osascript -e 'tell application "System Events" to tell process "Dock" to get {role, position, size} of every UI element' (23 October 2026, 23:07:08 +0200)
+> ``` (23 October 2026, 23:07:08 +0200)
+>
+> Une permission refusée ne signifie pas que la donnée n’existe pas. Une (23 October 2026, 23:07:08 +0200)
+> préférence absente ne signifie pas que la valeur vaut zéro. Une capture ne (23 October 2026, 23:07:08 +0200)
+> remplace pas l’API qui produit l’état. Si aucune source de vérité n’est (23 October 2026, 23:07:08 +0200)
+> trouvée, le résultat reste explicitement non vérifié : il ne se transforme pas (23 October 2026, 23:07:08 +0200)
+> en nombre plausible présenté comme une mesure. (23 October 2026, 23:07:08 +0200)
+>
+> La règle vaut pour le code natif comme pour HTML et React. Un navigateur qui ne (23 October 2026, 23:07:08 +0200)
+> peut pas lire une préférence macOS reçoit une mesure native injectée ou un (23 October 2026, 23:07:08 +0200)
+> token de démonstration clairement nommé. Il ne reçoit pas une fausse fonction (23 October 2026, 23:07:08 +0200)
+> `getDockHeight()`. (23 October 2026, 23:07:08 +0200)
+>
+> ## 30 September 2026 : la date partout, en anglais, mois en toutes lettres (23 October 2026, 23:07:08 +0200)
+>
+> - Toute règle ou tout ajout entre par une section au titre daté, et chaque ligne porte sa date au format `30 September 2026` (30 September 2026). (23 October 2026, 23:07:08 +0200)
+> - Texte intégral : `rules/SkillsAndMemory1.md`, section « La date partout » ; rappel court dans `CLAUDE.md` (30 September 2026). (23 October 2026, 23:07:08 +0200)
+> - Contrôle : `git diff -U0 -- <chemins> | grep '^+' | grep -v '^+++' | grep -vE '[0-9]{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) 20[0-9]{2}'` doit être vide (30 September 2026). (23 October 2026, 23:07:08 +0200)
+> - Correction du format (30 September 2026, 11:51) : la première version écrivait `AAAA-MM-JJ` ; remplacée par l'anglais avec le mois en toutes lettres. (23 October 2026, 23:07:08 +0200)
+>
+> ## 30 September 2026 : deux règles ajoutées à la doctrine (23 October 2026, 23:07:08 +0200)
+>
+> - 30 September 2026 : `rules/ParametricHda1.md`, section du 30 September 2026 : l'interface de paramètres d'un graphe est courte, 8 par catégorie au plus, portée par le nœud maître et lue par `chf()`/`ch()`. (23 October 2026, 23:07:08 +0200)
+> - 30 September 2026 : `rules/SkillsAndMemory1.md`, section du 30 September 2026 : un feedback s'écrit petit à petit dans `FEEDBACK.md` et n'entre dans le skill que lorsque Matthieu le valide (sauf les règles demandées expressément : mesures rangées, une image par version, 8 paramètres par catégorie). (23 October 2026, 23:07:08 +0200)
+>
+> ## 02 October 2026 : Terme consacré : index mapping (ou mapping table) (23 October 2026, 23:07:08 +0200)
+>
+> - 02 October 2026 (mots de Matthieu, dictée et corrigée en grammaire seule) : index mapping (ou mapping table) est tout à fait le terme consacré : il désigne précisément l'action ou la table servant à mapper un index ou identifiant unique (01) vers un jeu de données associées (var1, var2), faisant office de table de correspondance directe pour retrouver rapidement plusieurs attributs à partir d'un simple entier. (02 October 2026) (23 October 2026, 23:07:08 +0200)
+> - 02 October 2026 : doctrine inscrite dans `rules/ParametricHda1.md` avec déclencheurs associés (`index mapping`, `mapping table`, `table de correspondance`, `lookup table`) dans `triggers.json`. (02 October 2026) (23 October 2026, 23:07:08 +0200)
+>
+> ## 5 October 2026 : Conversation liee au projet des le demarrage (23 October 2026, 23:07:08 +0200)
+>
+> - Au debut de chaque conversation agentique, executer BeginConversation avec le vrai session-id, agent et project-id existant concerne ; lire ensuite context et le feedback canonique. SessionBindings.json est la liaison unique session/projet, jamais une inference par titre ni une nouvelle identite par prompt. Une discussion sans projet conserve sa collection Conversations ; toute ambiguite ou tentative de reattribution reste visible et refusee. (5 October 2026) (23 October 2026, 23:07:08 +0200)
+> - Chaque fiche projet expose ses discussions liees, titre, fournisseur et pastille Claude orange, Codex gris ou Gemini bleu, avec ouverture du lecteur natif et retour au meme projet. Le mapping et sa fiche de contexte recensent les identites de session et references du lecteur, sans recopier le transcript dans le global. Les originaux complets restent archives par le miroir ; le lecteur pagine les messages disponibles et signale les corps absents ou effaces. Une liaison ne prouve pas une archive complete ni un hook universel d hote. (5 October 2026) (23 October 2026, 23:07:08 +0200)
+>
+> ## Contenu public et outils internes (6 October 2026) (23 October 2026, 23:07:08 +0200)
+>
+> - Dans les articles, posts, légendes et crédits publics, ne pas publier de mentions d’agents, d’automatisation agentique, de Claude Code, Codex, Gemini, LLM, AI ou IA, ni le fonctionnement interne des prompts, bridges, files de commandes ou mémoires partagées, sauf demande explicite ultérieure de Matthieu pour le sujet concerné. Ces informations restent dans le suivi privé. (6 October 2026) (23 October 2026, 23:07:08 +0200)
+> - Écrire sur le travail artistique et technique vérifié, ses choix, résultats et limites. Ne pas inventer de vécu, d’effort manuel, de jugement personnel ou d’auteur pour remplacer une mention supprimée. Garder une formulation factuelle et naturelle ; retirer les considérations internes qui ne servent pas le lecteur. (6 October 2026) (23 October 2026, 23:07:08 +0200)
+> - Avant publication, vérifier tout le contenu visible et ses métadonnées, les tableaux, légendes et figures. Pour le lys, ArticleLily/Check.py refuse les mentions internes et son selftest prouve le refus. (6 October 2026) (23 October 2026, 23:07:08 +0200)
+>
+> ## 10 October 2026 : index de la méthodologie, enregistré à quatre endroits (23 October 2026, 23:07:08 +0200)
+>
+> - 10 October 2026 : `~/.claude/CLAUDE.md` porte une section courte qui pointe vers le skill `zenray-methodology`, lequel porte la procédure complète (10 October 2026). (23 October 2026, 23:07:08 +0200)
+> - 10 October 2026 : le vocabulaire déclencheur (itérer, tourne en rond, piétine, bonne méthode, seize méthodes, masques noir et blanc, capture annotée, pivoter, trouver N) entre dans `rules/triggers.json` sous `SkillsAndMemory1.md`. La tête de ce fichier est régénérée depuis ce JSON, et `which-rule.mjs` le renvoie pour ces demandes (10 October 2026). (23 October 2026, 23:07:08 +0200)
+> - 10 October 2026 : `~/.claude/skills/zenray-houdini/SKILL.md` reçoit un renvoi en tête de sa section PRIORITÉ 0 (10 October 2026). (23 October 2026, 23:07:08 +0200)
+> - 10 October 2026 : `rules/SkillsIndex1.md` liste le skill automatiquement à chaque `sync-skill.sh`, par `update-skill-index.py` (10 October 2026). (23 October 2026, 23:07:08 +0200)
+>
+> ## 21 October 2026 : index de la méthode du sharingan, enregistré à quatre endroits (23 October 2026, 23:07:08 +0200)
+>
+> - 21 October 2026 : `~/.claude/CLAUDE.md` porte une phrase dans la section « PRIORITÉ 0 : MÉTHODE, SKILLS, MÉMOIRE ET JOURNAL » (21 October 2026). (23 October 2026, 23:07:08 +0200)
+> - 21 October 2026 : la doctrine, trois paragraphes qui reprennent les mots de Matthieu, vit dans `rules/SkillsAndMemory1.md`, section du 21 October 2026 (21 October 2026). (23 October 2026, 23:07:08 +0200)
+> - 21 October 2026 : le vocabulaire déclencheur (sharingan, reproduire un résultat, à l'identique, 99,9, même résultat, comme la référence) est dans `rules/triggers.json` sous `SkillsAndMemory1.md`, et `which-rule.mjs` le renvoie pour ces demandes (21 October 2026). (23 October 2026, 23:07:08 +0200)
+> - 21 October 2026 : le skill `zenray-sharingan` porte la boucle et trois exemples ; `rules/SkillsIndex1.md` le liste à chaque `sync-skill.sh` (21 October 2026). (23 October 2026, 23:07:08 +0200)
+>
+> ## 21 October 2026 : typographie des galeries (23 October 2026, 23:07:08 +0200)
+>
+> - 21 October 2026 : la correction courante est dans `rules/Typography1.md`, section « GT Sectra pour les titres des galeries, Anthropic Serif Regular pour le corps » : titres Gallery uniquement en GT Sectra Display LCG Regular Italic 400, corps et nombres en Anthropic Serif Regular 400, remplaçant la prescription Anthropic Medium du 18 October 2026. Le routeur connaît GT Sectra et Anthropic Serif Regular. (21 October 2026) (23 October 2026, 23:07:08 +0200)
+> - 23 October 2026 : titres en GT Sectra LCG ITALIQUE (coupe normale), chiffres et corps droits en Anthropic Serif ; règle courante dans `rules/Typography1.md`, section du 23 October 2026, 18:20, qui remplace « jamais d'italique ». (23 October 2026) (23 October 2026, 23:07:08 +0200)
+>
+>
+> ARGUMENTS: Note-moi les repas dans mon calendrier. J'aime bien le fait que tu me le notes, mais par contre là, je le vois pas sur mon calendrier directement dans ZenReProgressPlan. Je le vois pas actuellement. Par contre, est-ce que tu as bien indexé dans Claude.md de chaque jour si les tâches sont pas définies, tu les définis au début en posant la question. Ça c'est une priorité zéro absolue.  (23 October 2026, 23:07:08 +0200)
+>
+> Mais actuellement, oui, je ne vois pas les choses que tu m'as marquées. Mais en soi, ça peut être une bonne journée, tu vois, genre en mode prospection au début de la journée. Ensuite, je bosse sur Louisiana Bayou et je termine. Ensuite, je vais faire du sport. Ensuite, je reviens et je déjeune. Et ensuite, je fais du japonais. Et ensuite, tu vois, on peut marquer par exemple quartier libre ou temps libre. (23 October 2026, 23:07:08 +0200)
+
+## 23 October 2026, 23:07:15 +0200 : Prompt
+
+<!-- feedback-event:343299decada81b280c09c960f5d0ae8c13cdde90b39b78b154776227741fd13 (23 October 2026, 23:07:15 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:07:15 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:07:15 +0200)
+
+> <command-message>claude-md-global</command-message> (23 October 2026, 23:07:15 +0200)
+> <command-name>/claude-md-global</command-name> (23 October 2026, 23:07:15 +0200)
+> <command-args>Note-moi les repas dans mon calendrier. J'aime bien le fait que tu me le notes, mais par contre là, je le vois pas sur mon calendrier directement dans ZenReProgressPlan. Je le vois pas actuellement. Par contre, est-ce que tu as bien indexé dans Claude.md de chaque jour si les tâches sont pas définies, tu les définis au début en posant la question. Ça c'est une priorité zéro absolue.  (23 October 2026, 23:07:15 +0200)
+>
+> Mais actuellement, oui, je ne vois pas les choses que tu m'as marquées. Mais en soi, ça peut être une bonne journée, tu vois, genre en mode prospection au début de la journée. Ensuite, je bosse sur Louisiana Bayou et je termine. Ensuite, je vais faire du sport. Ensuite, je reviens et je déjeune. Et ensuite, je fais du japonais. Et ensuite, tu vois, on peut marquer par exemple quartier libre ou temps libre.</command-args> (23 October 2026, 23:07:15 +0200)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/claude-md-global (23 October 2026, 23:07:15 +0200)
+>
+> # La doctrine globale : la porte, pas le fichier (23 October 2026, 23:07:15 +0200)
+>
+> ## Ce qui a changé le 2026-09-15, et qu'il faut savoir avant tout le reste (23 October 2026, 23:07:15 +0200)
+>
+> `CLAUDE.md` pesait **218 431 octets** et dépassait la limite de **65 536 octets** du contexte de (23 October 2026, 23:07:15 +0200)
+> délégation aux sous-agents : il était donc **tronqué en silence**, ce qui est pire qu'une règle (23 October 2026, 23:07:15 +0200)
+> absente puisque rien ne le signale. Il pèse désormais **50 320 octets**, avec 15 216 de marge, et ne (23 October 2026, 23:07:15 +0200)
+> porte plus que les concepts. (23 October 2026, 23:07:15 +0200)
+>
+> Le texte intégral, rien de résumé ni de supprimé, vit dans **douze fichiers anglais** (23 October 2026, 23:07:15 +0200)
+> `~/.claude/rules/<Name>1.md`. Le contrôle d'intégrité a comparé le résultat à la sauvegarde : 88 (23 October 2026, 23:07:15 +0200)
+> titres sur 88 et 1 841 lignes de contenu sur 1 841 retrouvés. (23 October 2026, 23:07:15 +0200)
+>
+> | Fichier | Ce qu'il gouverne | Octets | (23 October 2026, 23:07:15 +0200)
+> |---|---|---| (23 October 2026, 23:07:15 +0200)
+> | `CardinalValues1.md` | doute, légitimité, report conditionnel, paliers, levier, objectifs, LifeOS, agency | 39 167 | (23 October 2026, 23:07:15 +0200)
+> | `Tone1.md` | ton, verbosité, prose française, récap, plan, clarification | 27 535 | (23 October 2026, 23:07:15 +0200)
+> | `Toolbox1.md` | parallélisme, encodage, CDN, quotas, git, scripts, déploiement, commandes | 26 586 | (23 October 2026, 23:07:15 +0200)
+> | `ParametricHda1.md` | loi HDA, valeur en dur, duplication, jetons, valeurs système | 23 562 | (23 October 2026, 23:07:15 +0200)
+> | `GameAndShipping1.md` | jeu, Unreal, devlog, tranche verticale, publier, périmètre | 20 136 | (23 October 2026, 23:07:15 +0200)
+> | `SkillsIndex1.md` | index auto-généré des skills personnels | 17 219 | (23 October 2026, 23:07:15 +0200)
+> | `SkillsAndMemory1.md` | skills, synchronisation, mémoire, PROGRESS.md, reprise | 16 591 | (23 October 2026, 23:07:15 +0200)
+> | `SilentBugs1.md` | bugs invisibles : ancêtres CSS, portails, thèmes, cache, erreur avalée | 14 179 | (23 October 2026, 23:07:15 +0200)
+> | `Typography1.md` | police, graisse, taille, webfont, icônes, jetons visuels, curseurs | 13 461 | (23 October 2026, 23:07:15 +0200)
+> | `ZenRayProjects1.md` | les trois entités ZenRay, domaines, Japon 2027, PVT, chantiers | 11 184 | (23 October 2026, 23:07:15 +0200)
+> | `JapaneseRules1.md` | règles japonaises : leçon, drill, sauvegarde. La matière est dans Memory1 | 8 145 | (23 October 2026, 23:07:15 +0200)
+> | `ShowYourWork1.md` | montrer son travail : promotion, ads, organique, audience, handles | 5 754 | (23 October 2026, 23:07:15 +0200)
+>
+> ## PRIORITÉ 0 : LE CHARGEMENT SE CALCULE, IL NE SE DEVINE PAS (23 October 2026, 23:07:15 +0200)
+>
+> Devant toute demande sérieuse, **avant de répondre** : (23 October 2026, 23:07:15 +0200)
+>
+> ```bash (23 October 2026, 23:07:15 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/which-rule.mjs "<le texte de la demande>" (23 October 2026, 23:07:15 +0200)
+> ``` (23 October 2026, 23:07:15 +0200)
+>
+> Il rend les fichiers de doctrine à charger, par ordre de pertinence, les termes qui ont déclenché, et (23 October 2026, 23:07:15 +0200)
+> les fichiers de mémoire de projet à ouvrir en même temps. Quand rien ne se déclenche, il le dit : le (23 October 2026, 23:07:15 +0200)
+> noyau de `CLAUDE.md` suffit alors. (23 October 2026, 23:07:15 +0200)
+>
+> **Un seul terme suffit à déclencher un fichier**, et le vocabulaire est délibérément sur-inclusif, (23 October 2026, 23:07:15 +0200)
+> **829 termes** en français, en anglais et dans les tournures que Matthieu emploie réellement, y (23 October 2026, 23:07:15 +0200)
+> compris « je suis nul », « une fois sur deux », « tu me saoules » ou « c'est pas sorcier ». (23 October 2026, 23:07:15 +0200)
+>
+> > **La règle qui prime sur l'économie de tokens** : mieux vaut charger un fichier pour rien que rater (23 October 2026, 23:07:15 +0200)
+> > la doctrine qui gouverne la demande. Lire deux fois le même fichier dans une session ne coûte (23 October 2026, 23:07:15 +0200)
+> > presque rien ; répondre à côté de la doctrine coûte un aller-retour entier, et parfois une décision (23 October 2026, 23:07:15 +0200)
+> > fausse. **Dans le doute, on charge.** (23 October 2026, 23:07:15 +0200)
+>
+> ```bash (23 October 2026, 23:07:15 +0200)
+> node .../which-rule.mjs --all              # tous les fichiers et leur nombre de termes (23 October 2026, 23:07:15 +0200)
+> node .../which-rule.mjs --terms <fichier>  # le vocabulaire complet d'un fichier (23 October 2026, 23:07:15 +0200)
+> grep -n "<mot>" ~/.claude/rules/*.md       # les triggers sont aussi inscrits dans les fichiers (23 October 2026, 23:07:15 +0200)
+> ``` (23 October 2026, 23:07:15 +0200)
+>
+> Le vocabulaire vit dans `~/.claude/rules/triggers.json` et il est aussi inscrit en tête de chaque (23 October 2026, 23:07:15 +0200)
+> fichier, entre `TRIGGERS:START` et `TRIGGERS:END`, pour qu'un simple `grep` le trouve. Contrat HDA : (23 October 2026, 23:07:15 +0200)
+> le script est la définition, `triggers.json` son interface de paramètres, aucun terme n'est écrit en (23 October 2026, 23:07:15 +0200)
+> dur dans le code. (23 October 2026, 23:07:15 +0200)
+>
+> **Quand une règle nouvelle entre, son vocabulaire entre avec elle.** Sans terme déclencheur, un (23 October 2026, 23:07:15 +0200)
+> fichier ne se charge jamais et devient un décor : on croit les règles actives alors qu'elles dorment. (23 October 2026, 23:07:15 +0200)
+>
+> ## Le lien avec la mémoire de projet, `~/.claude/Memory1` (23 October 2026, 23:07:15 +0200)
+>
+> Les deux corpus ne répondent pas à la même question et ne se remplacent jamais. **Les règles disent (23 October 2026, 23:07:15 +0200)
+> COMMENT travailler, la mémoire dit ce que le PROJET sait.** Une demande sérieuse ouvre souvent les (23 October 2026, 23:07:15 +0200)
+> deux, et le routeur nomme les fichiers de mémoire liés à chaque doctrine. (23 October 2026, 23:07:15 +0200)
+>
+> | Mémoire | Doctrine qui l'appelle | (23 October 2026, 23:07:15 +0200)
+> |---|---| (23 October 2026, 23:07:15 +0200)
+> | `Identity/Matthieu1.md` (547 Ko, routeur `matthieu-context`) | `CardinalValues1.md`, `Tone1.md`, `ZenRayProjects1.md`, `SkillsAndMemory1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Japanese/Japanese1.md` (491 Ko, routeur `japanese-context`) | `JapaneseRules1.md` | (23 October 2026, 23:07:15 +0200)
+> | `ZenRayShards/ZenRayShards1.md` (138 Ko, routeur `zenrayshards-context`) | `GameAndShipping1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Design/Design1.md` | `Typography1.md`, `SilentBugs1.md`, `ParametricHda1.md`, `Toolbox1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Business/Business1.md`, `Business/Freelance1.md` | `CardinalValues1.md`, `ZenRayProjects1.md`, `ShowYourWork1.md` | (23 October 2026, 23:07:15 +0200)
+> | `HealthSport/HealthSport1.md` | `CardinalValues1.md` | (23 October 2026, 23:07:15 +0200)
+> | `SocialMedia/SocialMedia1.md` | `ShowYourWork1.md`, `ZenRayProjects1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Houdini/Houdini1.md`, `Substance/Substance1.md` | `ParametricHda1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Animation/Animation1.md`, `UnrealEngine/UnrealEngine1.md`, `ZenRayProductions/LouisianaBayou/LouisianaBayou1.md` | `GameAndShipping1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Culture/Culture1.md` | `JapaneseRules1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Storytelling/Storytelling1.md` | `Tone1.md` | (23 October 2026, 23:07:15 +0200)
+> | `Mails/Mails1.md` (index + un fichier par jour, `Année/Mois/Mails_<date>.md`) | `SkillsAndMemory1.md` | (23 October 2026, 23:07:15 +0200)
+> | `AudioProductions/Audio1.md`, `Stock/Stock1.md` | `Toolbox1.md` | (23 October 2026, 23:07:15 +0200)
+>
+> **Le cas japonais demande une vigilance particulière**, parce que deux fichiers se ressemblent sans (23 October 2026, 23:07:15 +0200)
+> porter la même chose. `rules/JapaneseRules1.md` porte les RÈGLES, la manière d'enseigner et de (23 October 2026, 23:07:15 +0200)
+> sauvegarder ; `Memory1/Japanese/Japanese1.md` porte la MATIÈRE, les leçons, les kanji, le (23 October 2026, 23:07:15 +0200)
+> vocabulaire et les jauges. On ne les confond pas, et on n'écrit jamais l'un dans l'autre. (23 October 2026, 23:07:15 +0200)
+>
+> Les trois gros fichiers ne se lisent **jamais** en entier : leurs skills routeurs trouvent la section (23 October 2026, 23:07:15 +0200)
+> utile. La chronologie est ailleurs et reste unique, `~/.claude/PROGRESS.md`, écrite par le skill (23 October 2026, 23:07:15 +0200)
+> `progress` ; une connaissance durable va d'abord dans le bon `Memory1/**/<Nom>1.md`, puis l'entrée du (23 October 2026, 23:07:15 +0200)
+> journal cite ce chemin sans recopier le détail. (23 October 2026, 23:07:15 +0200)
+>
+> ## Les chemins, une fois pour toutes (23 October 2026, 23:07:15 +0200)
+>
+> ``` (23 October 2026, 23:07:15 +0200)
+> /Users/zenray/.claude/CLAUDE.md          les concepts, lus à chaque session (23 October 2026, 23:07:15 +0200)
+> /Users/zenray/.claude/rules/             les douze fichiers de doctrine + INDEX1.md + triggers.json (23 October 2026, 23:07:15 +0200)
+> /Users/zenray/.claude/Memory1/           la mémoire de projet, un <Nom>1.md par domaine (23 October 2026, 23:07:15 +0200)
+> /Users/zenray/.claude/PROGRESS.md        la chronologie unique, append only (23 October 2026, 23:07:15 +0200)
+> ``` (23 October 2026, 23:07:15 +0200)
+>
+> `~/.codex/AGENTS.md` et les quatre fichiers Gemini sont **générés** depuis `CLAUDE.md` par (23 October 2026, 23:07:15 +0200)
+> `zsh ~/.claude/skills/skill-sync/scripts/mirror-agents.sh`, jamais édités ; ils héritent donc de (23 October 2026, 23:07:15 +0200)
+> l'allègement, et tiennent à 48 301 octets. Attention, ce script est en zsh et utilise `print` : (23 October 2026, 23:07:15 +0200)
+> lancé avec `bash`, il échoue à la ligne 12. Les skills, eux, sont partagés par lien symbolique, (23 October 2026, 23:07:15 +0200)
+> `~/.gemini/config/skills` pointant vers `~/.claude/skills`. (23 October 2026, 23:07:15 +0200)
+>
+> ## Contexte des mails : charger et décharger (2026-09-30) (23 October 2026, 23:07:15 +0200)
+>
+> Les mails envoyés ou reçus qui comptent sont sauvegardés dans `~/.claude/Memory1/Mails/`, un fichier par (23 October 2026, 23:07:15 +0200)
+> jour : `<Année>/<MM-Month>/Mails_<YYYY-MM-DD>.md` (mois en anglais). L'index vit dans `Mails/Mails1.md`. (23 October 2026, 23:07:15 +0200)
+>
+> - **Charger** quand Matthieu demande le contexte des mails : lire `Mails/Mails1.md` (le tableau seul), (23 October 2026, 23:07:15 +0200)
+>   puis ouvrir UNIQUEMENT le fichier du jour utile. Ne jamais lire tout le dossier. (23 October 2026, 23:07:15 +0200)
+> - **Décharger** dès que le sujet change : ne plus rien relire des mails, et ne pas les recopier ailleurs. (23 October 2026, 23:07:15 +0200)
+> - **Absent de l'index ?** Aller le lire directement par le MCP Gmail (`search_threads`, `get_message` (23 October 2026, 23:07:15 +0200)
+>   en `PLAIN_TEXT`), puis le sauvegarder : (23 October 2026, 23:07:15 +0200)
+>   `python3 ~/.claude/Memory1/Mails/Scripts/save_mail.py <mails.json>` (idempotent par id de message). (23 October 2026, 23:07:15 +0200)
+> - Le mail réellement ENVOYÉ fait foi, pas le brouillon : relire depuis `in:sent` avant de sauvegarder. (23 October 2026, 23:07:15 +0200)
+> - Un rebond (`mailer-daemon`, 550) s'inscrit dans le champ Status du mail concerné. (23 October 2026, 23:07:15 +0200)
+>
+> ## Décharger une section nouvelle (23 October 2026, 23:07:15 +0200)
+>
+> Le script est la définition, `scripts/rules-plan.json` son interface de paramètres, chaque lot une (23 October 2026, 23:07:15 +0200)
+> instance. On essaie toujours à blanc d'abord. (23 October 2026, 23:07:15 +0200)
+>
+> ```bash (23 October 2026, 23:07:15 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs \ (23 October 2026, 23:07:15 +0200)
+>   --plan ~/.claude/skills/claude-md-global/scripts/rules-plan.json --lot <id> --dry-run (23 October 2026, 23:07:15 +0200)
+> ``` (23 October 2026, 23:07:15 +0200)
+>
+> Un lot nomme les titres **exacts** des sections à sortir, le fichier cible, et le **noyau** qui les (23 October 2026, 23:07:15 +0200)
+> remplace dans `CLAUDE.md`. Le noyau doit tenir seul : un agent qui ne lit que `CLAUDE.md` doit agir (23 October 2026, 23:07:15 +0200)
+> correctement sans le détail. (23 October 2026, 23:07:15 +0200)
+>
+> ## Le vérificateur ferme le travail (23 October 2026, 23:07:15 +0200)
+>
+> ```bash (23 October 2026, 23:07:15 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs --verify   # poids et pointeurs (23 October 2026, 23:07:15 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/build-rules-index.mjs         # regenere rules/INDEX1.md (23 October 2026, 23:07:15 +0200)
+> ``` (23 October 2026, 23:07:15 +0200)
+>
+> Il échoue aussi bien sur un dépassement de la limite que sur un pointeur vers un fichier absent, et il (23 October 2026, 23:07:15 +0200)
+> a été éprouvé dans les deux sens, rouge avant la décharge, vert après. À lancer après toute (23 October 2026, 23:07:15 +0200)
+> modification de `CLAUDE.md`, dans le même mouvement, comme un commit suit un correctif. (23 October 2026, 23:07:15 +0200)
+>
+> ## Un piège déjà payé, propre à ce système (23 October 2026, 23:07:15 +0200)
+>
+> `update-skill-index.py` réinjectait **16 Ko** d'index des skills dans `CLAUDE.md` à chaque (23 October 2026, 23:07:15 +0200)
+> `sync-skill.sh`, et le fichier est effectivement repassé à 64 108 octets pendant le chantier. Le (23 October 2026, 23:07:15 +0200)
+> générateur écrit désormais dans `rules/SkillsIndex1.md`. Moralité générale : **tout script qui écrit (23 October 2026, 23:07:15 +0200)
+> dans `CLAUDE.md` doit être vérifié après une décharge**, sinon elle se défait toute seule et (23 October 2026, 23:07:15 +0200)
+> silencieusement. (23 October 2026, 23:07:15 +0200)
+>
+> ## Comment lire, selon le besoin (23 October 2026, 23:07:15 +0200)
+>
+> **Doute sur la MANIÈRE de travailler** → `Tone1.md` et `CardinalValues1.md`, qui gouvernent quelle que (23 October 2026, 23:07:15 +0200)
+> soit la demande. (23 October 2026, 23:07:15 +0200)
+>
+> **Question sur un SUJET précis** → passer par le routeur, puis lire le fichier qu'il nomme. Les (23 October 2026, 23:07:15 +0200)
+> sections de `CLAUDE.md` lui-même sont indexées par ligne dans [INDEX.md](INDEX.md), régénéré par (23 October 2026, 23:07:15 +0200)
+> `node ~/.claude/skills/claude-md-global/scripts/build-index.mjs` et vérifiable par son empreinte. (23 October 2026, 23:07:15 +0200)
+>
+> **Avant d'ÉCRIRE une règle nouvelle** → chercher d'abord. La règle existe déjà une fois sur deux, et (23 October 2026, 23:07:15 +0200)
+> la bonne action est alors de compléter la section existante, jamais d'en ouvrir une seconde sur le (23 October 2026, 23:07:15 +0200)
+> même sujet. Si elle est de priorité 0 et tient en quelques lignes, elle va dans `CLAUDE.md` ; sinon (23 October 2026, 23:07:15 +0200)
+> dans le fichier de son sujet, avec son vocabulaire ajouté à `triggers.json`, et une phrase de renvoi (23 October 2026, 23:07:15 +0200)
+> dans le noyau. (23 October 2026, 23:07:15 +0200)
+>
+> ## Pourquoi un index plutôt qu'une lecture complète (23 October 2026, 23:07:15 +0200)
+>
+> Un fichier de règles ne sert que s'il est lu. Passé une certaine taille il cesse d'être lu et devient (23 October 2026, 23:07:15 +0200)
+> un décor : on croit les règles actives alors qu'elles dorment. Pire encore, au-delà de 65 536 octets (23 October 2026, 23:07:15 +0200)
+> il était tronqué sans le dire. L'index rend la lecture PARTIELLE possible, donc la lecture tout court (23 October 2026, 23:07:15 +0200)
+> probable, et le routeur rend le bon choix automatique plutôt que dépendant de ma mémoire. (23 October 2026, 23:07:15 +0200)
+>
+> ## Erreurs déjà payées (23 October 2026, 23:07:15 +0200)
+>
+> | Erreur | Ce qu'elle coûte | La parade | (23 October 2026, 23:07:15 +0200)
+> |---|---|---| (23 October 2026, 23:07:15 +0200)
+> | Laisser `CLAUDE.md` dépasser 65 536 octets | Il est tronqué en silence, et on croit les règles actives | `--verify` après toute modification | (23 October 2026, 23:07:15 +0200)
+> | Un script qui réécrit `CLAUDE.md` après la décharge | La décharge se défait sans un mot | Vérifier après chaque `sync-skill.sh` | (23 October 2026, 23:07:15 +0200)
+> | Une règle nouvelle sans vocabulaire déclencheur | Le fichier ne se charge jamais, la règle dort | Ajouter les termes à `triggers.json` dans le même mouvement | (23 October 2026, 23:07:15 +0200)
+> | Chercher une règle par `grep` sans lire sa section | On lit une phrase hors contexte et on applique l'inverse | Lire la section entière autour du résultat | (23 October 2026, 23:07:15 +0200)
+> | Écrire une règle sans chercher | Deux sections contradictoires, et personne ne sait laquelle vaut | Chercher dans l'index AVANT d'écrire | (23 October 2026, 23:07:15 +0200)
+> | Éditer `~/.codex/AGENTS.md` | L'édition est écrasée à la synchronisation suivante | N'éditer que `CLAUDE.md`, puis lancer le miroir | (23 October 2026, 23:07:15 +0200)
+> | Économiser un chargement par prudence de tokens | On répond à côté de la doctrine, ce qui coûte bien plus cher | Dans le doute, charger | (23 October 2026, 23:07:15 +0200)
+>
+> ## Projet disponible : google/woff2 (23 October 2026, 23:07:15 +0200)
+>
+> Le projet officiel [google/woff2](https://github.com/google/woff2) est installé localement dans (23 October 2026, 23:07:15 +0200)
+> `/Users/zenray/.claude/tmp/tmp-fonts/google-woff2`. Il fournit les exécutables (23 October 2026, 23:07:15 +0200)
+> `woff2_decompress`, `woff2_compress` et `woff2_info` pour convertir et inspecter des fontes WOFF2. (23 October 2026, 23:07:15 +0200)
+> Les trois commandes sont aussi accessibles directement dans le terminal par des liens installés dans (23 October 2026, 23:07:15 +0200)
+> `/Users/zenray/.local/bin`. (23 October 2026, 23:07:15 +0200)
+>
+> Sur ce Mac, la compilation fiable passe par `xcrun --sdk macosx make -j16 all`. La commande `make` (23 October 2026, 23:07:15 +0200)
+> seule sélectionne le SDK des Command Line Tools 27.0, dont l'éditeur de liens échoue sur les (23 October 2026, 23:07:15 +0200)
+> architectures déclarées ; le SDK Xcode 26.5 utilisé par `xcrun` fonctionne. (23 October 2026, 23:07:15 +0200)
+>
+> `woff2_decompress` produit toujours un fichier `.ttf`. Quand `woff2_info` indique le flavor `OTTO`, (23 October 2026, 23:07:15 +0200)
+> le contenu est une fonte OpenType CFF et le fichier doit être renommé en `.otf` avant installation. (23 October 2026, 23:07:15 +0200)
+> Les fontes utilisateur installées dans `/Users/zenray/Library/Fonts` sont ensuite reconnues par (23 October 2026, 23:07:15 +0200)
+> Font Book sans modifier les fontes système protégées. (23 October 2026, 23:07:15 +0200)
+>
+> ## Règle renforcée : chercher les valeurs système dans leur source de vérité (23 October 2026, 23:07:15 +0200)
+>
+> Cette règle est la porte d’entrée vers la section complète du global (23 October 2026, 23:07:15 +0200)
+> `LES VALEURS SYSTÈME SE CHERCHENT AVANT DE SE DEVINER`. Elle s’applique dès (23 October 2026, 23:07:15 +0200)
+> qu’une valeur du code dépend de macOS, d’un réglage utilisateur, d’un écran, (23 October 2026, 23:07:15 +0200)
+> d’une permission, d’un runtime, d’un fichier de configuration ou d’une (23 October 2026, 23:07:15 +0200)
+> application externe. (23 October 2026, 23:07:15 +0200)
+>
+> Un correctif ne choisit jamais une hauteur, une position, une marge, une taille (23 October 2026, 23:07:15 +0200)
+> de fenêtre ou une constante système à l’œil lorsqu’une API, une préférence ou (23 October 2026, 23:07:15 +0200)
+> un état runtime peut la fournir. Il cherche d’abord le propriétaire réel de la (23 October 2026, 23:07:15 +0200)
+> donnée, lit la valeur avec une commande ou une API locale, compare le résultat (23 October 2026, 23:07:15 +0200)
+> par une seconde voie indépendante, puis centralise la valeur dans le paramètre (23 October 2026, 23:07:15 +0200)
+> HDA du projet. (23 October 2026, 23:07:15 +0200)
+>
+> L’incident qui fixe cette règle est Sleep Shutdown. Matthieu a dû insister pour (23 October 2026, 23:07:15 +0200)
+> que la hauteur du Dock soit vraiment cherchée. Les premières valeurs de widget (23 October 2026, 23:07:15 +0200)
+> étaient `96`, `80`, `72` puis `67` points. `visibleFrame.minY = 67` décrivait la (23 October 2026, 23:07:15 +0200)
+> zone réservée au Dock, mais pas la barre visible. La source Accessibility (23 October 2026, 23:07:15 +0200)
+> `AXList` a ensuite donné `61 pt`. La préférence native (23 October 2026, 23:07:15 +0200)
+> `com.apple.dock tilesize = 47`, augmentée du padding vertical mesuré de `14`, (23 October 2026, 23:07:15 +0200)
+> a fourni le repli `61 pt` quand l’application n’avait pas l’autorisation AX. (23 October 2026, 23:07:15 +0200)
+>
+> Le mot-clé `AXList` devient donc un exemple de méthode, pas une valeur à (23 October 2026, 23:07:15 +0200)
+> recopier. Pour toute situation équivalente : (23 October 2026, 23:07:15 +0200)
+>
+> 1. nommer la donnée, son unité et son repère ; (23 October 2026, 23:07:15 +0200)
+> 2. chercher l’API ou le fichier qui la possède réellement ; (23 October 2026, 23:07:15 +0200)
+> 3. lire la donnée avant d’écrire le layout ; (23 October 2026, 23:07:15 +0200)
+> 4. comparer la mesure à une observation indépendante ; (23 October 2026, 23:07:15 +0200)
+> 5. distinguer la source primaire, le repli et l’estimation ; (23 October 2026, 23:07:15 +0200)
+> 6. logguer la source utilisée ; (23 October 2026, 23:07:15 +0200)
+> 7. centraliser la valeur dans un seul paramètre ; (23 October 2026, 23:07:15 +0200)
+> 8. conserver la commande et la preuve dans le workflow concerné. (23 October 2026, 23:07:15 +0200)
+>
+> Commandes de contrôle pour l’exemple Dock : (23 October 2026, 23:07:15 +0200)
+>
+> ```zsh (23 October 2026, 23:07:15 +0200)
+> defaults read com.apple.dock tilesize (23 October 2026, 23:07:15 +0200)
+> osascript -e 'tell application "System Events" to tell process "Dock" to get {role, position, size} of every UI element' (23 October 2026, 23:07:15 +0200)
+> ``` (23 October 2026, 23:07:15 +0200)
+>
+> Une permission refusée ne signifie pas que la donnée n’existe pas. Une (23 October 2026, 23:07:15 +0200)
+> préférence absente ne signifie pas que la valeur vaut zéro. Une capture ne (23 October 2026, 23:07:15 +0200)
+> remplace pas l’API qui produit l’état. Si aucune source de vérité n’est (23 October 2026, 23:07:15 +0200)
+> trouvée, le résultat reste explicitement non vérifié : il ne se transforme pas (23 October 2026, 23:07:15 +0200)
+> en nombre plausible présenté comme une mesure. (23 October 2026, 23:07:15 +0200)
+>
+> La règle vaut pour le code natif comme pour HTML et React. Un navigateur qui ne (23 October 2026, 23:07:15 +0200)
+> peut pas lire une préférence macOS reçoit une mesure native injectée ou un (23 October 2026, 23:07:15 +0200)
+> token de démonstration clairement nommé. Il ne reçoit pas une fausse fonction (23 October 2026, 23:07:15 +0200)
+> `getDockHeight()`. (23 October 2026, 23:07:15 +0200)
+>
+> ## 30 September 2026 : la date partout, en anglais, mois en toutes lettres (23 October 2026, 23:07:15 +0200)
+>
+> - Toute règle ou tout ajout entre par une section au titre daté, et chaque ligne porte sa date au format `30 September 2026` (30 September 2026). (23 October 2026, 23:07:15 +0200)
+> - Texte intégral : `rules/SkillsAndMemory1.md`, section « La date partout » ; rappel court dans `CLAUDE.md` (30 September 2026). (23 October 2026, 23:07:15 +0200)
+> - Contrôle : `git diff -U0 -- <chemins> | grep '^+' | grep -v '^+++' | grep -vE '[0-9]{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) 20[0-9]{2}'` doit être vide (30 September 2026). (23 October 2026, 23:07:15 +0200)
+> - Correction du format (30 September 2026, 11:51) : la première version écrivait `AAAA-MM-JJ` ; remplacée par l'anglais avec le mois en toutes lettres. (23 October 2026, 23:07:15 +0200)
+>
+> ## 30 September 2026 : deux règles ajoutées à la doctrine (23 October 2026, 23:07:15 +0200)
+>
+> - 30 September 2026 : `rules/ParametricHda1.md`, section du 30 September 2026 : l'interface de paramètres d'un graphe est courte, 8 par catégorie au plus, portée par le nœud maître et lue par `chf()`/`ch()`. (23 October 2026, 23:07:15 +0200)
+> - 30 September 2026 : `rules/SkillsAndMemory1.md`, section du 30 September 2026 : un feedback s'écrit petit à petit dans `FEEDBACK.md` et n'entre dans le skill que lorsque Matthieu le valide (sauf les règles demandées expressément : mesures rangées, une image par version, 8 paramètres par catégorie). (23 October 2026, 23:07:15 +0200)
+>
+> ## 02 October 2026 : Terme consacré : index mapping (ou mapping table) (23 October 2026, 23:07:15 +0200)
+>
+> - 02 October 2026 (mots de Matthieu, dictée et corrigée en grammaire seule) : index mapping (ou mapping table) est tout à fait le terme consacré : il désigne précisément l'action ou la table servant à mapper un index ou identifiant unique (01) vers un jeu de données associées (var1, var2), faisant office de table de correspondance directe pour retrouver rapidement plusieurs attributs à partir d'un simple entier. (02 October 2026) (23 October 2026, 23:07:15 +0200)
+> - 02 October 2026 : doctrine inscrite dans `rules/ParametricHda1.md` avec déclencheurs associés (`index mapping`, `mapping table`, `table de correspondance`, `lookup table`) dans `triggers.json`. (02 October 2026) (23 October 2026, 23:07:15 +0200)
+>
+> ## 5 October 2026 : Conversation liee au projet des le demarrage (23 October 2026, 23:07:15 +0200)
+>
+> - Au debut de chaque conversation agentique, executer BeginConversation avec le vrai session-id, agent et project-id existant concerne ; lire ensuite context et le feedback canonique. SessionBindings.json est la liaison unique session/projet, jamais une inference par titre ni une nouvelle identite par prompt. Une discussion sans projet conserve sa collection Conversations ; toute ambiguite ou tentative de reattribution reste visible et refusee. (5 October 2026) (23 October 2026, 23:07:15 +0200)
+> - Chaque fiche projet expose ses discussions liees, titre, fournisseur et pastille Claude orange, Codex gris ou Gemini bleu, avec ouverture du lecteur natif et retour au meme projet. Le mapping et sa fiche de contexte recensent les identites de session et references du lecteur, sans recopier le transcript dans le global. Les originaux complets restent archives par le miroir ; le lecteur pagine les messages disponibles et signale les corps absents ou effaces. Une liaison ne prouve pas une archive complete ni un hook universel d hote. (5 October 2026) (23 October 2026, 23:07:15 +0200)
+>
+> ## Contenu public et outils internes (6 October 2026) (23 October 2026, 23:07:15 +0200)
+>
+> - Dans les articles, posts, légendes et crédits publics, ne pas publier de mentions d’agents, d’automatisation agentique, de Claude Code, Codex, Gemini, LLM, AI ou IA, ni le fonctionnement interne des prompts, bridges, files de commandes ou mémoires partagées, sauf demande explicite ultérieure de Matthieu pour le sujet concerné. Ces informations restent dans le suivi privé. (6 October 2026) (23 October 2026, 23:07:15 +0200)
+> - Écrire sur le travail artistique et technique vérifié, ses choix, résultats et limites. Ne pas inventer de vécu, d’effort manuel, de jugement personnel ou d’auteur pour remplacer une mention supprimée. Garder une formulation factuelle et naturelle ; retirer les considérations internes qui ne servent pas le lecteur. (6 October 2026) (23 October 2026, 23:07:15 +0200)
+> - Avant publication, vérifier tout le contenu visible et ses métadonnées, les tableaux, légendes et figures. Pour le lys, ArticleLily/Check.py refuse les mentions internes et son selftest prouve le refus. (6 October 2026) (23 October 2026, 23:07:15 +0200)
+>
+> ## 10 October 2026 : index de la méthodologie, enregistré à quatre endroits (23 October 2026, 23:07:15 +0200)
+>
+> - 10 October 2026 : `~/.claude/CLAUDE.md` porte une section courte qui pointe vers le skill `zenray-methodology`, lequel porte la procédure complète (10 October 2026). (23 October 2026, 23:07:15 +0200)
+> - 10 October 2026 : le vocabulaire déclencheur (itérer, tourne en rond, piétine, bonne méthode, seize méthodes, masques noir et blanc, capture annotée, pivoter, trouver N) entre dans `rules/triggers.json` sous `SkillsAndMemory1.md`. La tête de ce fichier est régénérée depuis ce JSON, et `which-rule.mjs` le renvoie pour ces demandes (10 October 2026). (23 October 2026, 23:07:15 +0200)
+> - 10 October 2026 : `~/.claude/skills/zenray-houdini/SKILL.md` reçoit un renvoi en tête de sa section PRIORITÉ 0 (10 October 2026). (23 October 2026, 23:07:15 +0200)
+> - 10 October 2026 : `rules/SkillsIndex1.md` liste le skill automatiquement à chaque `sync-skill.sh`, par `update-skill-index.py` (10 October 2026). (23 October 2026, 23:07:15 +0200)
+>
+> ## 21 October 2026 : index de la méthode du sharingan, enregistré à quatre endroits (23 October 2026, 23:07:15 +0200)
+>
+> - 21 October 2026 : `~/.claude/CLAUDE.md` porte une phrase dans la section « PRIORITÉ 0 : MÉTHODE, SKILLS, MÉMOIRE ET JOURNAL » (21 October 2026). (23 October 2026, 23:07:15 +0200)
+> - 21 October 2026 : la doctrine, trois paragraphes qui reprennent les mots de Matthieu, vit dans `rules/SkillsAndMemory1.md`, section du 21 October 2026 (21 October 2026). (23 October 2026, 23:07:15 +0200)
+> - 21 October 2026 : le vocabulaire déclencheur (sharingan, reproduire un résultat, à l'identique, 99,9, même résultat, comme la référence) est dans `rules/triggers.json` sous `SkillsAndMemory1.md`, et `which-rule.mjs` le renvoie pour ces demandes (21 October 2026). (23 October 2026, 23:07:15 +0200)
+> - 21 October 2026 : le skill `zenray-sharingan` porte la boucle et trois exemples ; `rules/SkillsIndex1.md` le liste à chaque `sync-skill.sh` (21 October 2026). (23 October 2026, 23:07:15 +0200)
+>
+> ## 21 October 2026 : typographie des galeries (23 October 2026, 23:07:15 +0200)
+>
+> - 21 October 2026 : la correction courante est dans `rules/Typography1.md`, section « GT Sectra pour les titres des galeries, Anthropic Serif Regular pour le corps » : titres Gallery uniquement en GT Sectra Display LCG Regular Italic 400, corps et nombres en Anthropic Serif Regular 400, remplaçant la prescription Anthropic Medium du 18 October 2026. Le routeur connaît GT Sectra et Anthropic Serif Regular. (21 October 2026) (23 October 2026, 23:07:15 +0200)
+> - 23 October 2026 : titres en GT Sectra LCG ITALIQUE (coupe normale), chiffres et corps droits en Anthropic Serif ; règle courante dans `rules/Typography1.md`, section du 23 October 2026, 18:20, qui remplace « jamais d'italique ». (23 October 2026) (23 October 2026, 23:07:15 +0200)
+>
+>
+> ARGUMENTS: Note-moi les repas dans mon calendrier. J'aime bien le fait que tu me le notes, mais par contre là, je le vois pas sur mon calendrier directement dans ZenReProgressPlan. Je le vois pas actuellement. Par contre, est-ce que tu as bien indexé dans Claude.md de chaque jour si les tâches sont pas définies, tu les définis au début en posant la question. Ça c'est une priorité zéro absolue.  (23 October 2026, 23:07:15 +0200)
+>
+> Mais actuellement, oui, je ne vois pas les choses que tu m'as marquées. Mais en soi, ça peut être une bonne journée, tu vois, genre en mode prospection au début de la journée. Ensuite, je bosse sur Louisiana Bayou et je termine. Ensuite, je vais faire du sport. Ensuite, je reviens et je déjeune. Et ensuite, je fais du japonais. Et ensuite, tu vois, on peut marquer par exemple quartier libre ou temps libre. (23 October 2026, 23:07:15 +0200)
+
+## 23 October 2026, 23:07:25 +0200 : Iteration
+
+<!-- feedback-event:da3a3edec5bccfa380e32176ccdb5e14bcc82b64a8762b3697e678cb84bb5b1d (23 October 2026, 23:07:25 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:07:25 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:07:25 +0200)
+
+> Les tâches sont bien dans le fichier du Plan et dans Google Calendar. Je cherche pourquoi la vue Plan du site ne les montre pas. (23 October 2026, 23:07:25 +0200)
+
+## 23 October 2026, 23:08:35 +0200 : Iteration
+
+<!-- feedback-event:3b452c095f3097344107266db46a07cc2961c780f51522b638f2e161609655ec (23 October 2026, 23:08:35 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:08:35 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:08:35 +0200)
+
+> Now the skill text, then sync. (23 October 2026, 23:08:35 +0200)
+
+## 23 October 2026, 23:08:56 +0200 : Iteration
+
+<!-- feedback-event:3fbc9844ceb10835fa970f885645f9239d11b687ce295738662db9b49241c70e (23 October 2026, 23:08:56 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:08:56 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:08:56 +0200)
+
+> Tu ne voyais rien parce que la vue Plan du site lit le fichier à travers un cache qui garde l'ancienne version quelques minutes. Pendant ce temps, le fichier du Plan et Google Calendar étaient déjà à jour, et le site affichait encore le sport à 17 h. Je l'ai relu juste après : il montre maintenant la bonne journée. Pour éviter la confusion, la vérification de l'outil indique désormais si la vue du site est à jour, et je ne t'annoncerai plus « c'est dans ton Plan » avant de l'avoir vu. (23 October 2026, 23:08:56 +0200)
+>
+> Ta journée de demain, repas compris, visible sur le site et dans Google Calendar : (23 October 2026, 23:08:56 +0200)
+>
+> | Heure | Tâche | (23 October 2026, 23:08:56 +0200)
+> |---|---| (23 October 2026, 23:08:56 +0200)
+> | 09:00-10:15 | Prospection : 10 mails aux studios | (23 October 2026, 23:08:56 +0200)
+> | 10:25-12:00 | Louisiana Bayou | (23 October 2026, 23:08:56 +0200)
+> | 12:00-13:00 | Sport | (23 October 2026, 23:08:56 +0200)
+> | 13:10-14:00 | Déjeuner | (23 October 2026, 23:08:56 +0200)
+> | 14:10-15:25 | Japonais | (23 October 2026, 23:08:56 +0200)
+> | 15:35-19:20 | Temps libre | (23 October 2026, 23:08:56 +0200)
+> | 19:30-20:30 | Dîner | (23 October 2026, 23:08:56 +0200)
+>
+> Il n'y a aucun chevauchement. Je n'avais pas l'heure de ton dîner, j'ai donc mis 19 h 30 ; dis-moi si c'est autre chose. (23 October 2026, 23:08:56 +0200)
+>
+> Ta règle n'était pas encore inscrite en priorité 0 ; elle l'est maintenant : si la journée n'est pas définie, je te pose la question au début, avant toute autre chose. Elle figure dans CLAUDE.md global, dans le fichier de règles des projets ZenRay et en tête du skill. J'y ai ajouté deux points : les repas s'inscrivent comme de vraies tâches, et un long créneau voulu s'appelle « Temps libre ». La forme de journée que tu viens de décrire y est notée comme modèle. (23 October 2026, 23:08:56 +0200)
+>
+> Un point d'attention : CLAUDE.md n'a plus que 8 octets de marge sous sa limite de taille. Pour toute prochaine règle, il faudra d'abord déplacer une section vers les fichiers de règles. (23 October 2026, 23:08:56 +0200)
+
+## 23 October 2026, 23:09:46 +0200 : Prompt
+
+<!-- feedback-event:bbafee177f93e72ea3b53b1731d42679c7c9156951bf50a72193f0efa0f43c5f (23 October 2026, 23:09:46 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (23 October 2026, 23:09:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:09:46 +0200)
+
+> Parfait, est-ce que tout est consigné dans le skill ?? (23 October 2026, 23:09:46 +0200)
+
+## 23 October 2026, 23:10:02 +0200 : Iteration
+
+<!-- feedback-event:024f6910df1a4fabc013f4e7b71591e66cc5b55697fb97dbc854a91b56e59c55 (23 October 2026, 23:10:02 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (23 October 2026, 23:10:02 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (23 October 2026, 23:10:02 +0200)
+
+> Oui, tout est consigné. J'ai vérifié chaque point dans le skill, et ses copies pour Codex et pour Memory sont identiques à l'original. (23 October 2026, 23:10:02 +0200)
+>
+> | Ce que tu as demandé ce soir | Où c'est écrit | (23 October 2026, 23:10:02 +0200)
+> |---|---| (23 October 2026, 23:10:02 +0200)
+> | Une journée non définie se définit au début, en te posant la question (priorité 0) | En tête du skill, dans CLAUDE.md global et dans le fichier de règles des projets ZenRay | (23 October 2026, 23:10:02 +0200)
+> | Blocs de 15 minutes, 5 minutes de pause, 5 à 15 minutes entre deux événements, jamais deux choses en même temps | Dans la description du skill et dans la section « La règle de Matthieu » | (23 October 2026, 23:10:02 +0200)
+> | Les repas (déjeuner, dîner) et le « Temps libre » notés comme de vraies tâches | Dans la section de priorité 0 du skill | (23 October 2026, 23:10:02 +0200)
+> | Ta forme de journée : prospection, Louisiana Bayou, sport, déjeuner, japonais, temps libre, dîner | Dans la section de priorité 0, comme modèle de journée | (23 October 2026, 23:10:02 +0200)
+> | Mails aux studios et prospection, c'est la même chose : une seule tâche par jour | Dans les notes de fin du skill et dans les règles du projet | (23 October 2026, 23:10:02 +0200)
+> | Retirer un rendez-vous non confirmé, comme celui de Nibir Khan | Dans les notes de fin, avec la commande de retrait | (23 October 2026, 23:10:02 +0200)
+> | Le site peut montrer l'ancienne journée pendant quelques minutes | Dans la section des pièges, et la vérification le signale maintenant elle-même | (23 October 2026, 23:10:02 +0200)
+> | Le cap de 10 000 € avec Andreas, la prospection avant le développement | Dans la section sur l'ordre de priorité d'une journée | (23 October 2026, 23:10:02 +0200)
+>
+> Un seul élément n'est pas à jour : l'article du projet Assets décrit la version de 21 h. On y voit encore le rendez-vous Nibir Khan et la prospection en deux tâches. Il ne parle pas des repas ni de la règle de priorité 0. Je peux en publier une version 2 si tu veux qu'il suive le skill. (23 October 2026, 23:10:02 +0200)

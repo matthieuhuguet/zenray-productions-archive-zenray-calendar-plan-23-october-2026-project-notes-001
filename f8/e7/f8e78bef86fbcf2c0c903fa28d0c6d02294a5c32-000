@@ -1,0 +1,13 @@
+# ZenRay Calendar Plan : project knowledge (23 October 2026)
+
+- Project ID: zenray-calendar-plan-23-october-2026. (23 October 2026)
+- Canonical feedback: /Users/zenray/.claude/Memory1/Projects/zenray-calendar-plan-23-october-2026/FEEDBACK.md. (23 October 2026)
+- Append dated decisions and verified knowledge here; retain existing entries. (23 October 2026)
+
+## 23 October 2026 : création du skill zenray-calendar-plan
+
+- Skill `/Users/zenray/.claude/skills/zenray-calendar-plan/SKILL.md` créé ; il remplace `zenray-plan`, supprimé de Claude, Codex et Memory/Skills (historique dans `references/zenray-plan-history.md`). Outils : `CalendarPlan.mjs` (day, check, fit, selftest) et `PlanTool.mjs`, accès partagé `PlanApi.mjs`. (23 October 2026)
+- Preuves : selftest vert ; `check --date 2026-10-24` rouge avant (Nibir Khan RDV et série prospection à 09:00), vert après `fit --apply` ; Google Calendar relu une minute plus tard avec les mêmes heures (09:00-10:30, 10:40-11:55, 13:40-14:55, 17:00-18:00). (23 October 2026)
+- Non vérifié : l'heure réelle de « Nibir Khan RDV » (posée à la main le 20 October 2026, durée par défaut 90 minutes), faute d'accès Gmail dans la session. (23 October 2026)
+- Indexation : ligne dans `/Users/zenray/.claude/CLAUDE.md` (section des trois entités), section du 23 October 2026 dans `/Users/zenray/.claude/rules/ZenRayProjects1.md`, vocabulaire « agenda, organise ma journée, calendar » dans `triggers.json`. Article publié dans le projet, archive cloud en file (jobs 49bf50a6 et 167bce69), non encore confirmée. (23 October 2026)
+- Prochain : le 24 October 2026 au matin, `CalendarPlan.mjs day --date 2026-10-24`, confirmer l'heure du rendez-vous Nibir Khan, placer le japonais si Matthieu le veut. (23 October 2026)
