@@ -1323,3 +1323,145 @@
 > ```bash (24 October 2026, 00:47:01 +0200)
 > node /Users/zenray/.claude/skills/zenray-edit/scripts/refresh-articles.mjs --check (24 October 2026, 00:47:01 +0200)
 > ``` (24 October 2026, 00:47:01 +0200)
+
+## 24 October 2026, 14:12:06 +0200 : Prompt
+
+<!-- feedback-event:5fa55ab19b71fdb235728389f555530ec11c308a06e7ccd2d83e867af58c867a (24 October 2026, 14:12:06 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (24 October 2026, 14:12:06 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 14:12:06 +0200)
+
+> <command-message>zenray-calendar-plan</command-message> (24 October 2026, 14:12:06 +0200)
+> <command-name>/zenray-calendar-plan</command-name> (24 October 2026, 14:12:06 +0200)
+> <command-args>j'ai rdv maintenant avec un tech artist propose un petit brief pour lui poser des questions</command-args> (24 October 2026, 14:12:06 +0200)
+
+## 24 October 2026, 14:12:06 +0200 : Prompt
+
+<!-- feedback-event:ae756b42fed7b8be3307a461e532a7e5e238d4a91d9cbe573a7e7da6d5b516bf (24 October 2026, 14:12:06 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (24 October 2026, 14:12:06 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 14:12:06 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-calendar-plan (24 October 2026, 14:12:06 +0200)
+>
+> # ZenRay Calendar Plan (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> Le Plan du drive ZenRayProgress est l'unique agenda écrit par l'agent ; le Worker `zenray-plan-gcal` le recopie dans Google Calendar (matth.huguet@gmail.com) en une minute environ, et ce qui est créé dans Google revient dans le Plan avec `source: 'gcal'`. On n'écrit donc jamais directement dans Google : on écrit le Plan, on relit les deux. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## PRIORITÉ 0 ABSOLUE : une journée non définie se définit au début, en posant la question (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - Mots de Matthieu (23 October 2026) : « de chaque jour, si les tâches ne sont pas définies, tu les définis au début en posant la question ». Au premier message d'une journée de travail : `node $C day --date <aujourd'hui>` ; si elle est vide ou incomplète, UNE question (que fais-tu aujourd'hui, combien de temps chaque chose ?), puis fiche du jour, `fit --apply`, `check` vert. Inscrit aussi dans `/Users/zenray/.claude/CLAUDE.md` et `/Users/zenray/.claude/rules/ZenRayProjects1.md`. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Repas et temps libre (23 October 2026) : « Déjeuner » et « Dîner » sont TOUJOURS écrits comme de vraies tâches du Plan : `fit` les ajoute seul (`DAY.meals`, à leur heure ou au premier trou avant `latest`), sauf si la journée en a déjà un ; une fiche peut les déplacer en les donnant comme tâches `at` + `durationMin`. Un long trou voulu s'écrit « Temps libre ». Avant cette correction, le déjeuner était seulement réservé sans être écrit, et Matthieu ne le voyait nulle part. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Forme type de journée validée (23 October 2026) : prospection au début, Louisiana Bayou (ou le chantier du moment), sport, retour et déjeuner, japonais, temps libre, dîner. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## La règle de Matthieu, dans ses mots (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - « Chaque tâche, je la découpe par bloc de 15 minutes, et en général il me faut quatre sessions de 15 minutes avec une petite pause de 5 minutes. » Une session vaut donc 4 x 15 + 3 x 5 = 75 minutes. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - « Environ 5 à 15 minutes de pause entre les événements », et « ce serait critique de mettre deux choses en même temps ». Le contrôle `check` rend un code de sortie 1 au moindre chevauchement. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - « Le but, ce n'est pas qu'il n'y ait jamais de trous » : le repos est voulu ; on remplit avec ce qu'il a demandé, jamais avec des tâches inventées. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Toujours obtenir la durée de chaque tâche avant de placer : rendez-vous, sport, prospection. Une durée inconnue prend `defaultWorkMin` (60 minutes de travail, soit une session) et se dit comme supposée. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## Les commandes (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ```bash (24 October 2026, 14:12:06 +0200)
+> C=/Users/zenray/.claude/skills/zenray-calendar-plan/scripts/CalendarPlan.mjs (24 October 2026, 14:12:06 +0200)
+> T=/Users/zenray/.claude/skills/zenray-calendar-plan/scripts/PlanTool.mjs (24 October 2026, 14:12:06 +0200)
+> node $C day   --date 2026-10-24            # Plan + Google Calendar fusionnés, chevauchements signalés (24 October 2026, 14:12:06 +0200)
+> node $C check --date 2026-10-24 [--json]   # vérificateur : sortie 1 si deux choses se chevauchent (24 October 2026, 14:12:06 +0200)
+> node $C fit   --spec <jour>.json [--apply] # place la journée ; essai à blanc par défaut, relit et revérifie après --apply (24 October 2026, 14:12:06 +0200)
+> node $C selftest                           # vert sur un bon cas, rouge sur un chevauchement (24 October 2026, 14:12:06 +0200)
+> node $T list   --from 2026-10-24 --to 2026-10-30 (24 October 2026, 14:12:06 +0200)
+> node $T series --from 2026-10-24 --days 7 --start 09:00 --end 10:30 --title "..." --note "..." --apply (24 October 2026, 14:12:06 +0200)
+> node $T rename --match "<fragment>" --title "<nouveau>" [--from .. --to ..] --apply (24 October 2026, 14:12:06 +0200)
+> node $T times  [--strip] --from .. --to .. --apply   # heure dans le titre, seulement si voulue dans Google (24 October 2026, 14:12:06 +0200)
+> ``` (24 October 2026, 14:12:06 +0200)
+>
+> - Paramètres (23 October 2026) : en tête de `CalendarPlan.mjs`, objet `DAY` (début 09:00, fin 21:00, bloc 15, pause 5, 4 blocs par session, marge 10 entre événements, repas `meals` écrits comme tâches, déjeuner 12:30 et dîner 19:30, 60 minutes chacun, 60 minutes de travail par défaut ; `breaks` est vide). Accès au Plan et à Google : `scripts/PlanApi.mjs` (objet `API`, chemin du plan, trousseau, fuseau Europe/Paris), partagé par les deux outils. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Fiche d'une journée (23 October 2026) : un JSON dans `/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026/days/<date>.json`. Une tâche existante se désigne par `match` (un fragment unique de son titre) : `fixed: true` la laisse en place, sinon elle est déplacée au premier trou ; une tâche nouvelle a `title`, et soit `at` + `durationMin` (fixe), soit `workMin` [+ `after`] (flexible). Toute tâche du jour non nommée reste en place et compte comme occupée. Une tâche flexible de plus de 60 minutes est coupée en sessions « (1/2) », « (2/2) ». La note de chaque tâche flexible reçoit sa ligne « Blocs : 10:40-10:55 bloc 1/4 · 10:55-11:00 pause · ... », remplacée à chaque nouveau placement. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Le placement refuse de travailler à l'aveugle (23 October 2026) : si Google Calendar ne se lit pas, `fit` s'arrête ; une tâche fixe qui chevauche une autre lève une erreur qui les nomme. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## Le geste de chaque début de journée (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> 1. `progress.mjs tail --count 3`, puis `node $C day --date <aujourd'hui>` et `check` : signaler tout chevauchement en une ligne et le corriger. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> 2. Recueillir ce que Matthieu annonce (« demain je fais du sport, j'ai un rendez-vous, je dois envoyer des messages aux studios ») et la durée de chaque chose ; chercher l'heure des rendez-vous dans le Plan, Google Calendar, puis les mails (`/Users/zenray/.claude/Memory1/Mails/Mails1.md`, sinon le MCP Gmail s'il est branché). Une heure introuvable se dit « non vérifiée ». (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> 3. Écrire la fiche du jour, `fit` à blanc, montrer la journée en un tableau, puis `--apply`, puis `check` vert. Une minute plus tard, `day` montre les mêmes heures côté Google. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> 4. Consigner par le skill `progress` (une ligne : jour posé, preuve 0 chevauchement). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## L'ordre de priorité d'une journée (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - Cap octobre et novembre 2026, fixé avec Andreas (ami et coach) le 23 October 2026 : environ 10 000 € de chiffre d'affaires ; moins de développement, plus de prospection et de vente ; dès qu'une mission est signée, recontacter Andreas. Règles de vente et calculs : skill `zenray-sales` (Sales1.md). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Ordre de placement (23 October 2026) : rendez-vous fixes d'abord ; puis la prospection le matin, 10 studios par jour au minimum (série « 10 mails par jour aux studios », 09:00-10:30 du 24 au 30 October 2026, règle « calendrier d'abord, 9 h à 10 h 30 prospection avant tout développement » de `zenray-sales`) ; le japonais l'après-midi ; le sport à 17:00 ; le développement seulement dans ce qui reste. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - La tâche de publication du jour se pose par le skill `zenray-plan-publish`, qui garde aussi le code de la synchronisation Google (`PlanGcalSync.mjs`, `GcalAuth.mjs`). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## Liens avec les autres outils (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - Contexte d'une question (« est-ce que j'ai déjà prévu… », « quand ai-je vu… ») : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Knowledge/knowledge.mjs ask "<question>"` (skill `zenray-knowledge`). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Tâches ouvertes d'une session : skill `prompt-stacking` ; journal : skill `progress` ; projet Assets `zenray-calendar-plan-23-october-2026` (et l'ancien `zenray-plan` pour l'historique du code du Plan). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Code du Plan sur le site (tuiles, heure en haut à gauche, polices) : dépôt ZenRayProgress, `src/create/PlanBoard.jsx` et `src/create/planUiConfig.js`, skill `zenray-progress`. Historique de ces réglages, du 22 August au 23 October 2026 : `/Users/zenray/.claude/Memory1/Projects/zenray-plan/Project1.md` et sa copie `references/zenray-plan-history.md`. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## Pièges (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - Le Plan donne 90 minutes par défaut à une tâche créée à la main : la durée d'un rendez-vous posé ainsi n'est pas une information, il faut la demander ou la lire dans l'invitation. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Le 24 October 2026, « Nibir Khan RDV » et la série de prospection étaient tous deux à 09:00 ; `check` l'a vu rouge, `fit` a déplacé la prospection à 10:40, `check` est revenu vert. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Le titre d'une tâche ne porte plus l'heure : la tuile la calcule depuis `startTime` et `durationMin` (règle du 23 October 2026, 16:55). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Une lecture du Plan ratée n'est jamais un Plan vide ; l'écriture passe toujours par lecture fraîche, sha, et rejoue en conflit (`mutatePlan`). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## Projet Assets et article (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - Projet `zenray-calendar-plan-23-october-2026`, atelier `/Users/zenray/.claude/tmp/tmp-zenray-calendar-plan-23-october-2026` (fiches de jour dans `days/`, `Scripts/MakeHero.mjs` pour l'image d'une journée, `Scripts/CheckArticle.mjs`), mémoire `/Users/zenray/.claude/Memory1/Projects/zenray-calendar-plan-23-october-2026/Project1.md`. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Article en ton neutre court : `/Users/zenray/.claude/skills/zenray-edit/articles/23-October-2026-zenray-calendar-plan/index.html` ; définition `Drafts/Article/Article-23-October-2026.json` de l'atelier, rendue par `render-project-article.mjs`, classée par `file-article.mjs` (une modification crée V_002). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - 24 October 2026 : une fiche de jour accepte `{ "match": "...", "drop": true }`, qui retire une tâche de la journée (statut dropped, réversible dans le Plan) et libère son créneau. Premier usage : RDV Nibir Khan retiré le 23 October 2026 au soir, faute de réponse ; prospection recalée à 09:00-10:15 et 10:25-11:40. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - 23 October 2026 (mots de Matthieu) : « 10 mails aux studios » et « prospection, contacts missions » sont la MÊME chose ; il ne fait pas de candidature spontanée. Ne jamais poser deux tâches de prospection distinctes le même jour : une seule tâche de prospection, allongée si besoin. Doublon du 24 October 2026 retiré. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - 23 October 2026 : une fiche de jour accepte `"breaks"` pour déplacer le déjeuner (ex. retour du sport puis repas 13:10-14:00) ; correctif : une tâche existante déplacée par `at` garde son titre (le sport du 24 October 2026 avait pris le titre « undefined », réparé). (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - Piège payé (23 October 2026) : la vue Plan du site lit le fichier par raw.githubusercontent, en cache quelques minutes ; juste après une écriture, Matthieu voyait encore l'ancienne journée alors que le fichier et Google Calendar étaient à jour. `check` dit désormais « site Plan view: up to date » ou « NOT yet up to date » ; ne pas annoncer « c'est dans ton Plan » avant la ligne « up to date ». (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> ## L'article Assets suit le skill, toujours (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - Mots de Matthieu (23 October 2026) : « l'article, c'est aussi une source de vérité, tout comme le skill » ; « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». L'article V1 était écrit à la main une seule fois et disait encore « déjeuner jamais écrit » après la correction. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Correction de conception (23 October 2026) : l'article n'a plus de texte propre, il est GÉNÉRÉ depuis ce SKILL.md par `/Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs`, réglé par `ARTICLE.json` de ce skill (projet, titre, image d'ouverture refaite par `Scripts/MakeHero.mjs`). `sync-skill.sh` l'appelle à chaque consignation : article rendu, contrôlé (pas de tiret long, pas de débordement desktop ni mobile), publié dans Assets, envoyé au cloud ; un échec sort en code 3 avec « ARTICLE NOT REFRESHED ». (23 October 2026) (24 October 2026, 14:12:06 +0200)
+> - Contrôle (23 October 2026) : `node /Users/zenray/.claude/skills/zenray-edit/scripts/refresh-skill-article.mjs zenray-calendar-plan --check` sort 0 seulement si l'article correspond au SKILL.md actuel ET que son envoi cloud est `done`. On modifie le SKILL.md, jamais l'article. (23 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+> - 24 October 2026 : le principe est généralisé à tous les articles Assets (Registry.json, refresh-articles.mjs, LaunchAgent com.zenray.articles-refresh) ; détail dans le skill zenray-assets, section du 24 October 2026. (24 October 2026) (24 October 2026, 14:12:06 +0200)
+>
+>
+> ARGUMENTS: j'ai rdv maintenant avec un tech artist propose un petit brief pour lui poser des questions (24 October 2026, 14:12:06 +0200)
+
+## 24 October 2026, 14:12:34 +0200 : Iteration
+
+<!-- feedback-event:b82dc7eb37d452773510227b5a2f190e56a2e5368c2c83f93861a22c413ffc99 (24 October 2026, 14:12:34 +0200) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (24 October 2026, 14:12:34 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (24 October 2026, 14:12:34 +0200)
+
+> Voici un brief à garder sous les yeux pendant l'appel, construit pour obtenir deux choses : comprendre comment il trouve ses missions, et repartir avec un nom ou une piste concrète. (24 October 2026, 14:12:34 +0200)
+>
+> **Ouverture (2 minutes)** (24 October 2026, 14:12:34 +0200)
+> - Remercie-le pour son temps, puis présente-toi en une phrase : « Tech artist freelance, Houdini et Unreal, je fais du procédural (UV, textures Copernicus, environnements comme Louisiana Bayou). » (24 October 2026, 14:12:34 +0200)
+> - Dis-lui clairement ce que tu viens chercher : « J'aimerais comprendre comment tu as construit ton activité et où se trouvent les missions. » (24 October 2026, 14:12:34 +0200)
+>
+> **Son parcours** (24 October 2026, 14:12:34 +0200)
+> 1. Comment as-tu décroché ta première mission de tech art ? (24 October 2026, 14:12:34 +0200)
+> 2. Aujourd'hui, d'où viennent tes clients : réseau, LinkedIn, plateformes, studios qui te recontactent ? (24 October 2026, 14:12:34 +0200)
+> 3. Plutôt freelance, CDI ou les deux ? Pourquoi ce choix ? (24 October 2026, 14:12:34 +0200)
+>
+> **Le marché** (24 October 2026, 14:12:34 +0200)
+> 4. Quels types de studios ou de projets ont le plus besoin d'un tech artist en ce moment (jeu, cinéma, archi, pub) ? (24 October 2026, 14:12:34 +0200)
+> 5. Qu'est-ce qui est le plus demandé : outils et pipeline, shaders, procédural, optimisation ? (24 October 2026, 14:12:34 +0200)
+> 6. Houdini et Unreal ensemble, c'est un profil recherché ou plutôt une niche ? (24 October 2026, 14:12:34 +0200)
+>
+> **L'argent, si le contact s'y prête** (24 October 2026, 14:12:34 +0200)
+> 7. Quel tarif journalier est réaliste pour un profil comme le mien ? (24 October 2026, 14:12:34 +0200)
+> 8. Sur une mission, qu'est-ce qui fait monter le prix : le délai, la complexité, la licence des outils ? (24 October 2026, 14:12:34 +0200)
+>
+> **La prospection** (24 October 2026, 14:12:34 +0200)
+> 9. Quand tu contactes un studio, qu'est-ce qui marche ? Un mail, un portfolio, une démo ? (24 October 2026, 14:12:34 +0200)
+> 10. Qu'est-ce qui te ferait répondre à un message comme le mien ? (24 October 2026, 14:12:34 +0200)
+>
+> **La clôture (le plus important)** (24 October 2026, 14:12:34 +0200)
+> 11. « Est-ce que tu connais une ou deux personnes ou studios à qui je devrais parler ? » (24 October 2026, 14:12:34 +0200)
+> 12. « Je peux te montrer un travail récent dans quelques semaines pour avoir ton avis ? » (24 October 2026, 14:12:34 +0200)
+>
+> Note pendant l'appel trois choses seulement : les noms qu'il cite, le tarif qu'il annonce, et ce qu'il te conseille de changer. (24 October 2026, 14:12:34 +0200)
+>
+> Si Nibir Khan est bien ce tech artist, son rendez-vous de 9 h chevauche dans ton Plan la prospection et Louisiana Bayou. Je recale la journée après l'appel si tu me donnes sa durée réelle. (24 October 2026, 14:12:34 +0200)
