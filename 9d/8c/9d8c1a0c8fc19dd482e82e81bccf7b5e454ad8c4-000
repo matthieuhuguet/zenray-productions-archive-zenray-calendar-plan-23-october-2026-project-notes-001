@@ -1664,3 +1664,71 @@
 > - **Lupin :** je ne connais pas le nombre d'épisodes restants, j'ai donc mis une heure. (25 October 2026, 12:16:35 +0100)
 > - **Les shorts :** ils ne sont prévus que les jours travaillés. (25 October 2026, 12:16:35 +0100)
 > - **Samedi :** en testant la correction, j'ai ajouté le déjeuner et le dîner à samedi, puisque les repas sont maintenant toujours notés. (25 October 2026, 12:16:35 +0100)
+
+## 25 October 2026, 12:24:17 +0100 : Prompt
+
+<!-- feedback-event:5de3e119ae8d213bcfcb4e33a17380a3243869f91745919f94da4cf652b1b1e4 (25 October 2026, 12:24:17 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (25 October 2026, 12:24:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:24:17 +0100)
+
+> l'article ? (25 October 2026, 12:24:17 +0100)
+
+## 25 October 2026, 12:24:26 +0100 : Prompt
+
+<!-- feedback-event:2b77ade9e99c3d85d248710ce0c34dc1d3e93a3434d86a77821dcdff4097fd91 (25 October 2026, 12:24:26 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (25 October 2026, 12:24:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:24:26 +0100)
+
+> [Request interrupted by user for tool use] (25 October 2026, 12:24:26 +0100)
+
+## 25 October 2026, 12:24:34 +0100 : Prompt
+
+<!-- feedback-event:674b74ee17d9b4777e43042ba56f4990fdc67eb6aa69a5f72990552f3d1a29f1 (25 October 2026, 12:24:34 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (25 October 2026, 12:24:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:24:34 +0100)
+
+> l'article ? de quoi tu parle /zenray-1-line (25 October 2026, 12:24:34 +0100)
+
+## 25 October 2026, 12:24:35 +0100 : Prompt
+
+<!-- feedback-event:2600cf3f6174726920e594217b01e3f72f014fcac42f2f02dcd78a2fb7bee7d8 (25 October 2026, 12:24:35 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (25 October 2026, 12:24:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:24:35 +0100)
+
+> [Request interrupted by user for tool use] (25 October 2026, 12:24:35 +0100)
+>
+> l'article ? de quoi tu parle /zenray-1-line (25 October 2026, 12:24:35 +0100)
+
+## 25 October 2026, 12:24:36 +0100 : Iteration
+
+<!-- feedback-event:27f600a421ac238e7d769010752ee787588943b1f5700532847d1e6018cd99f8 (25 October 2026, 12:24:36 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (25 October 2026, 12:24:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:24:36 +0100)
+
+> Je parle de l'article ZenRay Calendar Plan dans ZenRay Assets, qui se reconstruit tout seul à partir du skill chaque fois que je le modifie : il s'est republié ce matin avec le plan de la semaine, et je voulais seulement vérifier que son envoi dans le cloud était terminé. (25 October 2026, 12:24:36 +0100)
+
+## 25 October 2026, 12:24:49 +0100 : Prompt
+
+<!-- feedback-event:f61db073b4c18ea9b631c8e3ff2691fe1ae83faa5d7f1a07d2ce61db0ee66e7d (25 October 2026, 12:24:49 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (25 October 2026, 12:24:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:24:49 +0100)
+
+> Ah oui pardon status du coup ? (25 October 2026, 12:24:49 +0100)
+
+## 25 October 2026, 12:25:14 +0100 : Iteration
+
+<!-- feedback-event:b8952a6e96d775e28ee513c9e22a0c16765cea0c5b38ab8e33bc3768fc73796d (25 October 2026, 12:25:14 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (25 October 2026, 12:25:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:25:14 +0100)
+
+> La file d'envois du service Assets compte 15 travaux en attente et aucun en cours : elle semble bloquée. Je regarde pourquoi. (25 October 2026, 12:25:14 +0100)
+
+## 25 October 2026, 12:25:47 +0100 : Iteration
+
+<!-- feedback-event:f3fde3eb40fe2d26df7d9558f2ad20f08fca2958bdf50dd37cd56993f7b71c6f (25 October 2026, 12:25:47 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (25 October 2026, 12:25:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:25:47 +0100)
+
+> L'article est à jour avec le skill, mais il n'est pas encore dans le cloud. Son envoi attend depuis 12 h 16 en tête d'une file de 15 envois, et aucun n'est en cours pour l'instant. Une attente de cette durée reste habituelle, mais je surveille : je te dis dès qu'il est passé, ou si la file s'avère bloquée. (25 October 2026, 12:25:47 +0100)
+>
+> Les autres articles sont à jour. ZenRay Sales semblait en défaut, mais c'était une erreur du contrôle, que j'ai corrigée. (25 October 2026, 12:25:47 +0100)
