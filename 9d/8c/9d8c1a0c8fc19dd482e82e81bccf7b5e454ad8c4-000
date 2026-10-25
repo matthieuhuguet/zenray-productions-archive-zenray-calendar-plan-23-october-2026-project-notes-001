@@ -1591,3 +1591,76 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 11:59:20 +0100)
 
 > J'attends que la vue du site et Google Calendar affichent la nouvelle semaine ; je te fais le bilan dès que c'est constaté. (25 October 2026, 11:59:20 +0100)
+
+## 25 October 2026, 12:14:16 +0100 : Prompt
+
+<!-- feedback-event:49db991f3c8695c335fd7a19b0b749052ff6bd7fb7944bc28becbd42b2854dc0 (25 October 2026, 12:14:16 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (25 October 2026, 12:14:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:14:16 +0100)
+
+> <task-notification> (25 October 2026, 12:14:16 +0100)
+> <task-id>bzfpu7ec5</task-id> (25 October 2026, 12:14:16 +0100)
+> <tool-use-id>toolu_01GoS9HMkPWsKpxjAXVZtjmz</tool-use-id> (25 October 2026, 12:14:16 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4/tasks/bzfpu7ec5.output</output-file> (25 October 2026, 12:14:16 +0100)
+> <status>completed</status> (25 October 2026, 12:14:16 +0100)
+> <summary>Background command "Attendre la vue du site et Google Calendar" completed (exit code 0)</summary> (25 October 2026, 12:14:16 +0100)
+> </task-notification> (25 October 2026, 12:14:16 +0100)
+
+## 25 October 2026, 12:14:24 +0100 : Iteration
+
+<!-- feedback-event:7f6336a3a0a610dbd839d653686864007065bedc8bcb93d2808737146914273a (25 October 2026, 12:14:24 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (25 October 2026, 12:14:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:14:24 +0100)
+
+> La vue du site est à jour pour les six jours, mais Google Calendar ne montre toujours qu'un événement dimanche, quinze minutes après. Je cherche pourquoi la synchronisation n'a pas suivi. (25 October 2026, 12:14:24 +0100)
+
+## 25 October 2026, 12:16:35 +0100 : Iteration
+
+<!-- feedback-event:1d4cd36a8049cffc33e99b7e21df2ac3b2c3a5b8f0814ee31a8aaabd1328db45 (25 October 2026, 12:16:35 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (25 October 2026, 12:16:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:16:35 +0100)
+
+> Ton plan est posé, et les règles sont consignées. Comme il était 11:55 quand tu as validé, j'ai décalé le dimanche à partir de midi en gardant l'ordre prévu. (25 October 2026, 12:16:35 +0100)
+>
+> **Aujourd'hui, dimanche 25** (25 October 2026, 12:16:35 +0100)
+>
+> | Heure | Tâche | (25 October 2026, 12:16:35 +0100)
+> |---|---| (25 October 2026, 12:16:35 +0100)
+> | 12:05-12:50 | Installer Trails in the Sky avec CrossOver | (25 October 2026, 12:16:35 +0100)
+> | 13:00-14:00 | Déjeuner | (25 October 2026, 12:16:35 +0100)
+> | 14:10-15:25 et 15:35-16:50 | Finir le module ZenRay Freelance | (25 October 2026, 12:16:35 +0100)
+> | 17:00-18:15 | Jouer à Trails in the Sky | (25 October 2026, 12:16:35 +0100)
+> | 18:25-19:25 | Lupin the Third, fin de la partie 2 | (25 October 2026, 12:16:35 +0100)
+> | 19:35-20:35 | Dîner | (25 October 2026, 12:16:35 +0100)
+> | 20:45-22:45 | Film japonais | (25 October 2026, 12:16:35 +0100)
+>
+> **La semaine.** Lundi, mardi, jeudi et vendredi suivent le même déroulé : (25 October 2026, 12:16:35 +0100)
+>
+> | Heure | Tâche | (25 October 2026, 12:16:35 +0100)
+> |---|---| (25 October 2026, 12:16:35 +0100)
+> | 09:00-10:15 | 10 à 100 mails aux studios | (25 October 2026, 12:16:35 +0100)
+> | 10:25-11:40 | Chantier du jour (lundi : finir Louisiana Bayou et le publier) | (25 October 2026, 12:16:35 +0100)
+> | 12:00-13:00 | Sport | (25 October 2026, 12:16:35 +0100)
+> | 13:10-14:10 | Déjeuner | (25 October 2026, 12:16:35 +0100)
+> | 14:20-15:35 | 3 shorts du jour | (25 October 2026, 12:16:35 +0100)
+> | 15:45-17:00 | Japonais | (25 October 2026, 12:16:35 +0100)
+> | 17:10-18:25 | Publier la suite de ton travail de tech artist | (25 October 2026, 12:16:35 +0100)
+> | 19:30-20:30 | Dîner | (25 October 2026, 12:16:35 +0100)
+>
+> Mercredi est un jour de repos : sport, repas et une œuvre libre de 15 h à 17 h, sans prospection. Samedi garde « Absolument avoir trouvé un contrat ». (25 October 2026, 12:16:35 +0100)
+>
+> **Un incident, réparé.** Le Plan était à jour, mais Google Calendar n'affichait rien de neuf. Le service qui recopie le Plan dans Google refusait de travailler : la semaine demandait 46 écritures, au-delà de sa limite de 25 par passage. J'ai lancé la synchronisation complète, et les 49 opérations sont passées. Désormais, l'outil la lance lui-même après chaque placement, donc ce blocage ne peut plus attendre en silence. (25 October 2026, 12:16:35 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 12:16:35 +0100)
+> |---|---|---| (25 October 2026, 12:16:35 +0100)
+> | Le dimanche organisé | Oui | 8 tâches, aucun chevauchement ; Google les montre aux mêmes heures | (25 October 2026, 12:16:35 +0100)
+> | La semaine organisée, mercredi et week-end en repos | Oui | Lundi relu dans Google avec 8 événements, mercredi avec 4 | (25 October 2026, 12:16:35 +0100)
+> | La prospection affichée comme « 10 à 100 mails » | Oui | Les 4 jours travaillés portent le nouveau titre | (25 October 2026, 12:16:35 +0100)
+> | Les règles dans le skill et CLAUDE.md | Oui | CLAUDE.md a une nouvelle ligne de priorité 0 et reste sous sa limite de taille | (25 October 2026, 12:16:35 +0100)
+> | Le lien vers Matthieu1.md | Oui | Il existait déjà ; la nouvelle ligne et les règles des projets ZenRay le rappellent | (25 October 2026, 12:16:35 +0100)
+> | L'article à jour | En cours | Il s'est republié seul, mais son envoi dans le cloud n'est pas encore terminé | (25 October 2026, 12:16:35 +0100)
+>
+> Trois points restent supposés : (25 October 2026, 12:16:35 +0100)
+> - **Lupin :** je ne connais pas le nombre d'épisodes restants, j'ai donc mis une heure. (25 October 2026, 12:16:35 +0100)
+> - **Les shorts :** ils ne sont prévus que les jours travaillés. (25 October 2026, 12:16:35 +0100)
+> - **Samedi :** en testant la correction, j'ai ajouté le déjeuner et le dîner à samedi, puisque les repas sont maintenant toujours notés. (25 October 2026, 12:16:35 +0100)
