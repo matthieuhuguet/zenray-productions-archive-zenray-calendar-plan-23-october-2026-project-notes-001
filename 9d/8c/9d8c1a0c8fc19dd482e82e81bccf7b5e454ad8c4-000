@@ -1732,3 +1732,25 @@
 > L'article est à jour avec le skill, mais il n'est pas encore dans le cloud. Son envoi attend depuis 12 h 16 en tête d'une file de 15 envois, et aucun n'est en cours pour l'instant. Une attente de cette durée reste habituelle, mais je surveille : je te dis dès qu'il est passé, ou si la file s'avère bloquée. (25 October 2026, 12:25:47 +0100)
 >
 > Les autres articles sont à jour. ZenRay Sales semblait en défaut, mais c'était une erreur du contrôle, que j'ai corrigée. (25 October 2026, 12:25:47 +0100)
+
+## 25 October 2026, 12:34:29 +0100 : Prompt
+
+<!-- feedback-event:ed60135916b334eff815581ebfb44801023a4a9cfc7657e3e2dffcbfc59163ac (25 October 2026, 12:34:29 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (25 October 2026, 12:34:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:34:29 +0100)
+
+> <task-notification> (25 October 2026, 12:34:29 +0100)
+> <task-id>bcfomksbr</task-id> (25 October 2026, 12:34:29 +0100)
+> <tool-use-id>toolu_01GejT6HTAUGtLfsbfXq1MCT</tool-use-id> (25 October 2026, 12:34:29 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4/tasks/bcfomksbr.output</output-file> (25 October 2026, 12:34:29 +0100)
+> <status>completed</status> (25 October 2026, 12:34:29 +0100)
+> <summary>Background command "Attendre l'envoi cloud de l'article" completed (exit code 0)</summary> (25 October 2026, 12:34:29 +0100)
+> </task-notification> (25 October 2026, 12:34:29 +0100)
+
+## 25 October 2026, 12:34:46 +0100 : Iteration
+
+<!-- feedback-event:1b6d593daf8da4fee4abc04d33ef9e180b49e1ca3711cf21645464504783c578 (25 October 2026, 12:34:46 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (25 October 2026, 12:34:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4.jsonl. (25 October 2026, 12:34:46 +0100)
+
+> L'article est à jour et dans le cloud. Sa dernière version (V_002, avec la semaine et la réparation de Google) correspond au skill, et son envoi s'est terminé sans erreur à 12 h 34. La file du service Assets avance de nouveau, avec un envoi en cours. (25 October 2026, 12:34:46 +0100)
