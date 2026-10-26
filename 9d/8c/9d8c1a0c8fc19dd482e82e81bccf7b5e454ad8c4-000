@@ -4381,3 +4381,232 @@
 > - **Vrais retards** : zenray-meshes passe à 1 222 fichiers (ils s'accumulent pendant que tu travailles dessus), et un projet en a 18. (26 October 2026, 13:57:18 +0100)
 >
 > Ces chiffres couvrent quatre minutes. Il faudra refaire le même calcul sur `Events.jsonl` dans quelques jours pour confirmer la baisse de la part des petites passes (92 % avant) et du temps d'écriture par jour. Le vrai clic pour fermer le popover reste à confirmer de ton côté. (26 October 2026, 13:57:18 +0100)
+
+## 26 October 2026, 14:52:39 +0100 : Prompt
+
+<!-- feedback-event:a0015610596cd3bd15175d2bfb1a58f518b0ea22f55a7b93601a88a8d7d2504a (26 October 2026, 14:52:39 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 14:52:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 14:52:39 +0100)
+
+> Et là, on reprend du coup ZenRay Freelance et on va avancer. On va faire minimum 10 mails aujourd'hui, idéalement 100 par rapport à ce que je t'ai dit. Genre, si on fait 100 mails par jour et que on le fait pendant 7 jours, bah, j'ai répondu à tout dans une semaine, tu vois. (26 October 2026, 14:52:39 +0100)
+> Donc c'est un objectif qui peut être très ambitieux et qui peut à la fois être très très puissant. (26 October 2026, 14:52:39 +0100)
+> Voici une réponse que j'ai obtenue le 12 octobre de la part de vodoo (26 October 2026, 14:52:39 +0100)
+>
+> <pasted_content id="bf15"> (26 October 2026, 14:52:39 +0100)
+> Hello Matthieu, (26 October 2026, 14:52:39 +0100)
+>   (26 October 2026, 14:52:39 +0100)
+> Thank you for taking the time to apply to Tech Artist - Portfolio team's position and for your interest in joining our team. We truly appreciate you considering us for the next step in your career. (26 October 2026, 14:52:39 +0100)
+>   (26 October 2026, 14:52:39 +0100)
+> After carefully reviewing your application, we've decided not to move forward with your profile at this time. While we were impressed by many aspects of your background, we're currently focusing on candidates whose experience more closely aligns with our immediate team needs. (26 October 2026, 14:52:39 +0100)
+>   (26 October 2026, 14:52:39 +0100)
+> I want to encourage you to keep an eye on our careers page, as we're constantly growing and opening new positions. You're welcome to apply again in the future if you see a role that matches your experience and interests. (26 October 2026, 14:52:39 +0100)
+>   (26 October 2026, 14:52:39 +0100)
+> We wish you the very best in your job search and future career endeavors. (26 October 2026, 14:52:39 +0100)
+>   (26 October 2026, 14:52:39 +0100)
+> Best regards, (26 October 2026, 14:52:39 +0100)
+> Voodoo (26 October 2026, 14:52:39 +0100)
+> </pasted_content id="bf15"> (26 October 2026, 14:52:39 +0100)
+>
+>   (26 October 2026, 14:52:39 +0100)
+>
+>
+> instruction = Du coup, sur mon truc de ZenRay Freelance, il m'avait répondu le 12 octobre. Et du coup, je vois que tu l'as remis dans les annonces du jour pour faire 10 emails. Donc en fait, il faut que tu prennes une autre annonce parce que celle-là, elle avait déjà été faite. Par contre, j'aimerais bien que tu me fasses une page pour par rapport au lot du jour. J'aimerais bien pouvoir trier et pouvoir avoir uniquement les annonces qui sont en France ou alors des studios français, genre, ou alors des studios francophones, tu vois, genre studios suisses, j'en sais rien, tu vois, mais des studios plutôt francophones. Pouvoir trier en fait directement les offres qui sont sur le territoire français. Tu peux faire pareil pour le territoire japonais et pour le territoire américain, s'il te plaît. (26 October 2026, 14:52:39 +0100)
+
+## 26 October 2026, 14:53:39 +0100 : Iteration
+
+<!-- feedback-event:ea7958d6ff1bec658ed15317b59b19f45e235ddb390d7f608b32ba2c060792a4 (26 October 2026, 14:53:39 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 14:53:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 14:53:39 +0100)
+
+> Je code d'abord le cœur : exclusion des annonces déjà traitées et région, avec tests. (26 October 2026, 14:53:39 +0100)
+
+## 26 October 2026, 14:54:50 +0100 : Iteration
+
+<!-- feedback-event:753811dc81b882745479bae3a2c3caeca56eb0e2982b9801d19e21db0606c4af (26 October 2026, 14:54:50 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 14:54:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 14:54:50 +0100)
+
+> Un test attend l'ancien appel `applyStart(5)` ; il est maintenant `applyStart(5, 'all')`. Je le mets à jour et j'ajoute les tests du filtre et du pont. (26 October 2026, 14:54:50 +0100)
+
+## 26 October 2026, 14:55:10 +0100 : Prompt
+
+<!-- feedback-event:e887b60225dbfffe49007159ea65277b55ca93906f3c6245856a28e3474fe9f8 (26 October 2026, 14:55:10 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 14:55:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 14:55:10 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 14:55:10 +0100)
+> Le but, c'est pas forcément d'exclure définitivement les studios déjà contactés ou refusés, c'est plutôt de au moins mettre une limite de 30 jours, voire de 90 jours, et de et d'afficher et de faire en fait une catégorie ou un widget ou une UI qui permette en fait de savoir si j'ai déjà contacté le studio. Notamment via un tool directement dans l'app de ZenRay Freelance, tu vois. Et un bouton aussi qui me permette de le faire sans passer par Claude, tu vois. /prompt-stacking a noter dans les rêgles (26 October 2026, 14:55:10 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 14:55:10 +0100)
+
+## 26 October 2026, 14:57:28 +0100 : Prompt
+
+<!-- feedback-event:608eea13678eddda595a33100a272d8db9ecc95fafd364028cf6f6f5bbfe7a81 (26 October 2026, 14:57:28 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 14:57:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 14:57:28 +0100)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (26 October 2026, 14:57:28 +0100)
+>
+> <tools-used-before-summary>Agent, Bash, Monitor, Read, SendUserFile, Skill, Write, mcp__Claude_Browser__computer, mcp__Claude_Browser__find, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__read_console_messages, mcp__Claude_Browser__resize_window, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up</tools-used-before-summary> (26 October 2026, 14:57:28 +0100)
+> Summary: (26 October 2026, 14:57:28 +0100)
+> 1. Primary Request and Intent: (26 October 2026, 14:57:28 +0100)
+>    - Matthieu (25 ans, tech artist, priorité argent : cap 10 000 € CA, prospection d'abord) veut avancer ZenRay Freelance : « minimum 10 mails aujourd'hui, idéalement 100 » par jour (100 mails × 7 jours = tout répondu en une semaine), stratégie de volume. (26 October 2026, 14:57:28 +0100)
+>    - Dernière série de demandes (non terminée) : (26 October 2026, 14:57:28 +0100)
+>      1. Voodoo avait répondu (refus) le 12 octobre ; il ne doit pas être dans le lot du jour : « il faut que tu prennes une autre annonce parce que celle-là, elle avait déjà été faite ». (26 October 2026, 14:57:28 +0100)
+>      2. Dans le lot du jour : pouvoir trier/filtrer uniquement les annonces en France ou studios français/francophones (ex. Suisse), idem Japon, idem États-Unis. (26 October 2026, 14:57:28 +0100)
+>      3. Correction : « ce n'est pas forcément d'exclure définitivement les studios déjà contactés ou refusés, c'est plutôt de mettre une limite de 30 jours, voire de 90 jours, et d'afficher et de faire une catégorie ou un widget ou une UI qui permette de savoir si j'ai déjà contacté le studio. Notamment via un tool directement dans l'app de ZenRay Freelance. Et un bouton aussi qui me permette de le faire sans passer par Claude. /prompt-stacking à noter dans les règles ». (26 October 2026, 14:57:28 +0100)
+>    - Autres demandes encore ouvertes : (A0) Matthieu doit confirmer par un vrai clic que le popover Assets se ferme au clic ailleurs ; (F3) préparer/ouvrir le lot de 10 (Apply) hors Voodoo. (26 October 2026, 14:57:28 +0100)
+>    - Contraintes permanentes utiles : workflows (outil Workflow) bannis sans double confirmation ; ne jamais piloter le navigateur personnel de Matthieu (navigateur interne/Chromium isolé Playwright OK) ; ZenRay Apply ne soumet jamais un formulaire, ne crée pas de compte, ne contourne pas de CAPTCHA/mur anti-bot ; ne jamais marquer « contacté » avant que Matthieu dise avoir envoyé ; tout nouveau fichier de règle/skill avec date en anglais ; jamais `git add -A` dans ~/.claude ; déployer ZenRayProgress seulement depuis origin/main à jour (`npx vite build && npx wrangler pages deploy dist --project-name zenray-progress --branch main`), vérifier que l'`index-*.js` servi = build local puis relire `scripts/Freelance/CheckProduction.mjs` ; le code du drive n'est jamais tapé par l'agent (vérification via page de test locale) ; chemins toujours absolus ; réponses concises, clôture par tableau 3 colonnes (voulait / fait / comment je le sais) + reformulation courte du prompt + 1–3 termes définis ; pas de tiret cadratin. (26 October 2026, 14:57:28 +0100)
+>
+> 2. Key Technical Concepts: (26 October 2026, 14:57:28 +0100)
+>    - ZenRayProgress (React/Vite, Cloudflare Pages), ZenRay Freelance (moteur local `com.zenray.freelance` port 3101, données dans repo privé zenray-data `freelance/applications.json`, clone local `~/Library/Application Support/ZenRayFreelance/DataClone`), ZenRay Apply (Chromium isolé Playwright, pré-remplissage, index ZR-0001 permanent dans `ApplyIndex.json`, pastille d'onglet Copier). (26 October 2026, 14:57:28 +0100)
+>    - Statuts studio : `to_contact`, `contacted`, `replied`, `declined`, `deprecated` ; `postingKey` (studio + rôle nettoyé) identique côté page (`src/lib/freelanceBatch.js`) et moteur (`scripts/Freelance/lib/PostingKey.mjs`) ; `countryOf(studio)` (codes FR, BE, CH, CA, JP, US…, Québec détecté via ville). (26 October 2026, 14:57:28 +0100)
+>    - Assets V2 (daemon port 3100, writer lock unique `writer.lock/owner.json`, file série, `Events.jsonl`, popover macOS Swift `NativeDashboard/main.swift`, `Install.mjs`, `Verify.mjs` avec fixtures natives). (26 October 2026, 14:57:28 +0100)
+>    - Principe HDA : valeurs en jetons/paramètres (ex. `planUiConfig.js`, `--sb-*`, `COOLDOWN`). (26 October 2026, 14:57:28 +0100)
+>    - prompt-stacking : état dans `/Users/zenray/.claude/38575095-b716-47ed-af1d-bf22b8ff30eb/prompt-stacking.md`. (26 October 2026, 14:57:28 +0100)
+>
+> 3. Files and Code Sections: (26 October 2026, 14:57:28 +0100)
+>    - `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/lib/freelanceBatch.js` (MODIFIÉ, non commité) : cœur du lot. Ajouts : `REGIONS` (all/fr/jp/us avec libellés « France et francophone », « Japon », « États-Unis »), `regionOf(studio)` (FR,BE,CH,LU,MC + Québec/Montréal + texte francophone → 'fr'; JP→'jp'; US→'us'), `APPLIED_STATUSES=['contacted','replied','declined']`, `COOLDOWN={days:30, options:[30,90]}`, `lastContactDay(studio)` (max de contactedAt, messages[].at, history[].at des statuts appliqués), `appliedRecords(studios,today)` (non daté = traité comme récent), `studioContacts(studios,today)` (Map studioKey → enregistrements récents-d'abord), `cooledPostings`, `pickBatch(studios,{today,size,perStudio,minScore,region='all',cooldownDays=COOLDOWN.days})` (exclut les postingKey traités depuis moins de cooldownDays), `regionCounts(studios,{today,minScore,cooldownDays})` → `{all,fr,jp,us,cooling}`. (26 October 2026, 14:57:28 +0100)
+>    - `src/lib/freelanceBatch.test.js` (MODIFIÉ) : tests cooldown Voodoo (14 jours, bornes 7/30/90 jours), `studioContacts`/`lastContactDay`, filtres territoires ; 9 tests verts. (26 October 2026, 14:57:28 +0100)
+>    - `src/components/freelance/FreelanceBatch.jsx` (MODIFIÉ) : import `REGIONS, regionCounts`; état `region` persisté (`zr:freelance:batchRegion:v1`), `counts`, rangée de boutons territoire avec compteurs (`role="group" aria-label="Territoire du lot"`), `pickBatch(..., {region})`, `bridge.applyStart(size, region)`. PAS ENCORE fait : sélecteur de délai 30/90 j, compteur « masquées », widget « déjà contacté ? », badges de contact sur cartes, bouton marquer envoyés par index. Note : `regionCounts` retourne maintenant aussi `cooling` ; le test FreelanceBatch utilise `Tout 4`. (26 October 2026, 14:57:28 +0100)
+>    - `src/components/freelance/FreelanceBatch.test.jsx` (MODIFIÉ) : `applyStart(5,'all')`; nouveau test territoire/persistance/`applyStart(10,'jp')`. (26 October 2026, 14:57:28 +0100)
+>    - `src/lib/freelanceBridge.js` : `applyStart: (size, region='all', options) => request('apply-start',{size,region},options)`. (26 October 2026, 14:57:28 +0100)
+>    - `scripts/Freelance/Service.mjs` : `apply.start(payload.size, payload.region)`. (26 October 2026, 14:57:28 +0100)
+>    - `scripts/Freelance/lib/ApplyBridge.mjs` : `start(size, region='all')` valide 'all|fr|jp|us', passe `--region <r>` à Apply.mjs ; retourne `region`. Test ajouté dans `ApplyBridge.test.js`. (26 October 2026, 14:57:28 +0100)
+>    - `scripts/Freelance/Apply.mjs` (`--region` transmis à `pack`), `scripts/Freelance/ApplyLoop.mjs` (`selectOffers`/`buildQueue` acceptent `region`, `pack` lit `args.region`). (26 October 2026, 14:57:28 +0100)
+>    - `scripts/Freelance/StoreMerge.mjs` + test : une exclusion permanente avait été ajoutée puis REVERTÉE (`git checkout --`) car contraire à la nouvelle consigne (le cooldown décide dans `pickBatch`). (26 October 2026, 14:57:28 +0100)
+>    - Déjà en production avant ce chantier : `FreelancePaperViews.jsx`, `paper.css`, `ui.jsx`, vues C/B/A, GT Standard L (public/fonts), Sidebar (jetons `--sb-*`, Freelance sous Plan), `ApplyIndex.mjs`, `TabBadge.js`, etc. (26 October 2026, 14:57:28 +0100)
+>    - Assets (poussés/déployés) : `scripts/AssetsService.mjs`, `scripts/lib/QueueHealth.mjs(+test)`, `scripts/lib/AssetsPassive.mjs(+test)`, `scripts/local-server.mjs`, `scripts/Assets/NativeDashboard/{main.swift,Actions.mjs,Model.mjs,FixtureAdapter.mjs,Verify.mjs}`, `scripts/Assets/ConversationIndexSync.mjs`, `scripts/AssetsConfig.json`. (26 October 2026, 14:57:28 +0100)
+>    - Skills mis à jour : `~/.claude/skills/zenray-freelance/SKILL.md`, `~/.claude/skills/zenray-assets/SKILL.md` (plusieurs sections du 26 October 2026), `~/.claude/rules/Typography1.md`, `~/.claude/CLAUDE.md`. (26 October 2026, 14:57:28 +0100)
+>    - Données réelles utiles : Voodoo a 15 records ; declined `job_f1ad9a5f06dd8e8aefef` (arbeitnow, DE, 67, 2 messages) vs doublon to_contact `job_a2054a152e6e7095edec` (Ashby, France, 85) ; répartition des offres à contacter : FR 59, BE 2, CA 130 (beaucoup de Montréal), US 117, JP 14, OTHER 174. (26 October 2026, 14:57:28 +0100)
+>
+> 4. Errors and fixes: (26 October 2026, 14:57:28 +0100)
+>    - CLAUDE.md tronqué par un premier script → restauré depuis `scratchpad/CLAUDE.before.md`, modification refaite (65 102 octets, `extract-rules.mjs --verify` vert). (26 October 2026, 14:57:28 +0100)
+>    - Kill du pid 50960 refusé par le classifieur (Interfere With Workloads) → ne pas contourner ; solution = bouton « Arrêter ce processus » dans le popover, cliqué par Matthieu. (26 October 2026, 14:57:28 +0100)
+>    - `sleep` chaîné interdit → utiliser Monitor/run_in_background. (26 October 2026, 14:57:28 +0100)
+>    - Test borne 90 jours (calcul 12 Oct→10 Jan = 90 j) corrigé ; helper de test pour la ville corrigé ; test `applyStart` mis à jour. (26 October 2026, 14:57:28 +0100)
+>    - Feedback de Matthieu : exclusion permanente = mauvaise interprétation → remplacée par délai 30/90 j + outil de consultation + bouton. (26 October 2026, 14:57:28 +0100)
+>
+> 5. Problem Solving: (26 October 2026, 14:57:28 +0100)
+>    - Cause du retour de Voodoo : le moteur n'ajoute en doublon que les sources « index: » ; le board officiel Ashby crée un nouveau record `to_contact` du même poste que l'ancien refusé ; `pickBatch` ne dédupliquait que parmi les candidats `to_contact`. Corrigé côté page par le cooldown sur `postingKey` des records traités. (26 October 2026, 14:57:28 +0100)
+>    - Lenteur Assets résolue/mesurée (voir analyse) ; file `ok`, 25–28 en attente, vrais retards : zenray-meshes (1 200+ fichiers), zenray-dictate, zenray-edit. (26 October 2026, 14:57:28 +0100)
+>
+> 6. All user messages (non tool results, résumés fidèles ; messages longs dictés vocalement) : (26 October 2026, 14:57:28 +0100)
+>    - (1) Reprise ZenRay Freelance : objectif 10 à 100 mails/jour, cartes pour le texte de lettre, envoyer à 10 studios aujourd'hui, ID/index mapping par page, 3 designs plus simples (garder tags contactés/répondus/refusés), postuler en freelance, ouvrir N onglets pré-remplis et lui renvoyer un index, sources complémentaires par recherche web ; /tasks-sequence, /zenray-resume-coordinator, /zenray-progress, /zenray-methodology (arbre de méthodes). (26 October 2026, 14:57:28 +0100)
+>    - (2) « C'est B uniquement pour ceux que j'ai pas contactés… vue A colonnes par statut max 3… vue C lot du jour 5 colonnes × 2 lignes… interface papier, sidebar papier aussi, ne rien cacher, toggles… Literata corps, GT Sectra titres, Inter reste. go coder. » (26 October 2026, 14:57:28 +0100)
+>    - (3) Image du lot + « tester GT Standard (titre) / GT Standard L (reste de l'UI), Literata corps, même les numéros… trois propositions /zenray-edit ». (26 October 2026, 14:57:28 +0100)
+>    - (4) « C. Tableau éditorial… ne fais aucune erreur et finis proprement » ; puis (en cours de tour) « update claude code et zenray edit avec simplement les nouvelles font : Literata et GT Standard L, en priorité par rapport à corps / titres / nombres ». (26 October 2026, 14:57:28 +0100)
+>    - (5) « pourquoi trio ? /zenray-1-line ». (26 October 2026, 14:57:28 +0100)
+>    - (6) Sidebar de gauche : GT Standard L à la place d'Inter, Literata (italique/bold, slider) à la place de GT Sectra, /zenray-edit uniquement sidebar ; puis « Freelance juste en dessous de Plan… ajoute au rework actuel dans le même html » ; puis valeurs `Sidebar fonts: --sb-title-weight:500; --sb-title-style:italic; --sb-title-size:17px; --sb-title-track:-0.01em; --sb-zone-gap:36px; --sb-ui-size:15px; --sb-ui-weight:400; --sb-ui-track:-0.015em; --sb-item-height:32px; --sb-active-weight:400 go et code directement.» (26 October 2026, 14:57:28 +0100)
+>    - (7) Plan : lire le fil Codex `codex://threads/01a1779c-e438-78e2-a3df-a723e47de83f` et le design `Plan-26-October-2026/index.html`, binder via Assets, A « vert clarifié » clair+sombre, pièces jointes à droite dépliables, mobile parfait, pouvoir déléguer à un agent Haiku ; puis « bon, il faut juste bind les conversations et tous les fichiers à Assets puis push sur cloud ». (26 October 2026, 14:57:28 +0100)
+>    - (8) « fix zenray assets pour débloquer les pushs /think-of-everything /tasks-sequence » ; (9) capture + « ça s'arrête à chaque projet à vérifier… décider via une notification/popover de l'icône en haut à droite pour que Claude reprenne » ; (10) « /think-of-everything je ne veux plus jamais que ça bloque, ça va te prendre du temps » ; (11) « pourquoi pas des lots de 1900 Mo… pourquoi l'upload est aussi lent ??? » ; (12) « quand je clique à côté, il faut absolument que le widget parte… /prompt-stacking ». (26 October 2026, 14:57:28 +0100)
+>    - (13) Message actuel : reprise Freelance, 10 mails minimum/100 idéal, réponse Voodoo du 12 octobre collée (refus « Tech Artist - Portfolio team »), instruction : prendre une autre annonce, page/filtres du lot (France/francophone, Japon, États-Unis). (26 October 2026, 14:57:28 +0100)
+>    - (14) Mid-turn : « Le but, c'est pas forcément d'exclure définitivement les studios déjà contactés ou refusés, c'est plutôt de mettre une limite de 30 jours, voire de 90 jours, et d'afficher… un widget ou une UI qui permette de savoir si j'ai déjà contacté le studio. Notamment via un tool directement dans l'app… Et un bouton qui me permette de le faire sans passer par Claude… /prompt-stacking à noter dans les règles ». (26 October 2026, 14:57:28 +0100)
+>
+> 7. Pending Tasks: (26 October 2026, 14:57:28 +0100)
+>    - F1 (en cours) : finir le cooldown côté UI (sélecteur 30 j/90 j persisté, défaut 30 ; compteur « N masquées »), widget/outil « Déjà contacté ? » (recherche par nom de studio : statuts, dates, rôles, via `studioContacts`), badges « contacté il y a N j » sur cartes du lot et lignes de liste, bouton « Marquer envoyés » par index ZR (champ collé → bridge `apply-sent-indexes` → `Apply.mjs sent ZR-…`) sans passer par Claude ; page Freelance déjà pourvue de « Fait »/« J'ai envoyé les prêtes ». (26 October 2026, 14:57:28 +0100)
+>    - Noter la règle dans `Memory1/Projects/zenray-freelance/Rules.md` via `python3 ~/.claude/skills/zenray-feedback/scripts/feedback.py add zenray-freelance "<règle>" --kind rule` (cooldown 30/90 j au lieu d'exclusion définitive ; territoires ; outil déjà-contacté ; bouton sans Claude ; prompt-stacking), mettre à jour le skill zenray-freelance et `sync-skill.sh zenray-freelance`, journal `progress.mjs append`. (26 October 2026, 14:57:28 +0100)
+>    - F2 : filtres territoires (codés, tests verts) → lancer tests complets (`npx vitest run scripts/Freelance src/components/freelance src/components/FreelanceView.test.jsx src/lib`), build, vérification visuelle (page de test locale harness, sans code du drive), commit/push sur origin/main, déploiement Cloudflare, contrôle bundle + `CheckProduction.mjs`. (26 October 2026, 14:57:28 +0100)
+>    - F3 : préparer le lot de 10 (`node scripts/Freelance/Apply.mjs 10 --open [--region fr|jp|us]`) hors Voodoo traité ; Matthieu envoie lui-même ; `Apply.mjs sent ZR-xxxx` après son retour. (26 October 2026, 14:57:28 +0100)
+>    - A0 : attendre le retour de Matthieu sur la fermeture du popover Assets au clic ailleurs ; mesurer sur plusieurs jours la part des passes ≤5 fichiers (92 % avant) ; adaptateurs Workable/Personio/BambooHR (8 sources en attente) ; dédupliquer le push de `.workspace.json` (non fait). (26 October 2026, 14:57:28 +0100)
+>    - Fichier d'état prompt-stacking à mettre à jour à chaque tâche (`/Users/zenray/.claude/38575095-b716-47ed-af1d-bf22b8ff30eb/prompt-stacking.md`). (26 October 2026, 14:57:28 +0100)
+>
+> 8. Current Work: (26 October 2026, 14:57:28 +0100)
+>    Immédiatement avant ce résumé : remplacement de l'exclusion permanente par un cooldown dans `src/lib/freelanceBatch.js` (fonctions `COOLDOWN`, `lastContactDay`, `appliedRecords`, `studioContacts`, `cooledPostings`, `pickBatch(...cooldownDays)`, `regionCounts(...).cooling`), tests `freelanceBatch.test.js` mis à jour (9 tests verts), après avoir revert les changements `StoreMerge`. Le code poussé en production à ce stade n'inclut PAS ces changements Freelance (non commités). Les fichiers modifiés non commités : Apply.mjs, ApplyLoop.mjs, Service.mjs, ApplyBridge.mjs(+test), FreelanceBatch.jsx(+test), freelanceBatch.js(+test), freelanceBridge.js. Dernier résultat de test : `src/lib/freelanceBatch.test.js` 9 passed ; la suite plus large (652) était verte avant le passage au cooldown, à relancer. (26 October 2026, 14:57:28 +0100)
+>
+> 9. Optional Next Step: (26 October 2026, 14:57:28 +0100)
+>    Continuer F1 exactement là où je m'étais arrêté : ajouter dans `FreelanceBatch.jsx` le sélecteur de délai (30 j / 90 j, utilisant `COOLDOWN.options`, persisté localStorage, passé à `pickBatch` et `regionCounts`), l'affichage « N annonces masquées par le délai », le widget « Déjà contacté ? » (utilisant `studioContacts`) et les badges de contact, plus le bouton « Marquer envoyés » par index (nouvelle action bridge/service/`ApplyBridge` → `Apply.mjs sent ZR-…`), puis tests, rule dans Rules.md via feedback.py (« à noter dans les règles »), build, commit/push, déploiement et vérification. Citation de la demande : « mettre une limite de 30 jours, voire de 90 jours, et d'afficher et de faire en fait une catégorie ou un widget ou une UI qui permette en fait de savoir si j'ai déjà contacté le studio… Et un bouton aussi qui me permette de le faire sans passer par Claude… /prompt-stacking a noter dans les rêgles ». (26 October 2026, 14:57:28 +0100)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl (26 October 2026, 14:57:28 +0100)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (26 October 2026, 14:57:28 +0100)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (26 October 2026, 14:57:28 +0100)
+
+## 26 October 2026, 14:58:06 +0100 : Iteration
+
+<!-- feedback-event:36f601f9a7867de1fff23a7e077449fdd4a057067faf767fe3db5b2fddee1209 (26 October 2026, 14:58:06 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 14:58:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 14:58:06 +0100)
+
+> Add lib helpers, then the bridge action for marking by index. (26 October 2026, 14:58:06 +0100)
+
+## 26 October 2026, 14:59:15 +0100 : Iteration
+
+<!-- feedback-event:4f330cefab07d974c207ee967e0c6e76f94a15db122cd4c20faa13af5a8c198b (26 October 2026, 14:59:15 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 14:59:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 14:59:15 +0100)
+
+> Les tests verts (237). J'ajoute un test composant pour le délai et le widget « déjà contacté », puis règle, build et déploiement. (26 October 2026, 14:59:15 +0100)
+
+## 26 October 2026, 15:00:25 +0100 : Iteration
+
+<!-- feedback-event:c55ad3e11440d121dce130fe8686f8d927f3b43644edd4c5e133d0c1ce8d99b5 (26 October 2026, 15:00:25 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 15:00:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 15:00:25 +0100)
+
+> Poussé sur origin/main ; je déploie maintenant sur Cloudflare puis je vérifie la production. (26 October 2026, 15:00:25 +0100)
+
+## 26 October 2026, 15:01:58 +0100 : Iteration
+
+<!-- feedback-event:3a7a1e136a623e756b1915f14f13b4b7bb8b1a9d27e5a140b894c700f1071528 (26 October 2026, 15:01:58 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 15:01:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 15:01:58 +0100)
+
+> Je relance la préparation du lot de 10 en arrière-plan (elle ne soumet rien) ; j'attends sa fin pour lire le résultat. (26 October 2026, 15:01:58 +0100)
+
+## 26 October 2026, 15:02:34 +0100 : Iteration
+
+<!-- feedback-event:c6003b5871b3d2ff7246f7e9ffc6889a1b2d7f0a5b9c461e9b3be2ec5917af4c (26 October 2026, 15:02:34 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 15:02:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 15:02:34 +0100)
+
+> Voodoo (ZR-0011) est quand même dans le lot : je diagnostique pourquoi le délai ne l'a pas retenu. (26 October 2026, 15:02:34 +0100)
+
+## 26 October 2026, 15:03:31 +0100 : Iteration
+
+<!-- feedback-event:100c791e9cd4e19ea05a00d29bdeec90951e0eaa123e8694fddf1a415cad57bb (26 October 2026, 15:03:31 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 15:03:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 15:03:31 +0100)
+
+> Le délai porte maintenant sur le studio entier (tests verts). Je mets à jour l'étiquette, la règle et le skill, puis je redéploie et je prépare un lot sans Voodoo. (26 October 2026, 15:03:31 +0100)
+
+## 26 October 2026, 15:04:51 +0100 : Iteration
+
+<!-- feedback-event:4cdc618b98ffddaaae841a5b3f9184cc5da4eed5ae20fb59a1084d282bd4caed (26 October 2026, 15:04:51 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 15:04:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 15:04:51 +0100)
+
+> Bundle servi = build local. J'attends le résumé du nouveau lot. (26 October 2026, 15:04:51 +0100)
+
+## 26 October 2026, 15:05:48 +0100 : Iteration
+
+<!-- feedback-event:a77c205a3dc053de74ca2bd22da56cebe70c4b87db23a8046a62b57ec1b860ad (26 October 2026, 15:05:48 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 15:05:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 15:05:48 +0100)
+
+> Voodoo ne sort plus dans le lot. Un autre poste de Voodoo (ZR-0011, Level Designer) était pourtant apparu dans le premier lot. Voodoo a refusé le 12 octobre, donc le délai porte maintenant sur le studio entier. Le studio revient le 11 novembre avec 30 jours, ou plus tard avec 90 jours. Gameloft a pris sa place dans le lot. (26 October 2026, 15:05:48 +0100)
+>
+> Pas vérifié : le contrôle de production des données (`CheckProduction.mjs`) échoue en 401, car il exige ton code du drive que je ne tape pas. Le contenu n'a pas changé, seul le code a été déployé. Le store local contient bien 901 studios, et le bundle servi est celui du build. (26 October 2026, 15:05:48 +0100)
+>
+> Le lot de 10 : (26 October 2026, 15:05:48 +0100)
+> - **Prêtes (5) :** Crystal Dynamics (×2), Scopely, Moon Active, Blackbird Interactive. Leurs pages sont ouvertes dans la fenêtre isolée de ZenRay Apply, pré-remplies. Rien n'est envoyé, relis puis envoie toi-même. (26 October 2026, 15:05:48 +0100)
+> - **Bloquées (5) :** People Can Fly, Ubisoft (×2), Ubisoft Montréal et Gameloft sont bloqués par un mur anti-bot ou n'ont pas de formulaire. Je ne les contourne pas, à ouvrir à la main. (26 October 2026, 15:05:48 +0100)
+>
+> Ce qui est en ligne : (26 October 2026, 15:05:48 +0100)
+> - **Territoire :** boutons avec compteurs pour France et francophone (BE, CH, LU, MC, Québec), Japon, États-Unis. (26 October 2026, 15:05:48 +0100)
+> - **Délai :** boutons 30 j / 90 j (30 par défaut), avec le compteur « N masquées ». (26 October 2026, 15:05:48 +0100)
+> - **Déjà contacté ? :** un champ où tu tapes un nom de studio pour voir le statut et l'ancienneté de chaque candidature. Les cartes du lot affichent aussi « déjà contacté il y a N j ». (26 October 2026, 15:05:48 +0100)
+> - **Marquer envoyés :** tu colles les index ZR et le bouton enregistre les envois sans passer par Claude. Je ne marque jamais « contacté » avant que tu le dises. (26 October 2026, 15:05:48 +0100)
+>
+> La règle est dans le fichier de règles du projet et dans le skill `zenray-freelance`, et le journal est à jour. (26 October 2026, 15:05:48 +0100)
+>
+> | Tu voulais | Fait ? | Comment je le sais | (26 October 2026, 15:05:48 +0100)
+> |---|---|---| (26 October 2026, 15:05:48 +0100)
+> | Voodoo hors du lot | Oui | Le deuxième lot ne contient plus Voodoo (Gameloft à la place) | (26 October 2026, 15:05:48 +0100)
+> | Filtres France, Japon, États-Unis | Oui | Tests verts et boutons avec compteurs (France 41, Japon 5, États-Unis 46 sur les données locales) | (26 October 2026, 15:05:48 +0100)
+> | Délai 30 ou 90 jours au lieu d'exclure | Oui | Tests des bornes (le studio revient à J+30 et J+90), bundle servi égal au build | (26 October 2026, 15:05:48 +0100)
+> | Savoir si j'ai déjà contacté un studio | Oui | Champ de recherche et badges testés | (26 October 2026, 15:05:48 +0100)
+> | Bouton sans passer par Claude | Oui | Test : `ZR-42` devient `ZR-0042`, envoyé au service local. Pas essayé sur un vrai envoi | (26 October 2026, 15:05:48 +0100)
+> | Règle notée | Oui | Ligne ajoutée dans le fichier de règles et dans le skill, synchronisé | (26 October 2026, 15:05:48 +0100)
+>
+> Ta demande reformulée : « Mets un délai de 30 ou 90 jours par studio au lieu d'exclure, filtre le lot par territoire, ajoute dans l'app un outil et un bouton pour savoir et marquer qui j'ai contacté. » **Cooldown** veut dire délai pendant lequel un studio contacté reste masqué avant de revenir. (26 October 2026, 15:05:48 +0100)
