@@ -1,8 +1,24 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-calendar-plan-23-october-2026",
- "scannedAt": "2026-10-25T11:35:25.201Z",
+ "scannedAt": "2026-10-26T12:08:22.047Z",
  "conversations": [
+  {
+   "projectId": "zenray-calendar-plan-23-october-2026",
+   "lines": 147,
+   "work": 76,
+   "prompts": 1,
+   "first": "2026-10-26T11:24:28.341Z",
+   "last": "2026-10-26T12:02:56.083Z",
+   "strength": "strong",
+   "conversationId": "codex:01a1779c-e438-78e2-a3df-a723e47de83f",
+   "provider": "codex",
+   "sessionId": "01a1779c-e438-78e2-a3df-a723e47de83f",
+   "title": "Conversation codex 01a1779c",
+   "updatedAt": "2026-10-26T12:02:56.083Z",
+   "bytes": 10553887,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
   {
    "projectId": "zenray-calendar-plan-23-october-2026",
    "lines": 40,
@@ -18,6 +34,38 @@
    "updatedAt": "2026-10-25T11:34:49.680Z",
    "bytes": 38213,
    "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-calendar-plan-23-october-2026",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T13:41:10.198Z",
+   "last": "2026-10-25T14:01:21.137Z",
+   "strength": "weak",
+   "conversationId": "claude:49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
+   "provider": "claude",
+   "sessionId": "49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
+   "title": "zenray argent",
+   "updatedAt": "2026-10-26T09:50:29.756Z",
+   "bytes": 4459002,
+   "boundProject": "qlmarkdown-designs-25-october-2026"
+  },
+  {
+   "projectId": "zenray-calendar-plan-23-october-2026",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T11:55:40.691Z",
+   "last": "2026-10-26T11:55:40.691Z",
+   "strength": "weak",
+   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "provider": "claude",
+   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "title": "zenray meshes",
+   "updatedAt": "2026-10-26T12:03:44.672Z",
+   "bytes": 385783430,
+   "boundProject": "zenray-meshes"
   }
  ]
 }

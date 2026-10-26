@@ -1,0 +1,67 @@
+# Resume zenray-calendar-plan-23-october-2026 (26 October 2026 at 12:24)
+
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (26 October 2026 at 12:24)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-calendar-plan-23-october-2026/Rules.md) (3 rules). (26 October 2026 at 12:24)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-calendar-plan-23-october-2026/FEEDBACK.md), 87 entries, last Iteration at 25 October 2026, 12:34:46 +0100. (26 October 2026 at 12:24)
+
+## Latest conversations (26 October 2026 at 12:24)
+
+- LATEST claude:58712af3-1264-4e9c-a11d-d90fec62dce4, « zenray calendar plan », last activity 25 October 2026 at 12:34 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:58712af3-1264-4e9c-a11d-d90fec62dce4 --out <file.md>`. (26 October 2026 at 12:24)
+
+## Last 6 prompts of Matthieu, oldest first (26 October 2026 at 12:24)
+
+### 25 October 2026, 12:24:17 +0100 · Prompt · claude:58712af3
+
+> l'article ?
+
+### 25 October 2026, 12:24:26 +0100 · Prompt · claude:58712af3
+
+> [Request interrupted by user for tool use]
+
+### 25 October 2026, 12:24:34 +0100 · Prompt · claude:58712af3
+
+> l'article ? de quoi tu parle /zenray-1-line
+
+### 25 October 2026, 12:24:35 +0100 · Prompt · claude:58712af3
+
+> [Request interrupted by user for tool use]
+> 
+> l'article ? de quoi tu parle /zenray-1-line
+
+### 25 October 2026, 12:24:49 +0100 · Prompt · claude:58712af3
+
+> Ah oui pardon status du coup ?
+
+### 25 October 2026, 12:34:29 +0100 · Prompt · claude:58712af3
+
+> <task-notification>
+> <task-id>bcfomksbr</task-id>
+> <tool-use-id>toolu_01GejT6HTAUGtLfsbfXq1MCT</tool-use-id>
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/58712af3-1264-4e9c-a11d-d90fec62dce4/tasks/bcfomksbr.output</output-file>
+> <status>completed</status>
+> <summary>Background command "Attendre l'envoi cloud de l'article" completed (exit code 0)</summary>
+> </task-notification>
+
+
+## Last 3 iterations or checkpoints (26 October 2026 at 12:24)
+
+### 25 October 2026, 12:25:14 +0100 · Iteration · claude:58712af3
+
+> La file d'envois du service Assets compte 15 travaux en attente et aucun en cours : elle semble bloquée. Je regarde pourquoi.
+
+### 25 October 2026, 12:25:47 +0100 · Iteration · claude:58712af3
+
+> L'article est à jour avec le skill, mais il n'est pas encore dans le cloud. Son envoi attend depuis 12 h 16 en tête d'une file de 15 envois, et aucun n'est en cours pour l'instant. Une attente de cette durée reste habituelle, mais je surveille : je te dis dès qu'il est passé, ou si la file s'avère bloquée.
+> 
+> Les autres articles sont à jour. ZenRay Sales semblait en défaut, mais c'était une erreur du contrôle, que j'ai corrigée.
+
+### 25 October 2026, 12:34:46 +0100 · Iteration · claude:58712af3
+
+> L'article est à jour et dans le cloud. Sa dernière version (V_002, avec la semaine et la réparation de Google) correspond au skill, et son envoi s'est terminé sans erreur à 12 h 34. La file du service Assets avance de nouveau, avec un envoi en cours.
+
+
+## Last order of work (26 October 2026 at 12:24)
+
+- None recorded. (26 October 2026 at 12:24)
+
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (26 October 2026 at 12:24)
