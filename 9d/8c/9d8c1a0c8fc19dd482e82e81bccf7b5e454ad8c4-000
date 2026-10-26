@@ -4187,3 +4187,197 @@
 > Reformulation courte de ta demande : « Fais en sorte que la file d'envoi Assets ne puisse plus rester bloquée, et que je règle depuis le popover ce qui doit l'être. » (26 October 2026, 13:40:47 +0100)
 >
 > **Verrou d'écriture** : le fichier-témoin qu'un seul processus à la fois détient pour envoyer vers le cloud. (26 October 2026, 13:40:47 +0100)
+
+## 26 October 2026, 13:47:04 +0100 : Prompt
+
+<!-- feedback-event:98ca4eedd99196c6a515e1d081572f539aa4a8ed2627003f775b5ce03d4ecbab (26 October 2026, 13:47:04 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:47:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:47:04 +0100)
+
+> Il y a juste un truc qui me chiffonne, c'est que je comprends pas du coup pourquoi tu n'utilises pas des badges de 1900 MO pour push les trucs, parce qu'on a update les politiques de GitHub par rapport à assets et par rapport à progress aussi. Donc, je comprends pas pourquoi le upload est aussi lent. ??? (26 October 2026, 13:47:04 +0100)
+
+## 26 October 2026, 13:47:04 +0100 : Prompt
+
+<!-- feedback-event:ea9719b231b8a3e3b94fa7b8e6b208e323609056230b783fad2802b49ea5951a (26 October 2026, 13:47:04 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:47:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:47:04 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb/images/3.webp] (26 October 2026, 13:47:04 +0100)
+
+## 26 October 2026, 13:47:08 +0100 : Prompt
+
+<!-- feedback-event:8722cb615a1f565798f3c867e1d58184987b56b82c0719c01293bd41854c7a62 (26 October 2026, 13:47:08 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:47:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:47:08 +0100)
+
+> Il y a juste un truc qui me chiffonne, c'est que je comprends pas du coup pourquoi tu n'utilises pas des badges de 1900 MO pour push les trucs, parce qu'on a update les politiques de GitHub par rapport à assets et par rapport à progress aussi. Donc, je comprends pas pourquoi le upload est aussi lent. ??? (26 October 2026, 13:47:08 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb/images/3.webp] (26 October 2026, 13:47:08 +0100)
+
+## 26 October 2026, 13:48:48 +0100 : Prompt
+
+<!-- feedback-event:e96659431422b3ee71662162ac5e38a029ca705600ff20b9442712181b701a3d (26 October 2026, 13:48:48 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:48:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:48:48 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 13:48:48 +0100)
+> Et par contre, quand je clique à côté, il faut absolument que le widget parte. En fait je parle du widget de asset parce que une fois qu'il est ouvert, je suis obligé de recliquer sur sa propre icône pour le fermer, alors qu'en fait, normalement, je devrais juste pouvoir cliquer n'importe où et ça devrait le faire partir /prompt-stacking (26 October 2026, 13:48:48 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 13:48:48 +0100)
+
+## 26 October 2026, 13:48:34 +0100 : Prompt
+
+<!-- feedback-event:8ede254d24a39e9c99137ffd05e4e3a9458dd1577596bf8c75a73a86b8001f9d (26 October 2026, 13:48:34 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:48:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:48:34 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/prompt-stacking (26 October 2026, 13:48:34 +0100)
+>
+> # Continuité des tâches (26 October 2026, 13:48:34 +0100)
+>
+> **Un nouveau prompt change le focus, pas l'historique des obligations.** (26 October 2026, 13:48:34 +0100)
+>
+> **Une tâche ne disparaît que par `DONE` ou `CANCEL`.** (26 October 2026, 13:48:34 +0100)
+>
+> ## État unique par session (26 October 2026, 13:48:34 +0100)
+>
+> Résoudre le dossier depuis l'identifiant opaque fourni par l'hôte, jamais depuis le texte littéral (26 October 2026, 13:48:34 +0100)
+> `<CurrentSessionName>` ni depuis une date, un nom de projet ou une valeur aléatoire : (26 October 2026, 13:48:34 +0100)
+>
+> - Claude Code : `/Users/zenray/.claude/$CLAUDE_SESSION_ID/prompt-stacking.md` (26 October 2026, 13:48:34 +0100)
+> - Codex : `/Users/zenray/.codex/$CODEX_SESSION_ID/prompt-stacking.md` (26 October 2026, 13:48:34 +0100)
+> - Antigravity : `/Users/zenray/.gemini/antigravity/$ANTIGRAVITY_CONVERSATION_ID/prompt-stacking.md` (26 October 2026, 13:48:34 +0100)
+>
+> Le dossier est global à l'hôte, hors de l'espace de travail et ne se versionne pas. Si l'identifiant standard manque, (26 October 2026, 13:48:34 +0100)
+> utiliser seulement l'identifiant de conversation exposé par l'hôte. Ne jamais créer de repli partagé. (26 October 2026, 13:48:34 +0100)
+>
+> Créer automatiquement le dossier et le fichier s'ils n'existent pas. Ce fichier est le seul état de (26 October 2026, 13:48:34 +0100)
+> tâches : ne pas créer de dashboard, JSON, base de données, rapport, journal d'événements ou second (26 October 2026, 13:48:34 +0100)
+> fichier de suivi. (26 October 2026, 13:48:34 +0100)
+>
+> ```md (26 October 2026, 13:48:34 +0100)
+> # OPEN (26 October 2026, 13:48:34 +0100)
+>
+> - [>] T1 Tâche actuelle (26 October 2026, 13:48:34 +0100)
+> - [ ] T0 Tâche interrompue (26 October 2026, 13:48:34 +0100)
+>
+> # DONE (26 October 2026, 13:48:34 +0100)
+>
+> - [x] T-1 Tâche vérifiée (26 October 2026, 13:48:34 +0100)
+>
+> # CANCELED (26 October 2026, 13:48:34 +0100)
+>
+> - [!] T-2 Tâche explicitement annulée (26 October 2026, 13:48:34 +0100)
+> ``` (26 October 2026, 13:48:34 +0100)
+>
+> `[>]` signifie active, `[ ]` en attente, `[x]` terminée et `[!]` annulée. Les descriptions tiennent (26 October 2026, 13:48:34 +0100)
+> sur une ligne. Les tâches les plus récentes viennent en premier dans chaque section. (26 October 2026, 13:48:34 +0100)
+>
+> ## À chaque prompt (26 October 2026, 13:48:34 +0100)
+>
+> Pour chaque demande conséquente et toute tâche de code, avant le travail : (26 October 2026, 13:48:34 +0100)
+>
+> 1. Lire seulement `OPEN`. (26 October 2026, 13:48:34 +0100)
+> 2. Classer l'intention : `CONTINUE`, `NEW` ou `CANCEL`. (26 October 2026, 13:48:34 +0100)
+> 3. Mettre l'état à jour avant l'exécution. (26 October 2026, 13:48:34 +0100)
+>
+> `CONTINUE` conserve l'unique tâche active et affine sa description si nécessaire. Une précision ou une (26 October 2026, 13:48:34 +0100)
+> suite logique reste un `CONTINUE`. (26 October 2026, 13:48:34 +0100)
+>
+> `NEW` commence par déplacer l'ancienne tâche active, si elle n'est pas finie, vers `OPEN` en attente, (26 October 2026, 13:48:34 +0100)
+> puis place la nouvelle tâche active en tête. Ne créer aucune tâche à partir d'un détail accessoire. (26 October 2026, 13:48:34 +0100)
+>
+> `CANCEL` exige une annulation, un remplacement ou une obsolescence explicite de la part de l'utilisateur. (26 October 2026, 13:48:34 +0100)
+> Déplacer alors la tâche dans `CANCELED`, avec le motif sur la même ligne. Ne jamais l'appeler `DONE`. (26 October 2026, 13:48:34 +0100)
+>
+> Lorsque le résultat est réellement complet et vérifié, déplacer la tâche dans `DONE`. Une tentative, (26 October 2026, 13:48:34 +0100)
+> une tâche partielle, un blocage ou un résultat non vérifié reste dans `OPEN`. (26 October 2026, 13:48:34 +0100)
+>
+> L'état est lossless, plutôt que littéralement append-only : aucune tâche n'est supprimée. Comme chaque (26 October 2026, 13:48:34 +0100)
+> section doit garder les tâches les plus récentes en tête et refléter leur statut courant, une ligne peut (26 October 2026, 13:48:34 +0100)
+> changer de section ou de marqueur. N'ajouter aucun historique parallèle pour simuler un append-only. (26 October 2026, 13:48:34 +0100)
+>
+> Un seul élément peut être `[>]`. Toute tâche non terminée reste dans `OPEN`. Ne lire `DONE` ou `CANCELED` (26 October 2026, 13:48:34 +0100)
+> que lorsqu'un contexte historique précis est nécessaire. Le suivi reste silencieux et ne doit ni (26 October 2026, 13:48:34 +0100)
+> interrompre ni alourdir la réponse réelle. (26 October 2026, 13:48:34 +0100)
+
+## 26 October 2026, 13:53:55 +0100 : Iteration
+
+<!-- feedback-event:b3d2e1a83f15950fc5a3481f0642cfd54f81a81287b6c988f243ef4fc27c3ba8 (26 October 2026, 13:53:55 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:53:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:53:55 +0100)
+
+> Je laisse tourner quelques minutes pour mesurer l'effet réel du correctif sur les passes. (26 October 2026, 13:53:55 +0100)
+
+## 26 October 2026, 13:54:22 +0100 : Iteration
+
+<!-- feedback-event:7146edd6c26277f1521d7e7d4bc650be037687b7f388492d6a12b3655dbe8d3c (26 October 2026, 13:54:22 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:54:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:54:22 +0100)
+
+> Je mesure maintenant l'effet du correctif, quatre minutes après le redémarrage du service. (26 October 2026, 13:54:22 +0100)
+
+## 26 October 2026, 13:55:04 +0100 : Iteration
+
+<!-- feedback-event:28d0fabb889a3ffe94bad0ab144794da853506bf454d96840c92fb1a663bc8d9 (26 October 2026, 13:55:04 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:55:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:55:04 +0100)
+
+> Le goulot n'était pas la taille des lots, c'était le nombre de petites passes, et c'est corrigé. J'ai ajouté le passage à 1 900 Mo pour les gros envois, et le popover devrait maintenant se fermer au clic ailleurs. (26 October 2026, 13:55:04 +0100)
+>
+> **Pourquoi l'envoi était lent.** J'ai mesuré les 7 derniers jours d'événements : 5 550 passes d'archive, 62,9 heures de temps d'écriture. 5 124 de ces passes (92 %) portaient 5 fichiers ou moins, médiane 2, et elles consommaient 82 % du temps. Une passe de 2 petits fichiers coûte environ 40 secondes fixes, qu'elle pèse 20 Ko ou 20 Mo. Les 107 kb/s de Moniteur d'activité sont donc normaux : ce sont des passes minuscules, pas une ligne lente. (26 October 2026, 13:55:04 +0100)
+>
+> Ces 2 fichiers étaient `ConversationIndex.json` et `.md`. Le service les réécrivait pour chaque projet dès qu'une conversation, même juste citée ailleurs, avait bougé. Avec 44 projets, la file était saturée en permanence. (26 October 2026, 13:55:04 +0100)
+>
+> **Ce que j'ai changé** (26 October 2026, 13:55:04 +0100)
+> - **Index des conversations** : une conversation seulement citée ne déclenche plus de réécriture. L'index est réécrit si une conversation liée avance, ou au plus tard toutes les 6 heures. Un test le couvre. (26 October 2026, 13:55:04 +0100)
+> - **Lots de 1 900 Mo** : la politique de 1 900 Mo par envoi tournait déjà dans le moteur, mais Assets ne lui donnait que des lots de 512 Mo. J'ai monté la taille à 1 900 Mo, à un lot par passe au lieu de quatre. J'ai aussi porté le délai du moteur de 15 à 40 minutes, parce que l'ancien aurait coupé un gros envoi avant la fin du sien (30 min). Ça concerne surtout zenray-meshes (environ 14 Go) ; le gain, de l'ordre de 45 s de surcoût par lot en moins, est estimé, pas mesuré. (26 October 2026, 13:55:04 +0100)
+> - **Popover** : un projet qui se relance seul (« reprise possible ») n'affiche plus de carte « À vérifier ». C'est ce qui faisait apparaître 11 projets après mon redémarrage du service. (26 October 2026, 13:55:04 +0100)
+>
+> **Résultat, environ 80 secondes après le redémarrage** : 33 projets sur 44 n'ont plus rien en attente, alors que presque tous en avaient 2 avant. Les passes vides durent 1 seconde. Les vrais retards restent : zenray-meshes (1 173 fichiers, en hausse, ce sont des fichiers produits en ce moment), zenray-dictate (35) et zenray-edit (26). C'est une mesure sur 80 s seulement, à refaire sur plusieurs jours avec le même calcul. (26 October 2026, 13:55:04 +0100)
+>
+> **Popover** : il s'active maintenant et un moniteur de souris le ferme au clic ailleurs. La preuve automatique couvre le moniteur actif et le mode « transitoire », pas le vrai clic : je ne clique pas sur ton écran sans savoir ce qu'il y a dessous. Ton test réel est le seul qui compte, d'où la question ci-dessous. (26 October 2026, 13:55:04 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 13:55:04 +0100)
+> |---|---|---| (26 October 2026, 13:55:04 +0100)
+> | Comprendre pourquoi c'est lent | Oui | 7 jours d'événements : 92 % de passes de 2 fichiers | (26 October 2026, 13:55:04 +0100)
+> | Lots de 1 900 Mo | Oui | Configuration changée et rechargée ; gain estimé, pas mesuré | (26 October 2026, 13:55:04 +0100)
+> | Que ça cesse de tourner en boucle | Oui, sur 80 s | 33 projets sur 44 à 0 en attente, contre presque tous à 2 avant | (26 October 2026, 13:55:04 +0100)
+> | Popover fermé au clic ailleurs | En attente de ton clic | Moniteur prouvé, vrai clic non testé | (26 October 2026, 13:55:04 +0100)
+>
+> Reformulation courte de ta demande : « Pourquoi l'envoi est-il lent malgré les lots de 1 900 Mo, et fais en sorte que le popover se ferme au clic ailleurs. » (26 October 2026, 13:55:04 +0100)
+>
+> **Passe (pass)** : un tour de sauvegarde d'un projet, avec son démarrage du moteur et sa publication des métadonnées, quel que soit le nombre de fichiers. (26 October 2026, 13:55:04 +0100)
+
+## 26 October 2026, 13:57:07 +0100 : Prompt
+
+<!-- feedback-event:90d93c6bc89003dcb12f31a68a989bedccbcc083614657272b6dd1a7dbcb1fe3 (26 October 2026, 13:57:07 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:57:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:57:07 +0100)
+
+> <task-notification> (26 October 2026, 13:57:07 +0100)
+> <task-id>b3okhc8sq</task-id> (26 October 2026, 13:57:07 +0100)
+> <tool-use-id>toolu_01GuzR1ZPHAZLqPCE53L7uJ4</tool-use-id> (26 October 2026, 13:57:07 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb/tasks/b3okhc8sq.output</output-file> (26 October 2026, 13:57:07 +0100)
+> <status>completed</status> (26 October 2026, 13:57:07 +0100)
+> <summary>Monitor "Wait until four minutes after the service restart" stream ended</summary> (26 October 2026, 13:57:07 +0100)
+> <event>ready</event> (26 October 2026, 13:57:07 +0100)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (26 October 2026, 13:57:07 +0100)
+> </task-notification> (26 October 2026, 13:57:07 +0100)
+
+## 26 October 2026, 13:57:18 +0100 : Iteration
+
+<!-- feedback-event:5d9988cee95234aa80b735ad6fba33a767eddfb31d0b5fcdaef8c2a64f51f95a (26 October 2026, 13:57:18 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:57:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:57:18 +0100)
+
+> La mesure à quatre minutes confirme la tendance. (26 October 2026, 13:57:18 +0100)
+>
+> Depuis le redémarrage du service à 12:53 UTC : (26 October 2026, 13:57:18 +0100)
+>
+> - **Réécritures de l'index des conversations** : zéro. Il y en avait environ une par projet toutes les quelques minutes. (26 October 2026, 13:57:18 +0100)
+> - **Passes d'archive** : 31, dont 25 vides (0 fichier, environ 1 seconde chacune), pour 282 secondes de temps d'écriture au total. (26 October 2026, 13:57:18 +0100)
+> - **Projets sans rien en attente** : 34 sur 44, contre presque aucun avant. (26 October 2026, 13:57:18 +0100)
+> - **Vrais retards** : zenray-meshes passe à 1 222 fichiers (ils s'accumulent pendant que tu travailles dessus), et un projet en a 18. (26 October 2026, 13:57:18 +0100)
+>
+> Ces chiffres couvrent quatre minutes. Il faudra refaire le même calcul sur `Events.jsonl` dans quelques jours pour confirmer la baisse de la part des petites passes (92 % avant) et du temps d'écriture par jour. Le vrai clic pour fermer le popover reste à confirmer de ton côté. (26 October 2026, 13:57:18 +0100)
