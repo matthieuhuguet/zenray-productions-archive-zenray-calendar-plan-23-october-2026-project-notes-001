@@ -3889,3 +3889,301 @@
 > J'ai l'impression que peu après, ça s'est encore arrêté. Cependant, certains projets ont été push, mais en fait, j'ai l'impression qu'à chaque fois qu'il y a un projet à vérifier, bah, ça s'arrête de push. Mais en fait, ce qu'il faudrait, c'est dans la petite icône en haut à droite de mon écran, il faudrait que je puisse traiter la décision via une notification qui s'ouvre directement via un popover. Et comme ça, le Claude peut reprendre. Parce que sinon, en fait, ça va bloquer à chaque fois. (26 October 2026, 13:26:59 +0100)
 >
 > [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb/images/2.webp] (26 October 2026, 13:26:59 +0100)
+
+## 26 October 2026, 13:29:22 +0100 : Iteration
+
+<!-- feedback-event:0670d035520af73ce734b711e65fd90efdd3a2b8adb0c5ddf0983937d3c9d9fe (26 October 2026, 13:29:22 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:29:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:29:22 +0100)
+
+> Je commence par la partie testable (actions « mettre de côté » et « reprendre » dans l'adaptateur), puis la partie Swift. (26 October 2026, 13:29:22 +0100)
+
+## 26 October 2026, 13:29:33 +0100 : Iteration
+
+<!-- feedback-event:e8ada23744b57fc2a5af2a4d5e0e7cb6901c47522ae1473dc99edb1d7b756ef7 (26 October 2026, 13:29:33 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:29:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:29:33 +0100)
+
+> Les actions passent. Maintenant la partie Swift : cartes « à vérifier » avec boutons, et ouverture automatique du popover. (26 October 2026, 13:29:33 +0100)
+
+## 26 October 2026, 13:31:54 +0100 : Iteration
+
+<!-- feedback-event:05c07ccce90cc55ad3d273a3c8c260240ce6c4399bbecd077b0a643e357df8cf (26 October 2026, 13:31:54 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:31:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:31:54 +0100)
+
+> Ton impression était juste, et j'ai trouvé la cause réelle : ce n'est pas « un projet à vérifier » qui bloque la file, c'est le serveur doublon (pid 50960) dont je t'ai parlé. Il tient le verrou d'écriture vers le cloud (`writer.lock/owner.json` à son nom) et le reprend à chaque tour, pendant que le vrai service (pid 49955) attend. D'où « 26 opérations en attente » avec 0 KB/s. (26 October 2026, 13:31:54 +0100)
+>
+> **Le popover** (26 October 2026, 13:31:54 +0100)
+> - Sous le résumé, chaque projet à vérifier a maintenant une carte avec sa cause en français et deux boutons. (26 October 2026, 13:31:54 +0100)
+>   - **Réessayer** ajoute une sauvegarde à la file. (26 October 2026, 13:31:54 +0100)
+>   - **Mettre de côté** arrête les nouvelles tentatives de ce projet pendant que la file continue ; rien n'est supprimé. (26 October 2026, 13:31:54 +0100)
+>   - L'action inverse « reprendre » existe dans le code, mais aucun bouton ne la propose encore, donc un projet mis de côté ne se reprend pas depuis le popover. (26 October 2026, 13:31:54 +0100)
+> - Le popover s'ouvre tout seul quand un projet devient à vérifier. Il ne s'ouvre ni au lancement, ni deux fois pour le même, ni pour une cause qui se réessaie seule. (26 October 2026, 13:31:54 +0100)
+> - Le cas actuel de ZenRayDictate (« Source changed since inventory ») s'affiche maintenant comme « Fichier modifié pendant la copie, nouvelle tentative automatique ». Ce n'est pas une décision à prendre, le service réessaie toutes les 60 s. (26 October 2026, 13:31:54 +0100)
+>
+> Je n'ai pas ajouté de notification macOS : elle demande une autorisation et une signature, et le popover qui s'ouvre seul la remplace. Dis-moi si tu la veux quand même. L'app est réinstallée et relancée (nouveau pid 38822), le service Assets n'a pas été touché, et l'ancienne app est sauvegardée. (26 October 2026, 13:31:54 +0100)
+>
+> **Ce que j'ai vérifié** (26 October 2026, 13:31:54 +0100)
+> - Les neuf fixtures natives passent, ainsi que 10 tests Node et 367 tests vitest. (26 October 2026, 13:31:54 +0100)
+> - J'ai capturé le vrai popover sur tes 44 projets, avec la carte ZenRayDictate et ses deux boutons. (26 October 2026, 13:31:54 +0100)
+> - Je n'ai pas cliqué « Mettre de côté » sur un vrai projet pour ne pas changer ton état ; seul le test automatique le couvre. (26 October 2026, 13:31:54 +0100)
+> - La file n'a pas encore été relue après le changement. (26 October 2026, 13:31:54 +0100)
+>
+> **Reste à faire (ta décision)** : arrêter le pid 50960 et relancer l'aperçu du port 3000 en passif. Le système m'a déjà refusé de l'arrêter seul. Tant qu'il tourne, les deux écrivains se partagent le verrou et la file reste lente, quel que soit le popover. Tu peux le faire toi-même avec `kill -TERM 50960`. (26 October 2026, 13:31:54 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 13:31:54 +0100)
+> |---|---|---| (26 October 2026, 13:31:54 +0100)
+> | Décider dans le popover | Oui | Capture du vrai popover : ZenRayDictate avec Réessayer et Mettre de côté | (26 October 2026, 13:31:54 +0100)
+> | Qu'il s'ouvre via une notification | En partie | Popover automatique pour un nouveau projet ; pas de notification macOS | (26 October 2026, 13:31:54 +0100)
+> | Que la file reprenne sans moi | Oui pour les projets en erreur | Les boutons passent par le service, test vert | (26 October 2026, 13:31:54 +0100)
+> | Que ça arrête de bloquer | Pas encore | Le pid 50960 tient toujours le verrou | (26 October 2026, 13:31:54 +0100)
+>
+> Reformulation courte de ta demande : « Quand un projet est à vérifier, laisse-moi décider dans le popover de la barre de menus pour que les envois reprennent seuls. » (26 October 2026, 13:31:54 +0100)
+>
+> **Verrou d'écriture (lock)** : un fichier-témoin qu'un seul processus à la fois peut détenir pour envoyer vers le cloud. (26 October 2026, 13:31:54 +0100)
+
+## 26 October 2026, 13:31:58 +0100 : Prompt
+
+<!-- feedback-event:84cd893fd119122bd8ce00e6e48dd11f9b054a570415a0653b7a78abecde8241 (26 October 2026, 13:31:58 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:31:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:31:58 +0100)
+
+> <command-message>think-of-everything</command-message> (26 October 2026, 13:31:58 +0100)
+> <command-name>/think-of-everything</command-name> (26 October 2026, 13:31:58 +0100)
+> <command-args>je ne veux plus jamais que ça bloque ça va te prendre du temps</command-args> (26 October 2026, 13:31:58 +0100)
+
+## 26 October 2026, 13:31:58 +0100 : Prompt
+
+<!-- feedback-event:19d817640bbec29d598fa35978878201bbe7bda6d626c88b15dcf812eafabecf (26 October 2026, 13:31:58 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:31:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:31:58 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (26 October 2026, 13:31:58 +0100)
+>
+> # Think of Everything (Pense à Tout) (26 October 2026, 13:31:58 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (26 October 2026, 13:31:58 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (26 October 2026, 13:31:58 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (26 October 2026, 13:31:58 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (26 October 2026, 13:31:58 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (26 October 2026, 13:31:58 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (26 October 2026, 13:31:58 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (26 October 2026, 13:31:58 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (26 October 2026, 13:31:58 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (26 October 2026, 13:31:58 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (26 October 2026, 13:31:58 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (26 October 2026, 13:31:58 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (26 October 2026, 13:31:58 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (26 October 2026, 13:31:58 +0100)
+>
+> Sources by domain: (26 October 2026, 13:31:58 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (26 October 2026, 13:31:58 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (26 October 2026, 13:31:58 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (26 October 2026, 13:31:58 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (26 October 2026, 13:31:58 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (26 October 2026, 13:31:58 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (26 October 2026, 13:31:58 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (26 October 2026, 13:31:58 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (26 October 2026, 13:31:58 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (26 October 2026, 13:31:58 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (26 October 2026, 13:31:58 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (26 October 2026, 13:31:58 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (26 October 2026, 13:31:58 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (26 October 2026, 13:31:58 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (26 October 2026, 13:31:58 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (26 October 2026, 13:31:58 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (26 October 2026, 13:31:58 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (26 October 2026, 13:31:58 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (26 October 2026, 13:31:58 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (26 October 2026, 13:31:58 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (26 October 2026, 13:31:58 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (26 October 2026, 13:31:58 +0100)
+>
+> ## Step 5: Rank, cut, decide (26 October 2026, 13:31:58 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (26 October 2026, 13:31:58 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (26 October 2026, 13:31:58 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (26 October 2026, 13:31:58 +0100)
+>
+> ## Output format (compact, French by default on this account) (26 October 2026, 13:31:58 +0100)
+>
+> ``` (26 October 2026, 13:31:58 +0100)
+> Décision/changement : 1 à 3 lignes. (26 October 2026, 13:31:58 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (26 October 2026, 13:31:58 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (26 October 2026, 13:31:58 +0100)
+> Écartés : 1 ligne. (26 October 2026, 13:31:58 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (26 October 2026, 13:31:58 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (26 October 2026, 13:31:58 +0100)
+> ``` (26 October 2026, 13:31:58 +0100)
+>
+> ## Stop conditions and anti-goals (26 October 2026, 13:31:58 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (26 October 2026, 13:31:58 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (26 October 2026, 13:31:58 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (26 October 2026, 13:31:58 +0100)
+>
+>
+> ARGUMENTS: je ne veux plus jamais que ça bloque ça va te prendre du temps (26 October 2026, 13:31:58 +0100)
+
+## 26 October 2026, 13:32:00 +0100 : Prompt
+
+<!-- feedback-event:3a13e7cd52956defb775c8e91e284316ededd06d19a6ca4ca578f35436d3fbcc (26 October 2026, 13:32:00 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (26 October 2026, 13:32:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:32:00 +0100)
+
+> <command-message>think-of-everything</command-message> (26 October 2026, 13:32:00 +0100)
+> <command-name>/think-of-everything</command-name> (26 October 2026, 13:32:00 +0100)
+> <command-args>je ne veux plus jamais que ça bloque ça va te prendre du temps</command-args> (26 October 2026, 13:32:00 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (26 October 2026, 13:32:00 +0100)
+>
+> # Think of Everything (Pense à Tout) (26 October 2026, 13:32:00 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (26 October 2026, 13:32:00 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (26 October 2026, 13:32:00 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (26 October 2026, 13:32:00 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (26 October 2026, 13:32:00 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (26 October 2026, 13:32:00 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (26 October 2026, 13:32:00 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (26 October 2026, 13:32:00 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (26 October 2026, 13:32:00 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (26 October 2026, 13:32:00 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (26 October 2026, 13:32:00 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (26 October 2026, 13:32:00 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (26 October 2026, 13:32:00 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (26 October 2026, 13:32:00 +0100)
+>
+> Sources by domain: (26 October 2026, 13:32:00 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (26 October 2026, 13:32:00 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (26 October 2026, 13:32:00 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (26 October 2026, 13:32:00 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (26 October 2026, 13:32:00 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (26 October 2026, 13:32:00 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (26 October 2026, 13:32:00 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (26 October 2026, 13:32:00 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (26 October 2026, 13:32:00 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (26 October 2026, 13:32:00 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (26 October 2026, 13:32:00 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (26 October 2026, 13:32:00 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (26 October 2026, 13:32:00 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (26 October 2026, 13:32:00 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (26 October 2026, 13:32:00 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (26 October 2026, 13:32:00 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (26 October 2026, 13:32:00 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (26 October 2026, 13:32:00 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (26 October 2026, 13:32:00 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (26 October 2026, 13:32:00 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (26 October 2026, 13:32:00 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (26 October 2026, 13:32:00 +0100)
+>
+> ## Step 5: Rank, cut, decide (26 October 2026, 13:32:00 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (26 October 2026, 13:32:00 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (26 October 2026, 13:32:00 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (26 October 2026, 13:32:00 +0100)
+>
+> ## Output format (compact, French by default on this account) (26 October 2026, 13:32:00 +0100)
+>
+> ``` (26 October 2026, 13:32:00 +0100)
+> Décision/changement : 1 à 3 lignes. (26 October 2026, 13:32:00 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (26 October 2026, 13:32:00 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (26 October 2026, 13:32:00 +0100)
+> Écartés : 1 ligne. (26 October 2026, 13:32:00 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (26 October 2026, 13:32:00 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (26 October 2026, 13:32:00 +0100)
+> ``` (26 October 2026, 13:32:00 +0100)
+>
+> ## Stop conditions and anti-goals (26 October 2026, 13:32:00 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (26 October 2026, 13:32:00 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (26 October 2026, 13:32:00 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (26 October 2026, 13:32:00 +0100)
+>
+>
+> ARGUMENTS: je ne veux plus jamais que ça bloque ça va te prendre du temps (26 October 2026, 13:32:00 +0100)
+
+## 26 October 2026, 13:33:55 +0100 : Iteration
+
+<!-- feedback-event:0bd4bce2b51075f35f8619017089f72667dc7ff879790a4889e17a188c6fbe34 (26 October 2026, 13:33:55 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:33:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:33:55 +0100)
+
+> Je pose maintenant les changements du service : tolérance aux fichiers modifiés, délai croissant après échecs répétés, verdict de la file et action d'arrêt du processus doublon. (26 October 2026, 13:33:55 +0100)
+
+## 26 October 2026, 13:37:51 +0100 : Iteration
+
+<!-- feedback-event:414c1d700d819b37715e72e091b55a78e09c2695fd49cb1963685a627fe954b1 (26 October 2026, 13:37:51 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:37:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:37:51 +0100)
+
+> Rien ne tourne : je peux relancer le service Assets sans interrompre de transfert, pour qu'il charge le nouveau code. (26 October 2026, 13:37:51 +0100)
+
+## 26 October 2026, 13:40:47 +0100 : Iteration
+
+<!-- feedback-event:7ebd71a91d4bb0ef85c469ed2ac344db86e00a8f82083fdf73a79fbe352e9c32 (26 October 2026, 13:40:47 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (26 October 2026, 13:40:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (26 October 2026, 13:40:47 +0100)
+
+> Ce que je peux promettre, c'est que chaque cause de blocage connue est maintenant couverte et prouvée. Une cause inconnue peut encore apparaître, mais elle serait nommée dans le popover au lieu de rester silencieuse. Le blocage en cours dépend toujours d'un clic de ta part. (26 October 2026, 13:40:47 +0100)
+>
+> **Où on en est** (26 October 2026, 13:40:47 +0100)
+> - Le processus doublon (pid 50960) tient encore le verrou d'écriture, avec 42 opérations en attente à 0 KB/s. (26 October 2026, 13:40:47 +0100)
+> - Le service Assets lit lui-même ce verrou. Il sait que « un autre processus vivant le tient » et que ce processus est un serveur de prévisualisation arrêtable. (26 October 2026, 13:40:47 +0100)
+> - Le popover de la barre de menus s'ouvre seul quand la file est bloquée, même au lancement de l'app. Il affiche « La file attend un autre processus (pid 50960) » avec le bouton **Arrêter ce processus**. (26 October 2026, 13:40:47 +0100)
+> - Je n'ai pas cliqué à ta place : c'est ton clic qui autorise l'arrêt, et le système m'avait refusé de l'arrêter seul. (26 October 2026, 13:40:47 +0100)
+> - Le service envoie alors un SIGTERM, seulement après avoir revérifié que le processus est vivant, qu'il n'est ni le service ni son parent, et que sa commande est bien `scripts/local-server.mjs`. Ensuite la file doit reprendre. (26 October 2026, 13:40:47 +0100)
+>
+> **Ce qui est maintenant couvert** (26 October 2026, 13:40:47 +0100)
+>
+> | Cause de blocage | Parade | Preuve | (26 October 2026, 13:40:47 +0100)
+> |---|---|---| (26 October 2026, 13:40:47 +0100)
+> | Deux services actifs se disputent l'écriture | Passif par défaut hors port 3100 ; verdict lu dans le verrou ; arrêt d'un clic | 5 tests du verdict, verdict réel lu sur ta machine | (26 October 2026, 13:40:47 +0100)
+> | Un fichier qui change pendant la copie (ZenRayDictate) faisait échouer tout le lot chaque minute | Le fichier est reporté, les autres sont archivés, pas de relance en boucle | 4 tests dont un vrai fichier modifié | (26 October 2026, 13:40:47 +0100)
+> | Un projet qui échoue pour de bon revient toutes les minutes | Délai croissant (1, 2, 4, 8, 16, 30 min), remis à zéro au premier succès | Test d'équité : un projet en échec ne retient pas un autre | (26 October 2026, 13:40:47 +0100)
+> | Une décision humaine attendue | Boutons « Réessayer » et « Mettre de côté » dans le popover | 12 tests du tableau de bord | (26 October 2026, 13:40:47 +0100)
+> | File immobile sans coupable visible | Verdict « file immobile » après 3 minutes | Test | (26 October 2026, 13:40:47 +0100)
+>
+> **Vérifié** : 716 tests de `scripts/` et 15 modes natifs du popover passent, dont l'ouverture automatique (vrai pour une file bloquée, faux pour une file normale). Le service Assets est relancé (rien ne tournait, aucun transfert interrompu), l'app est réinstallée et relancée, et tout est poussé sur `origin/main` avec le contrat du skill enregistré. Je n'ai pas vu le popover s'ouvrir sur ton écran : l'ouverture automatique est prouvée sur les modes natifs, pas sur ta session réelle. (26 October 2026, 13:40:47 +0100)
+>
+> **Pas couvert, dit franchement** (26 October 2026, 13:40:47 +0100)
+> - Une coupure réseau pendant un envoi : les délais existants la bornent (300 s pour git, 900 s pour le moteur), ils ne la suppriment pas. (26 October 2026, 13:40:47 +0100)
+> - Le débit : environ 20 secondes de travail git par projet à chaque tour, et zenray-meshes (plus de 800 fichiers en attente) passe devant les petits projets. Ça ralentit, ça ne bloque pas. (26 October 2026, 13:40:47 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 13:40:47 +0100)
+> |---|---|---| (26 October 2026, 13:40:47 +0100)
+> | Que ça ne bloque plus jamais | Presque | Causes connues couvertes avec tests ; blocage actuel en attente de ton clic | (26 October 2026, 13:40:47 +0100)
+> | Décider depuis le popover | Oui | Bouton et ouverture automatique prouvés par les modes natifs | (26 October 2026, 13:40:47 +0100)
+> | Que la file reprenne seule | Pas encore | Le verrou est toujours tenu par le pid 50960 | (26 October 2026, 13:40:47 +0100)
+>
+> Reformulation courte de ta demande : « Fais en sorte que la file d'envoi Assets ne puisse plus rester bloquée, et que je règle depuis le popover ce qui doit l'être. » (26 October 2026, 13:40:47 +0100)
+>
+> **Verrou d'écriture** : le fichier-témoin qu'un seul processus à la fois détient pour envoyer vers le cloud. (26 October 2026, 13:40:47 +0100)
