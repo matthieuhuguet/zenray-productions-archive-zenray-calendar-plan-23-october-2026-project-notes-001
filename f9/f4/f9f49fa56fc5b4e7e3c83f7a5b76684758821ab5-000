@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-calendar-plan-23-october-2026",
- "scannedAt": "2026-10-26T20:08:00.727Z",
+ "scannedAt": "2026-10-27T02:08:36.220Z",
  "conversations": [
   {
    "projectId": "zenray-calendar-plan-23-october-2026",
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T20:07:59.391Z",
-   "bytes": 463997452,
+   "updatedAt": "2026-10-27T02:06:39.354Z",
+   "bytes": 482052791,
    "boundProject": "zenray-meshes"
   },
   {
