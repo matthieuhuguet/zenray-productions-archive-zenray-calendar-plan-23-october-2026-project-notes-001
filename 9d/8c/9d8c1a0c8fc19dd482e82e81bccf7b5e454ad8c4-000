@@ -7314,3 +7314,52 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:22:08 +0100)
 
 > Skill /tasks-sequence is already loaded above; instructions unchanged. (27 October 2026, 18:22:08 +0100)
+
+## 27 October 2026, 18:27:00 +0100 : Iteration
+
+<!-- feedback-event:040cfd18f1af1806ad79e1fbd077f46b6de9243f6632fa3dbeb51c6b3ef867d9 (27 October 2026, 18:27:00 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (27 October 2026, 18:27:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:27:00 +0100)
+
+> Poussé et déployé. Je programme le redémarrage du service seulement quand aucune fenêtre de candidature n'est ouverte, pour ne pas fermer la tienne, puis je mets les skills à jour. (27 October 2026, 18:27:00 +0100)
+
+## 27 October 2026, 18:27:34 +0100 : Iteration
+
+<!-- feedback-event:cbadf7b4c6d7a6c8859fb9bdf51f139ada422718efaf1d0e0ad9af398b46b5d5 (27 October 2026, 18:27:34 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (27 October 2026, 18:27:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:27:34 +0100)
+
+> Tu avais raison de te méfier : l'exemple Blackbird que je t'ai montré venait d'une faute de mon propre script d'extraction. Il a pris la plus ancienne version de la lettre et pas la dernière. Le moteur, lui, prend la bonne. (27 October 2026, 18:27:34 +0100)
+>
+> **Preuve que c'est la bonne lettre.** J'ai comparé la lettre Framestore de la file d'attente du lot avec celle que tu as collée : elles sont identiques, mot pour mot. Elle porte la phrase freelance (« I'm currently looking for freelance Technical Artist missions via my own structure… ») et le paragraphe tourné vers le studio. Je l'ai rendue en PDF avec ZenRay Edit : une page, que je t'ai envoyée avec son aperçu. (27 October 2026, 18:27:34 +0100)
+>
+> **Une seule lettre partout.** Le PDF joint, le texte placé dans le formulaire et « Copier la lettre » lisent la même version de l'archive de l'offre. J'ai retiré du lot l'insertion d'une phrase automatique qui pouvait les faire diverger. Un test le prouve, même avec un vieux profil qui contient une phrase d'engagement. (27 October 2026, 18:27:34 +0100)
+>
+> **Le zip que tu demandais.** Après « Automatiser » ou « Remplir les N pages », le lot écrit un dossier par offre avec : (27 October 2026, 18:27:34 +0100)
+> - la lettre en PDF (ZenRay Edit) et son image ; (27 October 2026, 18:27:34 +0100)
+> - le CV joint et sa première page en image ; (27 October 2026, 18:27:34 +0100)
+> - le texte exact placé dans la zone de message ; (27 October 2026, 18:27:34 +0100)
+> - la capture du formulaire rempli ; (27 October 2026, 18:27:34 +0100)
+> - un `LISEZ-MOI.txt` qui dit « RIEN N'EST ENVOYÉ » et liste ce qui a été rempli et ce qui reste à faire. (27 October 2026, 18:27:34 +0100)
+>
+> Puis un seul zip pour le lot, ouvert par le bouton « Voir le zip (CV + lettre) ». Les PDF ne vont jamais dans ton dossier Téléchargements. Prouvé par un test complet dans Chromium sur un formulaire fictif : formulaire rempli, rien d'envoyé, dossier et zip présents. Pas encore essayé sur un vrai lot. (27 October 2026, 18:27:34 +0100)
+>
+> **Le bouton « Voir le zip » n'apparaîtra qu'après un redémarrage du service local.** J'ai évité de le redémarrer maintenant parce que ça fermerait ta fenêtre de candidature (le lot Framestore est ouvert). Un script le redémarrera tout seul dès que tu auras fermé toutes les fenêtres de candidature. En attendant, le zip se crée déjà au prochain lot, dans le dossier de la passe, sans le bouton. (27 October 2026, 18:27:34 +0100)
+>
+> **Tes 19 consignes sur les annonces.** Je les ai notées telles quelles dans un fichier de mémoire du projet, avec le format « ligne / vue d'ensemble / ce qu'ils cherchent / mon offre », et ta précision que seule la ligne part dans la lettre. J'ai lu la conversation Gemini liée : les 921 lettres y ont bien été régénérées avec la phrase freelance. (27 October 2026, 18:27:34 +0100)
+>
+> **Correctif du skill ZenRay Edit.** Son générateur de PDF perdait la salutation et le destinataire de la lettre quand il était lancé en ligne de commande. C'est corrigé et testé. (27 October 2026, 18:27:34 +0100)
+>
+> **À savoir.** La lettre Framestore dit que tu as livré « several simulation titles shipped on Steam (including Santa Simulator and Bakery Coffee Simulator) ». Ton CV publié ne cite ni ces jeux ni Steam, et plusieurs agents l'ont relevé. C'est ta lettre et ta décision. (27 October 2026, 18:27:34 +0100)
+>
+> | Tu voulais | Fait ? | Comment je le sais | (27 October 2026, 18:27:34 +0100)
+> |---|---|---| (27 October 2026, 18:27:34 +0100)
+> | Voir un exemple de lettre envoyée | Oui | PDF et aperçu Framestore envoyés | (27 October 2026, 18:27:34 +0100)
+> | La même lettre dans le PDF, le formulaire et « Copier » | Oui | Test, et file d'attente identique à ta lettre | (27 October 2026, 18:27:34 +0100)
+> | Un zip avec le CV et la lettre à vérifier | Oui, codé | Test Chromium sur formulaire fictif, pas sur un vrai lot | (27 October 2026, 18:27:34 +0100)
+> | Bouton pour ouvrir le zip | Après redémarrage | Redémarrage automatique à la fermeture de ta fenêtre | (27 October 2026, 18:27:34 +0100)
+> | Postuler en freelance | Oui | Phrase freelance présente dans la lettre de la file | (27 October 2026, 18:27:34 +0100)
+> | Noter tes consignes sur les annonces | Oui | Fichier `OfferInstructions1.md` | (27 October 2026, 18:27:34 +0100)
+> | Fiche de préparation (vue d'ensemble, ce qu'ils cherchent, mon offre) | Pas encore | À construire, avec 2 à 3 recherches web par offre | (27 October 2026, 18:27:34 +0100)
+>
+> Ta demande reformulée : « Chaque candidature doit porter la dernière lettre freelance, la même dans le PDF, le formulaire et la copie, avec un zip pour la vérifier. » **Source unique** veut dire qu'un texte existe à un seul endroit et que tout le reste le lit. (27 October 2026, 18:27:34 +0100)
