@@ -6241,3 +6241,882 @@
 > </result> (27 October 2026, 12:39:17 +0100)
 > <usage><subagent_tokens>442224</subagent_tokens><tool_uses>8</tool_uses><duration_ms>622092</duration_ms></usage> (27 October 2026, 12:39:17 +0100)
 > </task-notification> (27 October 2026, 12:39:17 +0100)
+
+## 27 October 2026, 17:58:11 +0100 : Prompt
+
+<!-- feedback-event:b69843bbcd747cd80612539657171653c758c27b9895a744e92b6f156536e0ad (27 October 2026, 17:58:11 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 17:58:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 17:58:11 +0100)
+
+> <pasted_content id="bf15"> (27 October 2026, 17:58:11 +0100)
+> /zenray-resume-coordinator zenray freelance Donc j'ai besoin que tu reprennes tout le contexte, mais je sais même pas quoi faire en fait. En fait là le problème, ok je sais exactement, c'est que j'ai un... Ok, c'est que j'ai un module, si tu veux, par rapport au lot du jour. En fait il faut que j'automatise un truc, c'est-à-dire que actuellement, mon truc de préparer 10 candidatures ne fonctionne pas par rapport au fait que c'est pas relié à mes trucs. C'est-à-dire que, tu vois, si je clique sur français francophone, ça va me mettre environ 10 offres dans lesquelles, en fait, il faudrait pouvoir directement upload en fonction du site mon éducation, les studios auxquels j'ai participé, et que ça remplisse tous les critères de la page, tu vois. Mais en fait, à la limite, est-ce que c'est pas possible de se focus sur n'importe quelle offre? Et parce que, en fait, si tu veux, le ZDR03, etc., machin, actuellement, il marche pas. Parce que, en fait, au final, moi, ce que je veux, c'est juste un bouton qui, déjà, soit relié à mes cartes, tu vois. Donc là, j'ai 10 cartes, tu vois, par exemple, là, dans l'exemple, il y a Caisse Centrale, Commune de Saint-Etienne, Game Loft et iDive, tu vois. Il y a ce genre de studio, mais l'outil, il met encore Crystal Dynamics, Crystal Dynamics, alors qu'on les a mis en hors cible, tu vois. Donc il y a un problème sur l'outil. Et ensuite, il y a un deuxième problème, c'est que certaines offres, elles sont bloquées. Il y a marqué bot wall, not bypassed, open this one by hand. Mais en fait, moi je m'en bats les couilles. Si tu veux, je veux juste pouvoir faire en sorte d'avoir un bouton. C'est le bouton le plus important de ZenRay Freelance à ce stade. Qui, je clique sur le truc, il me met site ou offre, il clique sur le bouton, il va sur la vie, il va dans postuler ou voir l'annonce complète, tu vois. Et il remplit tout le formulaire, tu vois. Alors, des fois, ça dépend des sites web, etc. Donc, ça va pas marcher. Mais, en fait, actuellement, si je prends, par exemple, là, Ubisoft Montréal, il faudrait que ça clique sur site ou offre. Il faudrait que ça clique sur je suis intéressé tout seul. Il faudrait que ça pré-remplisse tout le document de postulation. Et que, tu vois, par exemple, expérience, ça clique sur ajouter tout seul, ça met toutes mes expériences qui sont déjà en data. S'il y a besoin d'une lettre motivation via ZenRay Edit, ça la convertit en PDF. Ça remplit toute la page et ça met le message pour l'équipe de recrutement. Et moi, j'ai plus qu'à appuyer sur suivant. Et en fait, ça m'a déjà préparé tous les onglets. Donc en fait, il y a toute une partie automatisation qui n'est pas encore le cas. Et surtout, moi, j'ai besoin d'un gros bouton. Ou ensuite, j'ai juste marqué, j'ai juste à dire, bon, bah, cette offre, j'ai marqué comme envoyé. Mais là, ça me prend trop de temps. Ça me prend trop de temps de remplir les pages. À chaque fois, je refais la même chose. Je remets mon prénom, je remets mon nom, je remets mon courriel, je reconfirme mon courriel, je remets ma ville, je remets mon numéro de téléphone, je remets mon expérience, je remets mon éducation, je remets mon profil, je remets mon CV, je remets un message pour l'équipe de recrutement. Franchement, on va pas s'en sortir. Donc, ce que je veux, c'est déjà que le bouton marqué comme envoyé, il soit déjà bien mieux placé sur l'offre de n'importe quel studio. Donc là, par exemple, c'est Ubisoft Montréal. Et que j'ai un bouton pour commencer l'automatisation. Et il me faut un bouton où je puisse commencer l'automatisation avec les 10 pages, ou un autre bouton. Mais c'est surtout, il faut aussi corriger le bug qui fait que Crystal Dynamics est encore écrit. Alors que, en fait, les 10 offres triées et préparées, elles devraient être automatiquement faites par rapport à n'importe quel cas de figure, mais aussi, elles devraient être réindexées, tu vois. Genre, c'est-à-dire que, si par exemple, je clique sur France et Francophonie, tu vois, ça m'en sort 10, ça me dit, est-ce que vous voulez commencer, par exemple, les 10 pages d'automatisation et tout pré-remplir les pages, ou bien avoir un bouton directement où automatisation sur une seule offre, ou bien pouvoir changer à États-Unis et ça réindexe la liste, tu vois. Enfin, il y a plein de choses à faire par rapport à l'indexation du code. Donc, il faut que tu relises le truc ZenRay Freelance et vraiment que tu fasses un truc pixel perfect, parce que là, tu vois, aujourd'hui, j'ai envoyé péniblement 10 offres, tu vois. Mais en fait, le but, c'est d'envoyer minimum 100 par jour. Et puis, il n'y a aucune différence au final, parce que, en fait, la seule chose qui va changer, c'est la lettre de motivation. C'est vraiment la seule chose qui va changer. Et ça, je le fais en fonction de l'annonce du truc. Donc, de l'annonce qui est dans offre complète. Et d'ailleurs, dans offre complète, des fois, il y a des choses qui sont pas bien... qui sont pas bien écrites, donc je préfère en fait dans offre complète que tu récupères la data de l'offre directement et que tu la copies, plutôt que de faire un résumé un peu foireux comme c'est le cas actuellement. Donc voilà, de toute manière je demande toujours un résumé avant d'envoyer l'offre, mais il y a énormément de parties d'automation à faire et à finir sur ZenRay Freelance. Normalement je t'ai tout décrit, tu me fais ça proprement s'il te plaît. (27 October 2026, 17:58:11 +0100)
+>
+> /tasks-sequence (27 October 2026, 17:58:11 +0100)
+> </pasted_content id="bf15"> (27 October 2026, 17:58:11 +0100)
+
+## 27 October 2026, 17:58:37 +0100 : Prompt
+
+<!-- feedback-event:3704723b8a9b6cc8113d36edd933342970c9f607d1bc28eeb4339307811330d2 (27 October 2026, 17:58:37 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 17:58:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 17:58:37 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-resume-coordinator (27 October 2026, 17:58:37 +0100)
+>
+> # ZenRay Resume (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> ## Reprise immédiate depuis une conversation vierge (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> - 13 October 2026 : Utiliser ce skill dès que Matthieu ouvre une conversation neuve et demande de reprendre un projet existant (par exemple « reprends Louisiana Bayou », « où en est le projet X », ou `/zenray-resume <projet>`). (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Ce skill est la porte d'entrée légère pour reprendre le fil ; il évite de charger l'intégralité du skill lourd zenray-assets (650 lignes d'outillage, ctime, watchers et archives cloud) dans une session qui a juste besoin de savoir ce qui vient d'être fait. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Pour l'outillage lourd (création de projet neuf, archivage cloud R2/GitHub, LOAD/UNLOAD d'ateliers 3D, surveillance de sources de production), utiliser directement le skill zenray-assets. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> ## Procédure de reprise en une commande (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> - 13 October 2026 : Dans Claude Code, Codex ou Antigravity, exécuter en premier : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/BeginConversation.mjs --agent=<agent> --session-id=<vrai-id> --project-id=<id-projet>`, en adaptant l'agent réel (claude, codex, antigravity ou gemini). (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Cette commande lie la session dans SessionBindings.json, met à jour l'index des conversations, et affiche directement le bloc resume avec la dernière conversation liée, les derniers prompts réels de Matthieu et les règles épinglées. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Si le pont Assets est déchargé ou indisponible, la commande ne bloque pas : elle extrait et affiche quand même le brief complet depuis les fichiers locaux. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> ## Lecture directe sans terminal (LLM agnostique, ChatGPT, Claude Web) (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> - 13 October 2026 : Dans un modèle sans accès au terminal ou par copier-coller (ChatGPT, Claude.ai web, etc.), ouvrir directement le fichier dérivé `/Users/zenray/.claude/Memory1/Projects/<id-projet>/RESUME.md`. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Ce fichier contient le condensé exact : la dernière conversation active, les 6 derniers prompts verbatim de Matthieu, les 3 dernières itérations et le dernier ordre de mission, chaque ligne avec sa date. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Pour générer ou rafraîchir manuellement ce fichier sans lancer le démarrage complet de session : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/Resume.mjs <id-projet> --write`. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> ## Règles de session après la reprise (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> - 13 October 2026 : Lire en priorité les règles épinglées dans `/Users/zenray/.claude/Memory1/Projects/<id-projet>/Rules.md`. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Consigner les nouveaux prompts et faits durables avec `python3 ~/.claude/skills/zenray-feedback/scripts/feedback.py add <id-projet> "<texte>" --kind prompt|iteration|rule --event-id <id-stable>`. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 13 October 2026 : Clôturer chaque tour de travail par `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/Client.mjs checkpoint <id-projet> '<json>'`. (13 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> ## 17 October 2026 : Renommage en zenray-resume-coordinator et déclaration du projet (17 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+> - 17 October 2026 : Le skill `zenray-resume` (créé le 13 October 2026 ci-dessus) est renommé `zenray-resume-coordinator` afin de nommer ses deux fonctions : reprendre un projet via `RESUME.md` et coordonner le suivi de la session entre tous les agents (`SessionBindings.json`, `Rules.md`, `FEEDBACK.md` et `checkpoint`). (17 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 17 October 2026 : Au démarrage d'une conversation vierge, c'est toujours Matthieu qui déclare le projet à relier (par exemple `/zenray-resume-coordinator <projet>`) ; l'agent ne devine jamais un projet depuis le titre de la fenêtre et passe l'identifiant déclaré à `BeginConversation.mjs`, qui verrouille l'union `sessionId` / `projectId` dans `SessionBindings.json` pour toute la durée de vie de la discussion. (17 October 2026) (27 October 2026, 17:58:37 +0100)
+> - 17 October 2026 : Si Matthieu demande explicitement d'interroger ou de grepper un projet sans lier la conversation courante (« sans bind »), lire directement `RESUME.md`, `FEEDBACK.md`, `Project1.md` ou `Rules.md` sans exécuter `BeginConversation.mjs`. (17 October 2026) (27 October 2026, 17:58:37 +0100)
+>
+>
+> ARGUMENTS: zenray freelance (27 October 2026, 17:58:37 +0100)
+
+## 27 October 2026, 17:58:37 +0100 : Prompt
+
+<!-- feedback-event:a1709ff976e824b22a5b58281912701e816e350649c07a2d4b5164124e8644c8 (27 October 2026, 17:58:37 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 17:58:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 17:58:37 +0100)
+
+> (Re-invocation of /tasks-sequence — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (27 October 2026, 17:58:37 +0100)
+
+## 27 October 2026, 17:58:37 +0100 : Prompt
+
+<!-- feedback-event:9a75ee6eaee5c4cd22db4abaed46e42c81e729bbb0c8854a224589d916f39160 (27 October 2026, 17:58:37 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 17:58:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 17:58:37 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/tasks-sequence (27 October 2026, 17:58:37 +0100)
+>
+> # Découpe séquentielle (27 October 2026, 17:58:37 +0100)
+>
+> Une demande large échoue rarement parce qu'elle est difficile. Elle échoue parce qu'on l'a traitée (27 October 2026, 17:58:37 +0100)
+> **en bloc** : on tient tout en tête, on code tout, on vérifie à la fin, et ce qui manque ne se voit (27 October 2026, 17:58:37 +0100)
+> qu'au moment où Matthieu le signale. La parade n'est pas de travailler plus, c'est de **découper puis (27 October 2026, 17:58:37 +0100)
+> avancer d'un cran à la fois, en vérifiant chaque cran**. (27 October 2026, 17:58:37 +0100)
+>
+> ## La règle en une phrase (27 October 2026, 17:58:37 +0100)
+>
+> > Aucune tâche ne commence tant que la précédente n'est pas vérifiée, et aucune n'est vérifiée par (27 October 2026, 17:58:37 +0100)
+> > l'intention qu'on avait en l'écrivant. (27 October 2026, 17:58:37 +0100)
+>
+> ## 1. Découper, récursivement (27 October 2026, 17:58:37 +0100)
+>
+> On coupe jusqu'à ce que chaque feuille tienne cette promesse : **un seul geste, une seule preuve**. (27 October 2026, 17:58:37 +0100)
+>
+> Une tâche est encore trop grosse si l'une de ces phrases est vraie : (27 October 2026, 17:58:37 +0100)
+> - sa vérification demande deux contrôles de nature différente (« ça compile » ET « ça s'affiche ») ; (27 October 2026, 17:58:37 +0100)
+> - son énoncé contient « et », « puis », « ainsi que » ; (27 October 2026, 17:58:37 +0100)
+> - on ne sait pas dire, avant de commencer, ce qui prouvera qu'elle est finie. (27 October 2026, 17:58:37 +0100)
+>
+> On applique la coupe **au prompt lui-même d'abord**, puis à chaque morceau obtenu — c'est récursif, et (27 October 2026, 17:58:37 +0100)
+> c'est là que se gagne l'essentiel : un « rework la zone Time block » se coupe en presets, rendu de (27 October 2026, 17:58:37 +0100)
+> l'anneau, valeur par défaut, chacun vérifiable seul. (27 October 2026, 17:58:37 +0100)
+>
+> ## 2. Ordonner, par dépendance puis par coût (27 October 2026, 17:58:37 +0100)
+>
+> L'ordre n'est pas celui du prompt. Trois critères, dans cet ordre : (27 October 2026, 17:58:37 +0100)
+>
+> 1. **Ce qui débloque le reste** passe devant, même si c'est petit. Un outil, un index, une lecture. (27 October 2026, 17:58:37 +0100)
+> 2. **Ce qui est indépendant et rapide** ensuite : la valeur arrive tôt, et une interruption ne laisse (27 October 2026, 17:58:37 +0100)
+>    pas un chantier ouvert. (27 October 2026, 17:58:37 +0100)
+> 3. **Ce qui est gros et couplé** en dernier, quand le terrain est dégagé. (27 October 2026, 17:58:37 +0100)
+>
+> Une donnée à corriger passe avant le code qui l'affiche : sinon on débogue une interface sur des données (27 October 2026, 17:58:37 +0100)
+> fausses, et on corrige un symptôme qui n'existait pas. (27 October 2026, 17:58:37 +0100)
+>
+> ## 3. Exécuter, un cran à la fois (27 October 2026, 17:58:37 +0100)
+>
+> Pour chaque feuille, dans cet ordre, sans en sauter : (27 October 2026, 17:58:37 +0100)
+>
+> | Étape | Ce qu'on fait | Ce qui l'interdit | (27 October 2026, 17:58:37 +0100)
+> |---|---|---| (27 October 2026, 17:58:37 +0100)
+> | Chercher | Le geste technique existe-t-il déjà dans ce dépôt ? | Écrire avant d'avoir grepé une brique générique | (27 October 2026, 17:58:37 +0100)
+> | Faire | Le plus petit changement qui répond | En profiter pour « améliorer » le voisinage | (27 October 2026, 17:58:37 +0100)
+> | Prouver | Une observation réelle, pas un raisonnement | Annoncer « ça marche » sans l'avoir vu | (27 October 2026, 17:58:37 +0100)
+> | Passer | À la suivante seulement | Enchaîner trois tâches puis vérifier en bloc | (27 October 2026, 17:58:37 +0100)
+>
+> **La preuve est de la nature de la tâche**, jamais du confort : une donnée se relit sur le drive, une (27 October 2026, 17:58:37 +0100)
+> interface se regarde dans le navigateur, une valeur se mesure, une suppression se compte. (27 October 2026, 17:58:37 +0100)
+>
+> ## Séquence 3D et HDA : Geometry → UV generation → Texel density normalization (27 October 2026, 17:58:37 +0100)
+>
+> Dans tout pipeline de modélisation 3D procédurale ou HDA, l'ordre des dépendances impose strictement : (27 October 2026, 17:58:37 +0100)
+> `Geometry → UV generation → Texel density normalization` avant toute passe de texturing. (27 October 2026, 17:58:37 +0100)
+>
+> Une modélisation HDA avant d'appliquer le texturing doit toujours avoir des UVs par rapport à une texel density définie. Pourquoi : un HDA devrait sortir avec des UVs propres avant même le texturing, et idéalement avec une texel density définie, car les UVs sont le contrat spatial entre la géométrie et tout ce qui viendra ensuite : textures, trim sheets, decals, baking, lightmaps, masks et matériaux procéduraux. Sans densité cohérente, deux éléments de taille comparable peuvent afficher des niveaux de détail complètement différents, un mur peut paraître deux fois plus flou qu'une porte, un motif peut changer d'échelle selon les paramètres du HDA, et toute modification procédurale peut casser la continuité visuelle. Une texel density fixe permet donc de garantir qu'un mètre de surface reçoit toujours approximativement la même quantité de pixels, indépendamment de la taille, de la variante ou de la génération du mesh. Pour un HDA, c'est encore plus important qu'en modélisation manuelle, car l'asset doit rester fiable quand on change largeur, hauteur, nombre de modules ou proportions : sauf cas particuliers comme du triplanar ou du world-space texturing où les UVs peuvent devenir secondaires. (27 October 2026, 17:58:37 +0100)
+>
+> État des composants de la scène active (Louisiana Bayou) : (27 October 2026, 17:58:37 +0100)
+> - `Component_WoodFacade` : chaîne complète appliquée avec UVs orthogonales périmétriques résolvant les coupes d'angles non droits à 45 degrés (onglets d'angle et rampants de toit sans aucun cisaillement ni écrasement), indexation de cours (`course_k`, `course_y`), connectivité (`piece_id`), texel density normalisée (4.0 UV/m), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V continu, flip aléatoire 180°, pas U discrets). (27 October 2026, 17:58:37 +0100)
+> - `Component_Armature` : chaîne complète appliquée avec UVs natives par sweep calibrées à 4.0 UV/m (`uvscale1 = 4.0 / 2.75`, `uvscale2 = 4.0 / 2.75`), connectivité (`piece_id`), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V, flip aléatoire, pas U discrets). (27 October 2026, 17:58:37 +0100)
+> - `Component_PorchStairs` : chaîne complète appliquée avec projection box orthogonale calibrée à 4.0 UV/m sur 100% des 910 primitives (marches, limons, poteaux, balustres, madriers), connectivité (`piece_id`) et variation procédurale vectorisée (`uv_variation_offset`). (27 October 2026, 17:58:37 +0100)
+> Les 3 composants de la scène partagent désormais le même contrat spatial rigoureux (4.0 UV/m) garantissant une continuité parfaite sous n'importe quel shader ou texture. (27 October 2026, 17:58:37 +0100)
+>
+> ### Doctrine de variation d'UV procédurale : Réfutation V1/V2 et Méthode ZenRay V3 (27 October 2026, 17:58:37 +0100)
+>
+> Pour éviter l'explosion mémoire du multi-UDIM (64 Mo réduits à 16 Mo) et briser la répétition visuelle sur des matériaux identiques sans trimsheet rigide : (27 October 2026, 17:58:37 +0100)
+>
+> 1. **Historique et écueils des méthodes passées** : (27 October 2026, 17:58:37 +0100)
+>    - **V1 (Approche manuelle)** : 4 branches de géométrie, 4 nœuds Name, 4 UV Transform statiques, Copy to Points. Rigide et impossible à scaler. (27 October 2026, 17:58:37 +0100)
+>    - **V2 (Templates instanciés et boucle For-Each SOP)** : 1 mesh dupliqué en 40 templates via Copy & Transform, nommage A1..A40 par sprintf, distribution modulo sur points, Copy to Points, unpack, connectivity, puis boucle For-Each SOP avec metadata pour faire `@uv.y += rand(iter)`. (27 October 2026, 17:58:37 +0100)
+>
+> 2. **Réfutation technique de la méthode V2** : (27 October 2026, 17:58:37 +0100)
+>    - **Goulot d'étranglement de la boucle For-Each SOP** : réévaluer un graphe SOP en boucle N fois par pièce est un anti-pattern majeur dans Houdini qui détruit les performances dès que le nombre d'éléments grandit. (27 October 2026, 17:58:37 +0100)
+>    - **Sur-ingénierie du Copy-to-Points** : fabriquer 40 copies packed d'un même cube juste pour leur attribuer un identifiant textuel est une plomberie inutile pour des géométries déjà générées procéduralement (sweeps, profilages, découpes booléennes). (27 October 2026, 17:58:37 +0100)
+>    - **Décalage aléatoire brut (`rand()`) sans pas discret** : un float aléatoire continu fonctionne uniquement sur une texture 100% sans raccord en V. Dès que la texture contient N planches distinctes ou un atlas, le décalage continu coupe les motifs en deux et crée des artefacts de couture (seam bleeding). (27 October 2026, 17:58:37 +0100)
+>
+> 3. **Méthode ZenRay V3 (Vectorisée, 0.001 ms, zéro boucle For-Each)** : (27 October 2026, 17:58:37 +0100)
+>    - **Génération native alignée** : sur les poutres et courbes (`sweep::2.0`), activer `computeuvs = 1` et `lengthweighteduvs = 1`. L'axe U épouse le profil, l'axe V suit rigoureusement la longueur de la courbe, le fil du bois est toujours orienté dans le bon sens et la texel density est uniforme. (27 October 2026, 17:58:37 +0100)
+>    - **Tag de pièce instantané** : un simple nœud `connectivity` SOP en mode primitif crée `piece_id`. (27 October 2026, 17:58:37 +0100)
+>    - **Wrangle vectorisé unique sur sommets (Run Over: Vertices)** : (27 October 2026, 17:58:37 +0100)
+>      ```c (27 October 2026, 17:58:37 +0100)
+>      int piece = prim(0, "piece_id", @primnum); (27 October 2026, 17:58:37 +0100)
+>      float seed = chf("../uv_seed"); (27 October 2026, 17:58:37 +0100)
+>      float v_scale = chf("../uv_v_offset_scale"); (27 October 2026, 17:58:37 +0100)
+>
+>      // Décalage continu le long du fil du bois (axe V) (27 October 2026, 17:58:37 +0100)
+>      float v_rand = rand(piece + seed + 0.1234); (27 October 2026, 17:58:37 +0100)
+>      @uv.y += v_rand * v_scale; (27 October 2026, 17:58:37 +0100)
+>
+>      // Flip aléatoire 180° pour doubler la variété (27 October 2026, 17:58:37 +0100)
+>      if (chi("../uv_random_flip") && rand(piece + seed + 0.7891) > 0.5) { (27 October 2026, 17:58:37 +0100)
+>          @uv.y = -@uv.y; (27 October 2026, 17:58:37 +0100)
+>      } (27 October 2026, 17:58:37 +0100)
+>
+>      // Pas discret en U si atlas de N lattes (27 October 2026, 17:58:37 +0100)
+>      int u_variants = chi("../uv_u_variants"); (27 October 2026, 17:58:37 +0100)
+>      if (u_variants > 1) { (27 October 2026, 17:58:37 +0100)
+>          int choice = int(floor(rand(piece + seed + 0.4567) * float(u_variants))); (27 October 2026, 17:58:37 +0100)
+>          @uv.x = (@uv.x / float(u_variants)) + (float(choice) / float(u_variants)); (27 October 2026, 17:58:37 +0100)
+>      } (27 October 2026, 17:58:37 +0100)
+>      ``` (27 October 2026, 17:58:37 +0100)
+>    - **Alternative shader UE5** : déporter le décalage dans le Material Graph Unreal Engine en passant `piece_id` ou un attribut aléatoire dans une couleur de sommet (`Cd`) ou un canal UV secondaire. (27 October 2026, 17:58:37 +0100)
+>
+> ## 4. Rendre compte de ce qui reste (27 October 2026, 17:58:37 +0100)
+>
+> À la fin, la liste des feuilles avec leur état réel. Une feuille non faite se dit **non faite**, avec sa (27 October 2026, 17:58:37 +0100)
+> raison. Une feuille faite mais non vérifiée se dit ainsi : c'est un état légitime, à condition d'être (27 October 2026, 17:58:37 +0100)
+> nommé. Le silence sur une partie de la demande est la seule faute qui ne se rattrape pas, parce que (27 October 2026, 17:58:37 +0100)
+> Matthieu croit alors la chose faite. (27 October 2026, 17:58:37 +0100)
+>
+> ## Erreurs déjà payées (27 October 2026, 17:58:37 +0100)
+>
+> | Erreur | Cause racine | La règle | (27 October 2026, 17:58:37 +0100)
+> |---|---|---| (27 October 2026, 17:58:37 +0100)
+> | Une partie du prompt oubliée | Découpe faite de tête, jamais écrite | La liste des feuilles s'écrit AVANT de coder | (27 October 2026, 17:58:37 +0100)
+> | « Ça ne marche pas » annoncé à tort | Vérification faite dans un environnement qui bride le mécanisme | Vérifier que le VÉRIFICATEUR fonctionne avant de conclure | (27 October 2026, 17:58:37 +0100)
+> | Trois correctifs empilés, aucun vérifié | Enchaînement sans preuve intermédiaire | Une preuve par feuille, avant la suivante | (27 October 2026, 17:58:37 +0100)
+> | Interface déboguée sur des données fausses | Ordre du prompt suivi au lieu de l'ordre des dépendances | Les données d'abord, l'affichage ensuite | (27 October 2026, 17:58:37 +0100)
+> | Brique générique réécrite | Recherche par le NOM de la fonctionnalité | Chercher le geste technique (`a.download`, `zipSync`, `onPaste`) | (27 October 2026, 17:58:37 +0100)
+
+## 27 October 2026, 17:58:43 +0100 : Prompt
+
+<!-- feedback-event:04ff180233097697420a2221f7e38d2adb19bc05aee61608abfdfd6b7f2cfba2 (27 October 2026, 17:58:43 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 17:58:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 17:58:43 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-resume-coordinator (27 October 2026, 17:58:43 +0100)
+>
+> # ZenRay Resume (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> ## Reprise immédiate depuis une conversation vierge (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> - 13 October 2026 : Utiliser ce skill dès que Matthieu ouvre une conversation neuve et demande de reprendre un projet existant (par exemple « reprends Louisiana Bayou », « où en est le projet X », ou `/zenray-resume <projet>`). (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Ce skill est la porte d'entrée légère pour reprendre le fil ; il évite de charger l'intégralité du skill lourd zenray-assets (650 lignes d'outillage, ctime, watchers et archives cloud) dans une session qui a juste besoin de savoir ce qui vient d'être fait. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Pour l'outillage lourd (création de projet neuf, archivage cloud R2/GitHub, LOAD/UNLOAD d'ateliers 3D, surveillance de sources de production), utiliser directement le skill zenray-assets. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> ## Procédure de reprise en une commande (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> - 13 October 2026 : Dans Claude Code, Codex ou Antigravity, exécuter en premier : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/BeginConversation.mjs --agent=<agent> --session-id=<vrai-id> --project-id=<id-projet>`, en adaptant l'agent réel (claude, codex, antigravity ou gemini). (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Cette commande lie la session dans SessionBindings.json, met à jour l'index des conversations, et affiche directement le bloc resume avec la dernière conversation liée, les derniers prompts réels de Matthieu et les règles épinglées. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Si le pont Assets est déchargé ou indisponible, la commande ne bloque pas : elle extrait et affiche quand même le brief complet depuis les fichiers locaux. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> ## Lecture directe sans terminal (LLM agnostique, ChatGPT, Claude Web) (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> - 13 October 2026 : Dans un modèle sans accès au terminal ou par copier-coller (ChatGPT, Claude.ai web, etc.), ouvrir directement le fichier dérivé `/Users/zenray/.claude/Memory1/Projects/<id-projet>/RESUME.md`. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Ce fichier contient le condensé exact : la dernière conversation active, les 6 derniers prompts verbatim de Matthieu, les 3 dernières itérations et le dernier ordre de mission, chaque ligne avec sa date. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Pour générer ou rafraîchir manuellement ce fichier sans lancer le démarrage complet de session : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/Resume.mjs <id-projet> --write`. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> ## Règles de session après la reprise (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> - 13 October 2026 : Lire en priorité les règles épinglées dans `/Users/zenray/.claude/Memory1/Projects/<id-projet>/Rules.md`. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Consigner les nouveaux prompts et faits durables avec `python3 ~/.claude/skills/zenray-feedback/scripts/feedback.py add <id-projet> "<texte>" --kind prompt|iteration|rule --event-id <id-stable>`. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 13 October 2026 : Clôturer chaque tour de travail par `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Assets/Client.mjs checkpoint <id-projet> '<json>'`. (13 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> ## 17 October 2026 : Renommage en zenray-resume-coordinator et déclaration du projet (17 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+> - 17 October 2026 : Le skill `zenray-resume` (créé le 13 October 2026 ci-dessus) est renommé `zenray-resume-coordinator` afin de nommer ses deux fonctions : reprendre un projet via `RESUME.md` et coordonner le suivi de la session entre tous les agents (`SessionBindings.json`, `Rules.md`, `FEEDBACK.md` et `checkpoint`). (17 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 17 October 2026 : Au démarrage d'une conversation vierge, c'est toujours Matthieu qui déclare le projet à relier (par exemple `/zenray-resume-coordinator <projet>`) ; l'agent ne devine jamais un projet depuis le titre de la fenêtre et passe l'identifiant déclaré à `BeginConversation.mjs`, qui verrouille l'union `sessionId` / `projectId` dans `SessionBindings.json` pour toute la durée de vie de la discussion. (17 October 2026) (27 October 2026, 17:58:43 +0100)
+> - 17 October 2026 : Si Matthieu demande explicitement d'interroger ou de grepper un projet sans lier la conversation courante (« sans bind »), lire directement `RESUME.md`, `FEEDBACK.md`, `Project1.md` ou `Rules.md` sans exécuter `BeginConversation.mjs`. (17 October 2026) (27 October 2026, 17:58:43 +0100)
+>
+>
+> ARGUMENTS: zenray freelance (27 October 2026, 17:58:43 +0100)
+>
+> (Re-invocation of /tasks-sequence — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (27 October 2026, 17:58:43 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/tasks-sequence (27 October 2026, 17:58:43 +0100)
+>
+> # Découpe séquentielle (27 October 2026, 17:58:43 +0100)
+>
+> Une demande large échoue rarement parce qu'elle est difficile. Elle échoue parce qu'on l'a traitée (27 October 2026, 17:58:43 +0100)
+> **en bloc** : on tient tout en tête, on code tout, on vérifie à la fin, et ce qui manque ne se voit (27 October 2026, 17:58:43 +0100)
+> qu'au moment où Matthieu le signale. La parade n'est pas de travailler plus, c'est de **découper puis (27 October 2026, 17:58:43 +0100)
+> avancer d'un cran à la fois, en vérifiant chaque cran**. (27 October 2026, 17:58:43 +0100)
+>
+> ## La règle en une phrase (27 October 2026, 17:58:43 +0100)
+>
+> > Aucune tâche ne commence tant que la précédente n'est pas vérifiée, et aucune n'est vérifiée par (27 October 2026, 17:58:43 +0100)
+> > l'intention qu'on avait en l'écrivant. (27 October 2026, 17:58:43 +0100)
+>
+> ## 1. Découper, récursivement (27 October 2026, 17:58:43 +0100)
+>
+> On coupe jusqu'à ce que chaque feuille tienne cette promesse : **un seul geste, une seule preuve**. (27 October 2026, 17:58:43 +0100)
+>
+> Une tâche est encore trop grosse si l'une de ces phrases est vraie : (27 October 2026, 17:58:43 +0100)
+> - sa vérification demande deux contrôles de nature différente (« ça compile » ET « ça s'affiche ») ; (27 October 2026, 17:58:43 +0100)
+> - son énoncé contient « et », « puis », « ainsi que » ; (27 October 2026, 17:58:43 +0100)
+> - on ne sait pas dire, avant de commencer, ce qui prouvera qu'elle est finie. (27 October 2026, 17:58:43 +0100)
+>
+> On applique la coupe **au prompt lui-même d'abord**, puis à chaque morceau obtenu — c'est récursif, et (27 October 2026, 17:58:43 +0100)
+> c'est là que se gagne l'essentiel : un « rework la zone Time block » se coupe en presets, rendu de (27 October 2026, 17:58:43 +0100)
+> l'anneau, valeur par défaut, chacun vérifiable seul. (27 October 2026, 17:58:43 +0100)
+>
+> ## 2. Ordonner, par dépendance puis par coût (27 October 2026, 17:58:43 +0100)
+>
+> L'ordre n'est pas celui du prompt. Trois critères, dans cet ordre : (27 October 2026, 17:58:43 +0100)
+>
+> 1. **Ce qui débloque le reste** passe devant, même si c'est petit. Un outil, un index, une lecture. (27 October 2026, 17:58:43 +0100)
+> 2. **Ce qui est indépendant et rapide** ensuite : la valeur arrive tôt, et une interruption ne laisse (27 October 2026, 17:58:43 +0100)
+>    pas un chantier ouvert. (27 October 2026, 17:58:43 +0100)
+> 3. **Ce qui est gros et couplé** en dernier, quand le terrain est dégagé. (27 October 2026, 17:58:43 +0100)
+>
+> Une donnée à corriger passe avant le code qui l'affiche : sinon on débogue une interface sur des données (27 October 2026, 17:58:43 +0100)
+> fausses, et on corrige un symptôme qui n'existait pas. (27 October 2026, 17:58:43 +0100)
+>
+> ## 3. Exécuter, un cran à la fois (27 October 2026, 17:58:43 +0100)
+>
+> Pour chaque feuille, dans cet ordre, sans en sauter : (27 October 2026, 17:58:43 +0100)
+>
+> | Étape | Ce qu'on fait | Ce qui l'interdit | (27 October 2026, 17:58:43 +0100)
+> |---|---|---| (27 October 2026, 17:58:43 +0100)
+> | Chercher | Le geste technique existe-t-il déjà dans ce dépôt ? | Écrire avant d'avoir grepé une brique générique | (27 October 2026, 17:58:43 +0100)
+> | Faire | Le plus petit changement qui répond | En profiter pour « améliorer » le voisinage | (27 October 2026, 17:58:43 +0100)
+> | Prouver | Une observation réelle, pas un raisonnement | Annoncer « ça marche » sans l'avoir vu | (27 October 2026, 17:58:43 +0100)
+> | Passer | À la suivante seulement | Enchaîner trois tâches puis vérifier en bloc | (27 October 2026, 17:58:43 +0100)
+>
+> **La preuve est de la nature de la tâche**, jamais du confort : une donnée se relit sur le drive, une (27 October 2026, 17:58:43 +0100)
+> interface se regarde dans le navigateur, une valeur se mesure, une suppression se compte. (27 October 2026, 17:58:43 +0100)
+>
+> ## Séquence 3D et HDA : Geometry → UV generation → Texel density normalization (27 October 2026, 17:58:43 +0100)
+>
+> Dans tout pipeline de modélisation 3D procédurale ou HDA, l'ordre des dépendances impose strictement : (27 October 2026, 17:58:43 +0100)
+> `Geometry → UV generation → Texel density normalization` avant toute passe de texturing. (27 October 2026, 17:58:43 +0100)
+>
+> Une modélisation HDA avant d'appliquer le texturing doit toujours avoir des UVs par rapport à une texel density définie. Pourquoi : un HDA devrait sortir avec des UVs propres avant même le texturing, et idéalement avec une texel density définie, car les UVs sont le contrat spatial entre la géométrie et tout ce qui viendra ensuite : textures, trim sheets, decals, baking, lightmaps, masks et matériaux procéduraux. Sans densité cohérente, deux éléments de taille comparable peuvent afficher des niveaux de détail complètement différents, un mur peut paraître deux fois plus flou qu'une porte, un motif peut changer d'échelle selon les paramètres du HDA, et toute modification procédurale peut casser la continuité visuelle. Une texel density fixe permet donc de garantir qu'un mètre de surface reçoit toujours approximativement la même quantité de pixels, indépendamment de la taille, de la variante ou de la génération du mesh. Pour un HDA, c'est encore plus important qu'en modélisation manuelle, car l'asset doit rester fiable quand on change largeur, hauteur, nombre de modules ou proportions : sauf cas particuliers comme du triplanar ou du world-space texturing où les UVs peuvent devenir secondaires. (27 October 2026, 17:58:43 +0100)
+>
+> État des composants de la scène active (Louisiana Bayou) : (27 October 2026, 17:58:43 +0100)
+> - `Component_WoodFacade` : chaîne complète appliquée avec UVs orthogonales périmétriques résolvant les coupes d'angles non droits à 45 degrés (onglets d'angle et rampants de toit sans aucun cisaillement ni écrasement), indexation de cours (`course_k`, `course_y`), connectivité (`piece_id`), texel density normalisée (4.0 UV/m), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V continu, flip aléatoire 180°, pas U discrets). (27 October 2026, 17:58:43 +0100)
+> - `Component_Armature` : chaîne complète appliquée avec UVs natives par sweep calibrées à 4.0 UV/m (`uvscale1 = 4.0 / 2.75`, `uvscale2 = 4.0 / 2.75`), connectivité (`piece_id`), et variation procédurale vectorisée (`uv_variation_offset` : seed, décalage V, flip aléatoire, pas U discrets). (27 October 2026, 17:58:43 +0100)
+> - `Component_PorchStairs` : chaîne complète appliquée avec projection box orthogonale calibrée à 4.0 UV/m sur 100% des 910 primitives (marches, limons, poteaux, balustres, madriers), connectivité (`piece_id`) et variation procédurale vectorisée (`uv_variation_offset`). (27 October 2026, 17:58:43 +0100)
+> Les 3 composants de la scène partagent désormais le même contrat spatial rigoureux (4.0 UV/m) garantissant une continuité parfaite sous n'importe quel shader ou texture. (27 October 2026, 17:58:43 +0100)
+>
+> ### Doctrine de variation d'UV procédurale : Réfutation V1/V2 et Méthode ZenRay V3 (27 October 2026, 17:58:43 +0100)
+>
+> Pour éviter l'explosion mémoire du multi-UDIM (64 Mo réduits à 16 Mo) et briser la répétition visuelle sur des matériaux identiques sans trimsheet rigide : (27 October 2026, 17:58:43 +0100)
+>
+> 1. **Historique et écueils des méthodes passées** : (27 October 2026, 17:58:43 +0100)
+>    - **V1 (Approche manuelle)** : 4 branches de géométrie, 4 nœuds Name, 4 UV Transform statiques, Copy to Points. Rigide et impossible à scaler. (27 October 2026, 17:58:43 +0100)
+>    - **V2 (Templates instanciés et boucle For-Each SOP)** : 1 mesh dupliqué en 40 templates via Copy & Transform, nommage A1..A40 par sprintf, distribution modulo sur points, Copy to Points, unpack, connectivity, puis boucle For-Each SOP avec metadata pour faire `@uv.y += rand(iter)`. (27 October 2026, 17:58:43 +0100)
+>
+> 2. **Réfutation technique de la méthode V2** : (27 October 2026, 17:58:43 +0100)
+>    - **Goulot d'étranglement de la boucle For-Each SOP** : réévaluer un graphe SOP en boucle N fois par pièce est un anti-pattern majeur dans Houdini qui détruit les performances dès que le nombre d'éléments grandit. (27 October 2026, 17:58:43 +0100)
+>    - **Sur-ingénierie du Copy-to-Points** : fabriquer 40 copies packed d'un même cube juste pour leur attribuer un identifiant textuel est une plomberie inutile pour des géométries déjà générées procéduralement (sweeps, profilages, découpes booléennes). (27 October 2026, 17:58:43 +0100)
+>    - **Décalage aléatoire brut (`rand()`) sans pas discret** : un float aléatoire continu fonctionne uniquement sur une texture 100% sans raccord en V. Dès que la texture contient N planches distinctes ou un atlas, le décalage continu coupe les motifs en deux et crée des artefacts de couture (seam bleeding). (27 October 2026, 17:58:43 +0100)
+>
+> 3. **Méthode ZenRay V3 (Vectorisée, 0.001 ms, zéro boucle For-Each)** : (27 October 2026, 17:58:43 +0100)
+>    - **Génération native alignée** : sur les poutres et courbes (`sweep::2.0`), activer `computeuvs = 1` et `lengthweighteduvs = 1`. L'axe U épouse le profil, l'axe V suit rigoureusement la longueur de la courbe, le fil du bois est toujours orienté dans le bon sens et la texel density est uniforme. (27 October 2026, 17:58:43 +0100)
+>    - **Tag de pièce instantané** : un simple nœud `connectivity` SOP en mode primitif crée `piece_id`. (27 October 2026, 17:58:43 +0100)
+>    - **Wrangle vectorisé unique sur sommets (Run Over: Vertices)** : (27 October 2026, 17:58:43 +0100)
+>      ```c (27 October 2026, 17:58:43 +0100)
+>      int piece = prim(0, "piece_id", @primnum); (27 October 2026, 17:58:43 +0100)
+>      float seed = chf("../uv_seed"); (27 October 2026, 17:58:43 +0100)
+>      float v_scale = chf("../uv_v_offset_scale"); (27 October 2026, 17:58:43 +0100)
+>
+>      // Décalage continu le long du fil du bois (axe V) (27 October 2026, 17:58:43 +0100)
+>      float v_rand = rand(piece + seed + 0.1234); (27 October 2026, 17:58:43 +0100)
+>      @uv.y += v_rand * v_scale; (27 October 2026, 17:58:43 +0100)
+>
+>      // Flip aléatoire 180° pour doubler la variété (27 October 2026, 17:58:43 +0100)
+>      if (chi("../uv_random_flip") && rand(piece + seed + 0.7891) > 0.5) { (27 October 2026, 17:58:43 +0100)
+>          @uv.y = -@uv.y; (27 October 2026, 17:58:43 +0100)
+>      } (27 October 2026, 17:58:43 +0100)
+>
+>      // Pas discret en U si atlas de N lattes (27 October 2026, 17:58:43 +0100)
+>      int u_variants = chi("../uv_u_variants"); (27 October 2026, 17:58:43 +0100)
+>      if (u_variants > 1) { (27 October 2026, 17:58:43 +0100)
+>          int choice = int(floor(rand(piece + seed + 0.4567) * float(u_variants))); (27 October 2026, 17:58:43 +0100)
+>          @uv.x = (@uv.x / float(u_variants)) + (float(choice) / float(u_variants)); (27 October 2026, 17:58:43 +0100)
+>      } (27 October 2026, 17:58:43 +0100)
+>      ``` (27 October 2026, 17:58:43 +0100)
+>    - **Alternative shader UE5** : déporter le décalage dans le Material Graph Unreal Engine en passant `piece_id` ou un attribut aléatoire dans une couleur de sommet (`Cd`) ou un canal UV secondaire. (27 October 2026, 17:58:43 +0100)
+>
+> ## 4. Rendre compte de ce qui reste (27 October 2026, 17:58:43 +0100)
+>
+> À la fin, la liste des feuilles avec leur état réel. Une feuille non faite se dit **non faite**, avec sa (27 October 2026, 17:58:43 +0100)
+> raison. Une feuille faite mais non vérifiée se dit ainsi : c'est un état légitime, à condition d'être (27 October 2026, 17:58:43 +0100)
+> nommé. Le silence sur une partie de la demande est la seule faute qui ne se rattrape pas, parce que (27 October 2026, 17:58:43 +0100)
+> Matthieu croit alors la chose faite. (27 October 2026, 17:58:43 +0100)
+>
+> ## Erreurs déjà payées (27 October 2026, 17:58:43 +0100)
+>
+> | Erreur | Cause racine | La règle | (27 October 2026, 17:58:43 +0100)
+> |---|---|---| (27 October 2026, 17:58:43 +0100)
+> | Une partie du prompt oubliée | Découpe faite de tête, jamais écrite | La liste des feuilles s'écrit AVANT de coder | (27 October 2026, 17:58:43 +0100)
+> | « Ça ne marche pas » annoncé à tort | Vérification faite dans un environnement qui bride le mécanisme | Vérifier que le VÉRIFICATEUR fonctionne avant de conclure | (27 October 2026, 17:58:43 +0100)
+> | Trois correctifs empilés, aucun vérifié | Enchaînement sans preuve intermédiaire | Une preuve par feuille, avant la suivante | (27 October 2026, 17:58:43 +0100)
+> | Interface déboguée sur des données fausses | Ordre du prompt suivi au lieu de l'ordre des dépendances | Les données d'abord, l'affichage ensuite | (27 October 2026, 17:58:43 +0100)
+> | Brique générique réécrite | Recherche par le NOM de la fonctionnalité | Chercher le geste technique (`a.download`, `zipSync`, `onPaste`) | (27 October 2026, 17:58:43 +0100)
+>
+> <system-reminder> (27 October 2026, 17:58:43 +0100)
+> Attribution for git commits and pull requests you create from here on (this replaces Claude Code's own earlier attribution guidance, such as a previous copy of this reminder; the user's own instructions about these lines, such as a CLAUDE.md or memory rule, take precedence over this reminder, but do not add attribution lines this reminder leaves out): (27 October 2026, 17:58:43 +0100)
+> - End git commit messages with: (27 October 2026, 17:58:43 +0100)
+> Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com> (27 October 2026, 17:58:43 +0100)
+> - End pull request descriptions with: (27 October 2026, 17:58:43 +0100)
+> 🤖 Generated with [Claude Code](https://claude.com/claude-code) (27 October 2026, 17:58:43 +0100)
+>
+> The user can follow this conversation from another device; to put a file in front of them there (a report, a screenshot, a built artifact), send it with SendUserFile. (27 October 2026, 17:58:43 +0100)
+> </system-reminder> (27 October 2026, 17:58:43 +0100)
+
+## 27 October 2026, 18:01:03 +0100 : Iteration
+
+<!-- feedback-event:7b9d789eecb522d26c1bd4d6dd6980e5fa84ae917c3b77d604c96731d49553f5 (27 October 2026, 18:01:03 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (27 October 2026, 18:01:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:01:03 +0100)
+
+> Les échecs viennent de libellés et de la limite 60, que j'ai changés exprès. Je mets les tests à jour. (27 October 2026, 18:01:03 +0100)
+
+## 27 October 2026, 18:09:56 +0100 : Iteration
+
+<!-- feedback-event:039a611c5643fadff518a26950881db1dd5f0bddc8a65b0be722ed0c491fb907 (27 October 2026, 18:09:56 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (27 October 2026, 18:09:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:09:56 +0100)
+
+> Tout est vert. Je construis, pousse et déploie, puis je note la règle. (27 October 2026, 18:09:56 +0100)
+
+## 27 October 2026, 18:11:46 +0100 : Iteration
+
+<!-- feedback-event:3f7c88f6d7e3a3177801d17d24eec3242e4caca0ac858e9ec2c47f40b57d4c0a (27 October 2026, 18:11:46 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (27 October 2026, 18:11:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:11:46 +0100)
+
+> Le bouton principal est branché sur tes cartes et déployé. Je n'ai pas pu l'essayer sur un vrai site d'emploi, seulement sur un formulaire fictif ouvert dans Chromium. (27 October 2026, 18:11:46 +0100)
+>
+> **Pourquoi Crystal Dynamics revenait.** La préparation choisissait ses propres 10 meilleures offres (celles à formulaire seulement) au lieu de prendre tes cartes. En plus, la liste affichée sous le bouton gardait les résultats de l'ancienne passe, d'avant ton « Hors cible ». (27 October 2026, 18:11:46 +0100)
+>
+> **Ce qui change dans la page** (27 October 2026, 18:11:46 +0100)
+> - **« Remplir les N pages du lot » :** il envoie les ids de tes cartes, dans l'ordre. Si tu passes de France à États-Unis, le bouton suit la nouvelle liste. Une fiche qui n'est plus « à contacter » (Hors cible, envoyée, refusée) n'est jamais préparée. J'ai prouvé ça sur le magasin réel : Asobo (hors cible) est écarté, les trois autres sortent dans l'ordre. (27 October 2026, 18:11:46 +0100)
+> - **Une seule fenêtre :** elle s'ouvre avec toutes les pages remplies et gardées ouvertes (coordonnées, CV, lettre), sans rien envoyer. Tu relis, tu cliques sur Suivant. (27 October 2026, 18:11:46 +0100)
+> - **« Automatiser » :** un bouton sur chaque carte et dans l'en-tête de chaque fiche, à côté de « site ou offre ». Il fait la même chose pour une seule offre. (27 October 2026, 18:11:46 +0100)
+> - **« Envoyé » :** sur chaque carte, sur chaque ligne de la liste préparée et dans la fiche. Il remplace « Fait » et enregistre la même note partout. (27 October 2026, 18:11:46 +0100)
+> - **Liste périmée :** si la liste préparée ne correspond plus aux cartes, la page le dit au lieu de mentir. Une ligne dont la fiche a changé de statut affiche « hors cible », par exemple. (27 October 2026, 18:11:46 +0100)
+> - **Taille 100 :** ajoutée, parce que ton objectif est de 100 par jour. (27 October 2026, 18:11:46 +0100)
+>
+> **Expériences et formation.** Le programme lit ton CV publié sur matthieuhuguet.com, clique seulement sur « Add experience » et « Add education », puis remplit chaque bloc (3 expériences, 4 formations, réglable dans `FreelanceConfig.json`). Il n'envoie jamais le formulaire. Il repère un bloc par ses champs, donc ta ville ou ta date de disponibilité ne sont jamais prises pour un poste. Prouvé dans Chromium sur un formulaire fictif : 2 expériences et 2 formations remplies, 0 envoi. Pas prouvé sur Workday, SmartRecruiters ou Greenhouse : si une section reste vide, dis-moi le site. (27 October 2026, 18:11:46 +0100)
+>
+> **Murs anti-bot.** Ce point reste non contourné : je ne passe ni captcha ni mur anti-bot. Dans la fenêtre unique, ces pages restent ouvertes pour que tu les passes à la main, et la liste les marque « à la main ». Un bouton qui contourne un mur n'est pas possible. (27 October 2026, 18:11:46 +0100)
+>
+> **Offre complète.** Elle affichait déjà le texte original archivé. J'ai ajouté « Copier l'annonce » (texte original seul) et rangé le « Recensement du moteur », qui est un commentaire automatique, dans un bloc fermé. Si le « résumé foireux » que tu vises est ailleurs, montre-moi une capture annotée. 188 offres sur 929 n'ont aucun texte archivé : je ne les ai pas rattrapées. (27 October 2026, 18:11:46 +0100)
+>
+> **À vérifier de ton côté.** Le widget d'expérience que d'autres sessions ont ajouté dit que Meerkat dure de janvier 2024 à juin 2026, « sorti sur Steam ». Ton CV publié dit octobre à novembre 2025, sans titre de jeu ni Steam. Le remplissage automatique suit le CV publié. Si le widget est collé dans des formulaires, une des deux versions est fausse. (27 October 2026, 18:11:46 +0100)
+>
+> **La lettre n'est pas finie.** 6 agents sur 19 ont rendu leur rapport, les autres ont dépassé ta limite de session (réinitialisée à 15 h 30). Les rapports reçus recoupent déjà : Maya, C++, Substance et « HDA qui génèrent du level design » ne sont soutenus par aucun fichier, « tout mon travail est visible » est excessif, « trois jeux » n'est pas dans le CV, Ceramic Tiles doit créditer Julien Delannoy, et l'âge est à vérifier. (27 October 2026, 18:11:46 +0100)
+>
+> | Tu voulais | Fait ? | Comment je le sais | (27 October 2026, 18:11:46 +0100)
+> |---|---|---| (27 October 2026, 18:11:46 +0100)
+> | Bouton relié à mes cartes | Oui | Test sur le magasin réel : l'ordre est gardé, Asobo écarté | (27 October 2026, 18:11:46 +0100)
+> | Crystal Dynamics n'est plus préparé | Oui | Test `buildQueue with ids` (le bug était là) | (27 October 2026, 18:11:46 +0100)
+> | Bouton pour automatiser une seule offre | Oui | Tests verts, sur chaque carte et dans la fiche | (27 October 2026, 18:11:46 +0100)
+> | « Envoyé » mieux placé | Oui | Sur la carte, la ligne et la fiche, testé | (27 October 2026, 18:11:46 +0100)
+> | Remplir expériences et formation | En partie | Réel sur formulaire fictif, pas sur un vrai site | (27 October 2026, 18:11:46 +0100)
+> | Offre complète copiée telle quelle | En partie | Bouton « Copier l'annonce » testé, 188 offres sans texte | (27 October 2026, 18:11:46 +0100)
+> | 100 par jour | Taille 100 ajoutée | Pas essayée sur un vrai lot | (27 October 2026, 18:11:46 +0100)
+> | Lettre déconstruite | Pas encore | 6 rapports sur 19 reçus | (27 October 2026, 18:11:46 +0100)
+>
+> Ta demande reformulée : « Fais un bouton qui prépare toutes mes cartes ou une seule offre, formulaires remplis jusqu'au bouton Suivant, et garde mes pages à passer à la main. » **Idempotent** veut dire qu'un second clic sur la même offre ne la compte ni ne la prépare deux fois. (27 October 2026, 18:11:46 +0100)
+
+## 27 October 2026, 18:15:43 +0100 : Prompt
+
+<!-- feedback-event:924cb91ed521409084b846f64873a5a41420c71742871bcdc3472bb0a3ba5526 (27 October 2026, 18:15:43 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 18:15:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:15:43 +0100)
+
+> Montre-moi juste l'exemple des cover letters qui sont envoyés parce que j'ai pas de feedback sur exactement sur ce que tu construis actuellement. J'ai pas de visuel. Donc tu peux me la donner en PDF ou en HTML ou en... Comment ça s'appelle? En PNG directement. En fait, il faudrait que quand je clique sur... Voilà, c'est ça. C'est quand je clique sur automatiser, ça me prépare un zip où je vois exactement le CV envoyé et le et la cover letter. Parce que comme ça, je suis sûr de ce que t'envoies, tu vois. (27 October 2026, 18:15:43 +0100)
+
+## 27 October 2026, 18:15:50 +0100 : Prompt
+
+<!-- feedback-event:e54ed57745131cfc34c6cec25376d4a99222670095e965611dd310c980ab3bd6 (27 October 2026, 18:15:50 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 18:15:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:15:50 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-edit (27 October 2026, 18:15:50 +0100)
+>
+> # ZenRay Edit (7 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## PRIORITÉ 0 ABSOLUE : GÉNÉRATION IMMÉDIATE DE PDF ET COVER LETTERS EN 1,2 SECONDE (27 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> - RÈGLE IMPÉRATIVE POUR TOUT AGENT (Claude Code, Codex, Antigravity, sous-agents) : (27 October 2026, 18:15:50 +0100)
+>   Dès que Matthieu demande de créer, générer, exporter, modifier ou refaire un PDF, une cover letter ou un document imprimable A4 : (27 October 2026, 18:15:50 +0100)
+>   1. INTERDICTION FORMELLE d'écrire un script de génération ad-hoc en Python (ReportLab, Weasyprint, etc.), d'installer des paquets, de scripter Playwright à la main ou de bricoler du HTML/CSS from scratch. (27 October 2026, 18:15:50 +0100)
+>   2. EXÉCUTER DIRECTEMENT cette commande en une seule ligne : (27 October 2026, 18:15:50 +0100)
+>      `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.mjs <input.md|--text "..."> --company "<Studio>" --subject "<Objet>" --out "/Users/zenray/Downloads/<NomDuFichier>.pdf"` (27 October 2026, 18:15:50 +0100)
+>      (ou via le dispatcher : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zr-edit.mjs pdf ...`) (27 October 2026, 18:15:50 +0100)
+>   3. Ce script pré-généré exécute TOUT en 1,2 seconde chrono : (27 October 2026, 18:15:50 +0100)
+>      - Injection base64 des polices locales GT Ultra 400 et Literata 400/500 (zéro latence réseau, zéro CDN). (27 October 2026, 18:15:50 +0100)
+>      - Rendu direct via Google Chrome headless en ~1 000 ms. (27 October 2026, 18:15:50 +0100)
+>      - Génération automatique de l'aperçu PNG 150 dpi (`<Fichier>-preview-1.png`). (27 October 2026, 18:15:50 +0100)
+>      - Vérification stricte anti-débordement sur 1 seule page via pypdf. (27 October 2026, 18:15:50 +0100)
+>      - Copie immédiate dans `/Users/zenray/Downloads/`. (27 October 2026, 18:15:50 +0100)
+>   4. Preuves mesurées en conditions réelles (27 October 2026) : (27 October 2026, 18:15:50 +0100)
+>      - Eidos-Montréal (VFX Artist) : 1 211 ms (1 page stricte, 3 014 caractères). (27 October 2026, 18:15:50 +0100)
+>      - Sunblink (Environment Gameplay Designer) : 1 233 ms (1 page stricte, 2 838 caractères). (27 October 2026, 18:15:50 +0100)
+>
+> ## PRIORITÉ 0 ABSOLUE : PLUS JAMAIS RÉINVENTER LA ROUE, TOUT SE FAIT PAR TEMPLATES ET SCRIPTS DÉDIÉS EN 1 SECONDE (27 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> - Mots de Matthieu (27 October 2026) : « à l'avenir, je veux pas que ça reprenne 5 minutes à chaque fois que je crée une cover letter. Là, tu as pris très exactement 4 minutes pour créer un PDF, alors que le skill ZenRay Edit devrait te permettre de le créer ultra vite, immédiatement. Donc, crée tous les fichiers et tous les scripts dans ZenRay Edit et consigne la règle afin que tu refasses plus jamais l'erreur, jamais. Je veux que la prochaine fois que je te demande de faire un PDF, et même que je te demande de faire quoi que ce soit que peut faire le skill ZenRay Edit, je veux que tu pré-génères tous les scripts qui font qu'il les génère en une seconde, tu vois, via des templates. C'était le but de ZenRay Edit. » (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Règle fondamentale : interdiction absolue de recoder des scripts de génération ad-hoc ou de bricoler des pipelines à chaque demande. Tout média géré par ZenRay Edit (PDF, maquette HTML, Motion Design, SFX, article de skill) dispose d'un template pré-calculé et d'un script dédié, appelable via le point d'entrée unique `zr-edit.mjs` ou directement. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Point d'entrée unifié : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zr-edit.mjs <pdf|design|motion|sfx|article|file> [options]` (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 1. PDF instantané (1 seconde) : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.mjs <params.json|--title ...>` (ou `zr-edit.mjs pdf`). Utilise le template `/Users/zenray/.claude/skills/zenray-edit/templates/pdf-document/template.html`, polices GT Ultra 400 et Literata 400/500 intégrées en base64 sans requête réseau, compilation headless Chrome en 890 ms, prévisualisation PNG 150 dpi, vérification stricte 1 page sans débordement via pypdf, copie automatique dans `~/Downloads/` et archivage dans Assets. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 2. Maquette HTML instantanée : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-html-design.mjs <module> --title "<titre>"` (ou `zr-edit.mjs design`). Utilise le template `/Users/zenray/.claude/skills/zenray-edit/templates/html-design/template.html` et ses jetons HDA, trio typographique GT Ultra / Literata / GT Standard L, grille fluide mobile et desktop. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 3. Motion Design intégré : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zenray-edit-motion.mjs <--list|--render|--montage>` (ou `zr-edit.mjs motion`). Connecté aux 87 projets ZenRay Motion Design, déclinaison aux 4 ratios (16:9, 9:16, 1:1, 4:5), exécution HyperFrames sans navigateur personnel, rendu MP4 ou suite PNG. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 4. SFX intégré : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zenray-edit-sfx.mjs <--list|--normalize|--link>` (ou `zr-edit.mjs sfx`). Connecté aux 208 éléments ZenRay SFX, normalisation loudness EBU R128 à -14.0 LUFS et plafond True Peak à -1.5 dBFS via ffmpeg, liaison atomique audio-vidéo dans `sfx.json` ou `chain.json`. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Preuve et suite de tests : 29 tests unitaires automatisés validés dans `scripts/*.test.mjs` (PDF, HTML, Motion, SFX, CLI unifié). (27 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## PRIORITÉ 0, PREMIÈRE PRIORITÉ D'USAGE : titres et nombres en GT Ultra, corps en Literata, reste de l'interface en GT Standard L (26 October 2026, 15:10) (27 October 2026, 18:15:50 +0100)
+>
+> - 26 October 2026 : une date, une heure, une durée, une plage, un montant ou une mesure est une valeur typographique indivisible : toute l’expression visible prend GT Ultra Regular 400, y compris le mois, les mots de liaison, les séparateurs, les unités et la devise (exemples : « 26 octobre 2026 », « October 2026 », « 9:00 AM », « 1 h 15 », « 10 000 € »). Ne jamais ne changer que les chiffres au milieu d’une date. Vérifier toutes les occurrences : calendrier, titre, bouton, champ, note, tableau, widget, compteur et détail ; dans une phrase ordinaire, seuls les nombres isolés prennent GT Ultra. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> - Mots de Matthieu (26 October 2026, grammaire seule) : « on va utiliser GT Ultra Regular pour les titres, sans forcément caps lock, ni forcément d'espace. Les chiffres, on peut aussi les mettre en GT Ultra. Si je récapitule : les titres en GT Ultra, les nombres en GT Ultra, le corps en Literata, et tout le reste de l'UI en GT Standard L. Toujours en première priorité pour l'utilisation. » Règle complète : `/Users/zenray/.claude/rules/Typography1.md`, section du 26 October 2026, 15:10. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - DÉFAUT de tout nouveau travail : TITRES GT Ultra Regular 400, casse libre, sans interlettrage imposé ; TOUS LES NOMBRES GT Ultra Regular 400 (corps, tableaux, boutons, titres) ; CORPS et TEXTE REÇU OU LU Literata 400 ; RESTE DE L'INTERFACE GT Standard L Regular 400 ; CODE AnthropicMono. Cette section remplace, sur les titres (GT Standard L Bold capitales) et sur les nombres (GT Standard L), les sections « typographie » plus bas, qui restent comme historique ; GT Sectra, Anthropic Serif et Inter restent des alternatives valables (voir la correction du même jour plus bas). (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Articles : `"fontSet": "gtultra"` dans la définition (et dans `ARTICLE.json` d'un skill). Toute définition NOUVELLE le met. Sans clé le rendu reste « sectra » octet pour octet (prouvé le 26 October 2026 : sortie de la définition de ZenRay Dictate identique, sha256 `87bdee61a2a5dcf2…`), `gtstandard` reste valide pour les articles qui l'emploient. Avec `gtultra`, chaque suite de chiffres du corps, des tableaux et des titres est enveloppée dans `<span class="num">` (sauf code, pre, script, style, svg) et prend GT Ultra. Casse et interlettrage des titres sont des variables du bloc (`--title-case`, `--title-track`, défauts `none` et `normal`), jamais des littéraux. Fichiers : `designs/_shared/fonts/GT-Ultra-Regular.woff2` (48 Ko), `GT-Standard-L-Regular.woff2`, `GT-Standard-L-Bold.woff2`, `Literata-latin.woff2` ; réglages dans `ARTICLE_SETTINGS.gtUltraFonts` et `gtUltraCss` de `scripts/render-project-article.mjs`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Preuve (26 October 2026) : article de ZenRay Dictate rendu avec `fontSet: gtultra` dans un Chromium isolé : h1 et h2 `GT Ultra 400`, 161 nombres en `GT Ultra`, paragraphes `Literata 400`, tableaux `GT Standard L`, code `AnthropicMono`, `document.fonts.check` vrai pour les trois familles, débordement 0 à 1280 et à 375 px. Contrôle réutilisable : `node scripts/CheckFontSet.cjs <article.html> <capture.png>`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## PRIORITÉ 0 : typographie, Literata et GT Standard L (26 October 2026, ordre de Matthieu) (27 October 2026, 18:15:50 +0100)
+>
+> - Mots de Matthieu (26 October 2026) : « update claude code et zenray edit avec simplement les nouvelles font : Literata et GT Standard L, en priorité par rapport à corps, titres, nombres. » Règle complète : `/Users/zenray/.claude/rules/Typography1.md`, section du 26 October 2026. Elle fixe le DÉFAUT prioritaire ; les polices citées plus bas (InterVariable, AnthropicSerif, GT Sectra, Medium 500) ne sont PAS abandonnées, voir la correction du 26 October 2026 ci-dessous. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - CORPS Literata 400 ; TITRES GT Standard L Bold 700, capitales, `.06em` ; INTERFACE et TOUS LES NOMBRES GT Standard L Regular 400 ; code AnthropicMono. Fichiers woff2 déjà dans `designs/_shared/fonts/` : `GT-Standard-L-Regular.woff2`, `GT-Standard-L-Bold.woff2`, `Literata-latin.woff2`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Articles : `render-project-article.mjs` accepte `"fontSet": "gtstandard"` dans la définition (et `fontSet` dans `ARTICLE.json` d'un skill, transmis par `refresh-skill-article.mjs`). Toute définition NOUVELLE le met ; sans cette clé le rendu reste « sectra », l'ancien, octet pour octet (prouvé le 26 October 2026 sur la définition de ZenRay Dictate : sortie identique avant et après, donc aucun article existant ne change à la reconstruction). Un nom inconnu lève une erreur. Le bloc de surcharge tient dans `ARTICLE_SETTINGS.gtStandardCss` et agit sur les variables du gabarit (`--sans`, `--serif`, `--title`). (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Maquettes et pages HTML : mêmes trois rôles, un jeton par rôle, jamais un nom de police en dur ; au moins une proposition de design peut garder un autre accent seulement si Matthieu le demande. Exemple de référence : `designs/2026-10-26-freelance-gt-standard/index.html`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Preuve (26 October 2026) : article de test rendu avec `fontSet: gtstandard` : titres 700 en capitales, corps Literata, interface GT Standard L, `document.fonts.check` vrai pour les trois faces, aucun débordement à 1280 et 375 px. Les articles existants (Registry.json) ne sont pas reconstruits en masse. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - CORRECTION (26 October 2026, mots de Matthieu, grammaire seule) : « je t'avais pas dit d'enlever complètement GT Sectra et Anthropic Serif, ni Inter, mais de mettre en priorité d'abord, par défaut, Literata et GT Standard L. » Donc : Literata et GT Standard L sont le défaut de tout nouveau travail (première proposition de design, articles `fontSet: gtstandard`, planches, visuels) ; GT Sectra LCG (coupe normale, jamais Display), Anthropic Serif et Inter restent valables comme alternatives, comme variantes quand Matthieu demande plusieurs designs (au moins une en GT Sectra LCG, règle du 23 October 2026) et pour les pages existantes. Le texte reçu ou lu est en Literata, les nombres en GT Standard L. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Contrôle connu, non lié : `python3 scripts/CheckContract.py` échoue déjà (« Bundle inventory changed », inventaire du bundle ancien) ; il n'a pas été réenregistré ici. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## PRIORITÉ 0 : chaque HTML fait avec zenray-edit est rangé dans le skill ET poussé dans Assets (23 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> - Question de Matthieu (23 October 2026) : « chaque ZenRay Edit est directement lié au skill ZenRay Edit, chaque HTML est relié à ZenRay Edit et ensuite tout est push dans Assets du projet zenray-edit ? » Réponse : oui, et c'est obligatoire. (23 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Tout HTML de design produit sous ce skill (maquette, galerie de propositions, planche) se termine par `node /Users/zenray/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets-du-chantier>` : copie dans `designs/<date>-<slug>/`, ligne dans `designs/INDEX.md`, copie dans le projet Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/` et `~/.claude/tmp/tmp-zenray-edit/Designs/`), copie dans le projet du chantier, puis inventaire et archive Assets. Sans cette commande le design n'est pas fini. (23 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Le choix de Matthieu s'ajoute par `file-design.mjs --decide <slug> --choice <n> --note "<texte>"`, jamais en réécrivant une ligne. (23 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 25 October 2026, PRIORITÉ 0 (demande de Matthieu) : toute réponse zenray-edit se termine par le chemin ABSOLU complet du HTML autonome des propositions (`/Users/zenray/.claude/tmp/tmp-<nom>-<date>/index.html`), en lien cliquable, pour qu'il l'ouvre dans le Finder et compare les propositions dans son propre navigateur, fenêtre entière. Même quand les propositions vivent dans une app (ZenRayProgress, etc.), on livre AUSSI ce HTML autonome, toutes les propositions côte à côte. Je l'ouvre en plus dans le navigateur interne (servi en local, car une page `file://` n'y est pas pilotable) pour vérifier, jamais dans son navigateur personnel. Cause : le 25 October 2026, l'onglet Abonnement Max a été livré seulement dans le site, sans HTML ni chemin. (25 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Piège payé le 23 October 2026 : relancer `file-design.mjs` pour « vérifier » refile un doublon (`-v2`) ; pour contrôler, lire `designs/INDEX.md` et lister `Memory1/Projects/zenray-edit/Designs/`. Les deux designs du Plan de ce jour ont d'abord été livrés sans la commande, puis rangés. (23 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+>
+> Atelier de création et d’édition, de la demande à un média vérifié et modifiable. Lire [ActiveContract.md](references/ActiveContract.md), puis seulement les références du mode utile. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> - Reprendre l’identité Assets existante, son contexte et son feedback avec zenray-assets ; travailler dans l’atelier ou les sources effectivement liées. Une conversation ne se réattribue jamais implicitement. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Pour un texte de Matthieu, corriger uniquement grammaire, orthographe, conjugaison et transcription manifestement erronée. Conserver vocabulaire, rythme, ordre, répétitions et contenu ; réécriture, réorganisation et traduction exigent une demande explicite. Lire [TextEditing.md](references/TextEditing.md). (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Chercher un gabarit avant de construire : `node scripts/zr-design.mjs list`, puis `get <id>`. Instancier la définition existante ; paramètres globaux, de famille et d’instance distincts. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Images et post : `python3 scripts/zr-hda-instance.py <source> --dest <atelier/instance> --mode light --post <draft>`. Heavy sert une URL locale pour WebGL ; ouvrir cette URL uniquement dans le navigateur interne. `--force` conserve textes, réglages et sorties, avec historique de code. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Composition : `scripts/new-project.sh <name> <atelier>` puis `<instance>/render.sh`. Le fichier export.json centralise dimensions, facteur, format et limites ; un facteur absent atteint au moins 3840 pixels sur le grand côté. Les sources et le master sont conservés même si une livraison échoue. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Avant traitement média lourd, appliquer ffmpeg-hardware-check ; utiliser PDF, Houdini ou téléchargement seulement si le mode le nécessite. Aucun script historique externe absent ne vaut capacité vérifiée. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Vérifier dimensions, poids, codec/durée et alpha selon le média, regarder le rendu réel en navigateur isolé ; fournir sources et exports identifiés. Archiver via Assets et vérifier le cloud avant de l’annoncer ; publication publique seulement dans le périmètre autorisé. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## Montage / motion design (10 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> - Une vidéo de motion design se reproduit depuis une référence mesurée : analyse, storyboard, paramètres HDA, composition HyperFrames, rendu, contrat de vérification. Méthode complète : `~/.claude/skills/zenray-motion-design/SKILL.md`. (10 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Référence de premier jet : `zenray-motion-design-01` (OneKey Pro 2, 68,05 s), vérifiée par `Verify.py` avec tous les contrôles réussis en v3. (10 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Chaque valeur de marque vit dans `params/tokens.json` ; chaque plan et chaque légende dans `params/timeline.json` ; la chorégraphie dans `params/choreography.json`. Ne jamais recopier une valeur dans le gabarit. (10 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Une référence téléchargée reste dans le scratchpad, sans archivage ni publication ; seul le rendu produit part vers l'atelier. (10 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Rendu : `HYPERFRAMES_BROWSER_PATH` sur le shell géré par HyperFrames, jamais le Chrome personnel. (10 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 11 October 2026 : passe 2, l'animatique : le montage reprend la structure mesurée (coupes, caméra, tempo) et chaque asset manquant devient un emplacement nommé et animé ; les assets faisables en code sont faits, les autres reçoivent un prompt validé avant toute génération. Méthode : section « Passe 2 » de `~/.claude/skills/zenray-motion-design/SKILL.md`. (11 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 11 October 2026 : génération d'assets : Google Flow n'a pas d'API ; la voie conseillée est l'API Gemini (Veo 3.1, images, Lyria) avec une clé rangée par Matthieu dans le trousseau macOS ; rien ne part avant la validation de la fiche A00 et des prompts. (11 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## Modes et références ciblées (7 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> | Mode | Références | Date | (27 October 2026, 18:15:50 +0100)
+> |---|---|---| (27 October 2026, 18:15:50 +0100)
+> | Correction et rédaction | TextEditing.md ; legacy/EditText.md pour historique | 7 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Photo et cadrage | legacy/PhotoWorkflow.md ; legacy/EditorCorrections.md ; post-editor.md | 7 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Composition et carrousel | legacy/CompositionFoundation.md ; legacy/CompositionRecipes.md | 7 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Template depuis référence | template-creator.md ; legacy/DesignLibrary.md | 7 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | PDF instantané (1s) | templates/pdf-document/README.md ; scripts/render-pdf-document.mjs | 27 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Maquette HTML instantanée | templates/html-design/README.md ; scripts/render-html-design.mjs | 27 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Motion Design et SFX intégrés | templates/motion-sfx/README.md ; scripts/zenray-edit-motion.mjs ; scripts/zenray-edit-sfx.mjs | 27 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Reel et short | legacy/ShortsPipeline.md ; legacy/ShortsCorrections.md | 7 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | UI paramétrique | legacy/ParameterPanels.md ; legacy/UiContract.md ; legacy/NativeUiReference.md si besoin natif | 7 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Post social et vignette | legacy/SocialText.md ; legacy/VignetteWorkflow.md ; legacy/PostEditorContract.md | 7 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Montage et motion design | ~/.claude/skills/zenray-motion-design/SKILL.md (analyse, storyboard, HyperFrames, contrat de vérification) | 10 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Animatique et inventaire d'assets | ~/.claude/skills/zenray-motion-design/SKILL.md, section Passe 2 (caméra mesurée, emplacements nommés, prompts, son, fiche) | 11 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Titre animé Vogun jaune ou blanc | templates/vogun-yellow-title/README.md (gabarit paramétrique, rendu `RenderTitle.cjs`, preuve) ; règles dans ~/.claude/skills/zenray-houdini/references/shorts/VogunTitles.md | 14 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Photo de profil | references/StudioPhotos.md ; skill zenray-studio-photos | 23 October 2026 | (27 October 2026, 18:15:50 +0100)
+> | Montage final 1:1 (clips, musique normalisée, carte de fin Motion Design, MP4 et MOV) | templates/montage-1x1/README.md ; section du 26 October 2026 de ce SKILL.md | 26 October 2026 | (27 October 2026, 18:15:50 +0100)
+>
+> Les 15 blocs historiques, les corpus d’origine et leur provenance restent consultables par [INDEX.md](references/INDEX.md). Les anciennes consignes sont des recettes historiques ; ActiveContract.md gouverne les commandes actuelles et tranche leurs contradictions. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## Preuves et contrôles (7 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> - `python3 scripts/index-skill.py --verify-only` vérifie les archives historiques et leurs empreintes ; `python3 scripts/CheckContract.py` vérifie les empreintes du bundle courant, routes, catalogue, entrées actives et configuration d’export. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - `python3 scripts/verify-post-instance.py <images> <fixture-neuve>` vérifie la reprise sans perte. Les vérificateurs navigateur exigent Playwright disponible dans le runtime, tournent isolés et produisent leurs captures dans la fixture. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Distinguer contrôles structurels, rendu réellement mesuré et cloud réellement vérifié ; une preuve ne couvre que ce qu’elle inspecte. (7 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 8 October 2026 : Vitesse de rotation uniforme depuis une prise de vue réelle (27 October 2026, 18:15:50 +0100)
+>
+> - 8 October 2026 (demande de Matthieu) : un plateau tournant filmé à la main tourne à vitesse variable (départ à l'arrêt, ralentissement, nouvelle poussée). `python3 scripts/UniformTurn.py <src> <out.mp4> --seconds 5 --fps 24 --size 1080x1920 --k 3` rend un tour à vitesse angulaire constante pour la durée voulue. (8 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 8 October 2026 : méthode mesurée, jamais devinée : corrélation de phase image par image sur une fenêtre centrale (`--win y0,y1,x0,x1` en fractions) donne le décalage horizontal de la surface ; sa somme cumulée est l'angle ; on coupe le début et la fin à l'arrêt (lissage sur 4 images, seuil `--thr`) ; minterpolate mci ×K ; chaque image de sortie prend l'image interpolée dont l'angle tombe sur la droite. Écart-type de vitesse mesuré 2,5 px par image avant, 0,88 après (pot de poterie, 8 October 2026). (8 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 8 October 2026 : limites : une caméra qui bouge ajoute son décalage à la mesure ; le fond de la fenêtre doit être le pot ; sortie sans audio ; la qualité est celle de la source (une source 1024×576 est agrandie en lanczos). Vérifier en remesurant la sortie avec le même script. (8 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 8 October 2026 : titre Vogun jaune : recette dans `zenray-houdini/references/shorts/VogunTitles.md` ; exemple de montage complet (grade, titre trois lignes Vogun et Yu Mincho, easeOutBack d'entrée, rendu alpha ProRes 4444) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/Montage.py`. (8 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 8 October 2026 : Sound Design / Edit Sound (27 October 2026, 18:15:50 +0100)
+>
+> - 8 October 2026 : mode son : transformer un effet sonore court (interface, jeu) en restant proche de la source ; recette validée `python3 scripts/SoundF1.py <source.flac> <sortie.wav>` (gonflement inversé de 1,2 s, corps une octave plus bas déclenché à −20 ms, réverbération douce), résultat de référence `assets/sound/F1_Trigger_minus20ms.flac`. Protocole complet, mesures et limites : [SoundDesign.md](references/SoundDesign.md). (8 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 8 October 2026 : ajouter ici seulement ce que Matthieu a validé à l'oreille ; les essais non retenus ne se consignent pas. (8 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+>
+> ## 9 October 2026 : tour uniforme SANS fantômes (remplace l'interpolation minterpolate) (27 October 2026, 18:15:50 +0100)
+>
+> - 9 October 2026 : cause des bandes blanches qui apparaissent et disparaissent dans un tour de plateau : `minterpolate` (UniformTurn.py) ne suit pas une surface texturée qui tourne ; il mélange deux positions et des lignes blanches se dédoublent dans une partie des images. Utiliser `python3 scripts/UniformTurnWarp.py <src> <out.mp4> --seconds 12.5` : angle mesuré par corrélation de phase, champ de déplacement horizontal mesuré sur 10 bandes verticales, et l'image source la plus proche est déplacée du reste (au plus une demi-image), sans mélange de deux images. (9 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 9 October 2026 : mesuré sur le pot de poterie : netteté de A 2,56 (source 2,91, ancienne méthode 2,49), irrégularité de netteté d'image à image 0,063 (ancienne méthode 0,121, source 0,104) ; B 0,085 contre 0,119. Une première version qui mélangeait deux images déplacées était plus floue (0,162) : ne jamais mélanger. (9 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 9 October 2026 : limites : un mouvement de caméra à la main reste mesuré avec le pot ; la vitesse d'angle vient d'une fenêtre centrale. Les anciens scripts restent pour comparaison. (9 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 9 October 2026 : montage motion design complet de référence (sous-titres lettre par lettre calés sur le tempo détecté, zooms sur les temps forts, zoom au raccord, SFX calés sur l'attaque mesurée) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/FinalMontage3.py`. (9 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 9 October 2026 : Leçons HTML illustrées et calculateurs procéduraux (27 October 2026, 18:15:50 +0100)
+>
+> - 9 October 2026 (demande de Matthieu) : une leçon se fait en HTML autonome, niveau 12 ans, pas à pas, avec images réelles, schémas SVG, glossaire, quiz et SIMULATIONS interactives (curseurs) plutôt que du texte seul. Exemple de référence : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-roof-tiles/index.html`. Polices embarquées (InterVariable, AnthropicSerif, AnthropicMono en woff2 copiés depuis `ZenRayProgress/public/fonts`), thème clair et sombre par `:root`. (9 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 9 October 2026 : toute leçon se vérifie dans le navigateur interne sur un serveur local, largeur étroite comprise (aucun débordement horizontal, tables dans un bloc défilant), et ses nombres se recalculent à la main : une erreur de tuiles de 340 px (6 × 340 + 7 × 8 dépasse 2048) a été trouvée en écrivant la leçon. (9 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 9 October 2026 : pour tout système procédural, le calculateur HTML de test est dans le skill `zenray-houdini` : `templates/roof-tile-calculator/index.html`. L'adapter (champs, règle, sorties) à un autre système avant de toucher Houdini. (9 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 12 October 2026 : Effacer une marque d'une texture (logo, silhouette d'échelle) par greffe de texture (27 October 2026, 18:15:50 +0100)
+>
+> - 12 October 2026 : `python3 scripts/PatchFill.py <in> <out> --crop x,y,w,h --rect x,y,w,h [--rect ...] --search 700 --search-y 12 --ring 18 --feather 16`. Le `--crop` s'applique d'abord (garder la moitié height d'une planche), les rectangles sont en coordonnées après recadrage. Numpy et Pillow seulement, environ 1 s. (12 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 12 October 2026 : méthode : l'anneau de pixels autour du trou est comparé à chaque place candidate par corrélation normalisée plus une pénalité de contraste ; la meilleure place est recopiée dans le trou, sa luminosité calée par un plan ajusté sur l'anneau, puis fondue sur le bord. Rien n'est inventé, la texture vient de la même image. (12 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 12 October 2026 : pièges payés : un simple écart au carré choisit des zones plates et bouche le trou d'une tache lisse ; un calage de luminosité constant laisse un rectangle plus clair ; sur une roche en strates, chercher dans les mêmes rangées (`--search-y` petit) garde les lignes alignées. Vérifier toujours sur un zoom avant/après. (12 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 12 October 2026 : exemple : planche de Javier Perez, moitié droite, silhouette `--rect 126,866,48,96` et logo `--rect 850,910,102,44`, atelier `/Users/zenray/.claude/tmp/tmp-height-javier-perez-clean/`. Un aperçu ombré en gris n'est pas une height linéaire : il sert de référence de mesure, pas de carte finale. (12 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 14 October 2026 : maquettes du rework Assets et titre Vogun rangés ici (27 October 2026, 18:15:50 +0100)
+>
+> - 14 October 2026 : les trois maquettes du rework ZenRay Assets (Tube, détails, page projet) et leurs décisions sont dans `templates/zenray-assets-mockups/rework-12-october-2026/` ; son README donne les choix de Matthieu et le code de production correspondant. (14 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 14 October 2026 : le titre animé Vogun jaune `#FFFF00` de Vegetation Collection 01 est un gabarit paramétrique dans `templates/vogun-yellow-title/` (durées, lignes, couleur et ombre dans un JSON, rendu 4K transparent par `RenderTitle.cjs`). (14 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 14 October 2026 : tout index de design est rangé automatiquement (27 October 2026, 18:15:50 +0100)
+>
+> - 14 October 2026 : dès qu'un index de design (galerie de propositions) est créé pour Matthieu, la dernière étape est `node ~/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets>`. Il copie l'index dans `designs/<date>-<slug>/` (polices partagées), ajoute une ligne au registre `designs/INDEX.md` et, avec `--project`, copie l'index dans `Memory1/Projects/<id>/Designs/`. Sans cette étape le design n'est pas fini. (14 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 14 October 2026 : son choix s'ajoute par `file-design.mjs --decide <slug> --choice <A|B|C>`, jamais en réécrivant une ligne. `designs/` est un registre vivant, hors du lot attesté par `CheckContract.py`. (14 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 14 October 2026 : la lecture du registre par projet dans `zenray-assets` n'existe pas encore ; aujourd'hui seule la copie dans la mémoire du projet est faite (colonne « Projet Assets » du registre). (14 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 18 October 2026 : archivage automatique dans le projet ZenRay Assets `zenray-edit` et typographie Medium `500` (27 October 2026, 18:15:50 +0100)
+>
+> - 18 October 2026 : à chaque appel, `scripts/file-design.mjs` copie l'index dans `designs/<date>-<slug>/`, ajoute la ligne à `designs/INDEX.md`, copie systématiquement dans le projet ZenRay Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/<folder>/` et `~/.claude/tmp/tmp-zenray-edit/Designs/<folder>/`, plus `--project <id>` si fourni), lance `sync-skill.sh zenray-edit` et déclenche `Client.mjs inventory zenray-edit` puis `Client.mjs archive zenray-edit`. (18 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 18 October 2026 : interdiction absolue de toute fonte Light (`300`/`350`, `AnthropicSerif-Light.ttf` banni car trop AI-like). Utiliser uniquement `AnthropicSerif Medium` (`AnthropicSerif-Medium.ttf`, `500`) et `InterVariable Medium` (`500`). (18 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+>
+> ## 20 October 2026 : articles de projet (27 October 2026, 18:15:50 +0100)
+>
+> - Contrat, commande et validation : [ProjectArticles.md](references/ProjectArticles.md). (20 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 23 October 2026 : thème Liquid Glass (27 October 2026, 18:15:50 +0100)
+>
+> - Référence visuelle : `references/liquid-glass/liquid-glass-claude.png`. Gabarit vérifié : `templates/liquid-glass/` (README : jetons, onglet de verre unique par `clip-path: path()`, alignement mesuré, poids 315 Ko). Instance d'origine : ZenRay Knowledge V5, `/Users/zenray/.claude/tmp/tmp-zenray-knowledge-23-october-2026/ZenRayKnowledgeDesignsV5.html`. (23 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Fond du verre : le wallpaper de Create (`ZenRayProgress/public/wallpaper.webp`) dans `body::before`, jamais sur un ancêtre ; jamais deux `backdrop-filter` imbriqués. (23 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 23 October 2026 : titres d'article en GT Sectra LCG italique (27 October 2026, 18:15:50 +0100)
+>
+> - 23 October 2026 : tout article ou page fait avec ce skill met ses TITRES en GT Sectra LCG Regular italique (chiffres et corps droits, Anthropic Serif) ; c'est le défaut du générateur d'articles (`titleStyle`). Règle : `/Users/zenray/.claude/rules/Typography1.md`, section du 23 October 2026, 18:20. (23 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 25 October 2026 : thème Papier pour les nouveaux articles, QLMarkdown B (27 October 2026, 18:15:50 +0100)
+>
+> - Choix de Matthieu (25 October 2026) : « QLMarkdown B (Papier éditorial) : baseSize=18 parfait. Tu peux même appliquer ce thème aussi aux articles neutres qui sont générés par ZenRay Assets et par ZenRay Edit, à l'avenir uniquement, pas les articles existants. » B est le thème actif de QLMarkdown. (25 October 2026) (27 October 2026, 18:15:50 +0100)
+> - `scripts/render-project-article.mjs` a une option `"theme"` : `papier` (défaut pour toute définition nouvelle) ou `galerie` (le gabarit d'avant). Les valeurs de Papier (couleurs claires et sombres, corps 18 px, interligne 1,7, colonne de 68 caractères, en-tête centré) se lisent dans `templates/qlmarkdown-themes/ThemeEngine.js`, design B : une seule source pour Quick Look et les articles. Un nom de thème inconnu lève une erreur. (25 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Les définitions existantes qui se régénèrent encore sont épinglées `"theme": "galerie"`, sans changer leur date de modification : `zenray-calendar-plan/ARTICLE.json`, `zenray-sales/ARTICLE.json`, la définition UV-Match Height et les deux `Article.json` de `zenray-houdini/docs`. `refresh-skill-article.mjs` transmet `theme` depuis ARTICLE.json ; un nouvel ARTICLE.json sans `theme` donne Papier. Rendu avec galerie identique octet pour octet à l'ancien générateur ; `refresh-articles.mjs --check` vert. (25 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Piège payé (25 October 2026) : `refresh-articles` compare aussi la TAILLE des entrées, pas seulement la date ; épingler un fichier le marque donc à reconstruire. Comme la reconstruction aurait changé l'article publié UV-Match Height (gabarit modifié le 23 October 2026), son empreinte a été enregistrée par `--baseline` sans le republier. (25 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 26 October 2026 : montage final 1:1 (séquence de clips, musique normalisée, carte de fin ZenRay Motion Design) et ce que ZenRay Edit sait de ZenRay SFX et de ZenRay Motion Design (27 October 2026, 18:15:50 +0100)
+>
+> - Demande de Matthieu (26 October 2026) : monter dans l'ordre le logo ZenRay SFX, l'évolution de la voiture à 0,125 s par image, le tour complet, le tour en fil de fer, avec la musique de Mathieu Lamboley normalisée dès le début et des fondus de 0,33 s, et pour finir la carte « Apple MacBook Pro : Personal. Private. Powerful. » de ZenRay Motion Design avec le texte « Matthieu Huguet 3D Tech Artist », en 1:1 sans aucun recadrage, MP4 et MOV, fichier de montage et de séquence, index mapping en .md, tout poussé dans ZenRay Assets (projet zenray-meshes). Tout est fait par le gabarit `templates/montage-1x1/` (README), instance : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Montage/`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Commande : `python3 Scripts/EndTitle.py` puis `python3 Scripts/Montage.py build` dans l'atelier ; une seule source de valeurs, `Params/montage.json` (séquence, carte de fin, musique, master, seuils de vérification). Résultat vérifié : 4 073 images à 60 images par seconde, 67,883 s, 1080 x 1080, 35 contrôles sur 35 verts, test rouge puis vert fait. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Orthographe (26 October 2026, correction de Matthieu : « Matthieu a deux t ») : son nom s'écrit MATTHIEU. La dictée avait écrit « Mathieu » et je l'ai recopié tel quel dans la carte de fin ; la carte a été refaite. « Mathieu Lamboley » (le compositeur) s'écrit bien avec un seul t. Avant tout rendu qui porte un nom propre, relire le texte du projet et les paramètres. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Format : le moteur Motion Design exporte `1x1` en 1080 x 1080 (`FORMATS` de `motion/server.py`) ; le montage sort donc en 1080 carré (le format carré des réseaux), 60 images par seconde (le clip SFX et la carte de fin sont à 60). Les clips à 8 images par seconde se répètent (60 / 8 = 7,5 : cadence de 7 puis 8 images) ; 53,125 s x 60 = 3 187,5 images, arrondies à 3 188 (`round` de Python, nombre pair). Le fil de fer vient de sa version 2048 réduite en lanczos (le 1024 avait du moiré). Aucun clip n'est recadré : mise à l'échelle seulement. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Couleur (26 October 2026, piège) : les MP4 de la voiture ont été faits depuis des PNG RGB par ffmpeg, qui encode en bt601 par défaut SANS balise ; un lecteur les lit en bt709. swscale ne change pas la matrice entre deux formats YUV : pour la rendre juste il faut le filtre `colorspace=space=bt709:ispace=smpte170m:...` (le gris est invariant, seules les couleurs saturées bougent). Une suite de PNG se convertit par `scale=out_color_matrix=bt709:out_range=tv` (`sws_dither=ed` contre les bancs du halo). Tout le montage est balisé bt709, plage tv, et vérifié par ffprobe. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Audio (26 October 2026, pièges) : (1) la piste mp3 commence par 0,155 s de silence (mesuré par `silencedetect`) : coupé, la musique démarre tout de suite ; (2) elle dépasse 0 dBFS une fois décodée (+1,34 dBTP) : tous les intermédiaires en `pcm_f32le`, jamais en 24 bits avant le gain ; (3) `loudnorm` en deux passes `linear=true` est exact pour la musique seule (LRA 4), mais sur le mélange dont la crête du clip SFX est à -0,5 dBTP il bascule en mode dynamique et baisse la musique de 1,5 dB pendant plusieurs secondes : le master est donc UN gain constant (cible -14 LUFS) suivi d'un limiteur rapide (`alimiter`, plafond -1,5 dBFS, attaque 2 ms, relâchement 40 ms, `level=0`), gain corrigé par mesure jusqu'à -14,0 LUFS et pic réel -1,3 dBTP ; (4) fondus de 0,33 s sur la musique seule, mesurés (premiers 40 ms à -45 dB, 27 dB sous le niveau stable). (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - ZenRay Motion Design vu de ZenRay Edit (26 October 2026) : un motion est un PROJET `~/.claude/tmp/tmp-zenray-motion-design/motion-projects/<id>/project.json` (schéma `zrmd/motion-project@1`, `format` parmi `16x9`, `9x16`, `1x1`, `4x5`, `fps`, scènes avec gabarit et paramètres). Pour en dériver un : `sys.path.insert(0, ".../ZenRayMotionDesign/motion"); import server`, puis `server.read_project(id)`, copie profonde, changement du texte, du `format`, du `fps`, `server.write_project(nouvel_id, p)`, `server.cook(id, dossier)` (page HTML), `server.hyperframes(page, "render", "-f", "60", "--format", "png-sequence", "-o", dossier, timeout=...)` (images sans perte `frame_000001.png`, une par image) ou `"snapshot", "--at", "1.5,2.0"` (PNG d'instants). `python3 .../motion/bin/RunHyperframes.mjs render --help` donne les options (`--resolution square-4k` rend à 2160 pour réduire ensuite proprement). L'export de l'app (`run_export`) ajoute le son de la page et un `loudnorm` à -14 LUFS, un seul à la fois ; un rendu direct par `server.hyperframes` n'a pas cette limite. Le gabarit `ap-title` (titres lumineux Apple) a une ligne `items` : `texte | cx | cy | taille | début | fin | dIn | dOut | outLead`, des tables `keys` (couleurs du texte) et `gkeys` (couleurs du halo) `item | temps | c1 | c2...` comptées depuis le début de l'item, et le plan 1920 x 1080 est recalé par `stageAdaptive` pour les autres formats (en 1:1 le texte de 29 lettres occupe 95 % de la largeur sans rien couper). (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Tenue ajoutée à un motion mesuré (26 October 2026, `EndTitle.py`) : la séquence Apple s09 ne dure que 1,75 s, trop court pour lire cinq mots ; une TENUE de 1,0 s s'insère en repoussant d'autant les lignes de `keys` et `gkeys` dont le temps est au moins 1,1 s (le début de l'effacement), la fin de l'item et la durée de la scène, sans toucher aux couleurs ni au timing mesurés de l'apparition. Paramètres `hold` et `holdFromItemTime` du bloc `endTitle`. Le projet dérivé reste modifiable dans l'app (`zenray-meshes-end-title-ppm`). (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - ZenRay SFX vu de ZenRay Edit (26 October 2026) : un son se fabrique dans `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRaySFX` (recette, trois propositions A, B, C par piste, `out/proposals/<motion>/sfxN-A.wav`), s'accorde sur les repères du film (`cues`, `anchorCue`, `hit`) et se range dans la chaîne `ZenRayEdit/out/montage-chain-<x>.json` (film + options de sons par index mapping). Une vidéo FINALE avec son est faite par `ZenRaySFX/Scripts/RenderFinal.py` : HyperFrames rend la page du motion à 4K et 60 images par seconde, ffmpeg la ramène à 2048 en lanczos et pose la piste masterisée dessous (AAC 256 k) ; le carré est le même projet avec `format: 1x1`. Pour un montage, on prend ce MP4 tel quel (image ET son, 6,0 s, 60 images par seconde, 2048 x 2048, bt709) : le montage mélange son son à la musique à son propre niveau, sans le toucher, à partir de la première image. Les sons des clips se marquent `"audio": true` dans `montage.json`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Vérification (26 October 2026) : contrôles du vérificateur ouverts par `python3 Scripts/Montage.py verify` ; pour un nouveau montage, toujours lancer aussi `verify --selftest` (rouge sur le clip SFX seul, vert sur le montage). Un PSNR « inf » sur une image noire est normal (identique octet pour octet). Garder `Out/plan.json` et `Out/filtergraph.txt` : ils disent les images exactes de chaque clip et la chaîne ffmpeg. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Rangement (26 October 2026) : l'atelier du montage est dans le TMP du projet Assets (`tmp-zenray-meshes/Montage/`), donc inventorié et archivé avec lui ; `Index.md` est l'index mapping (identifiant, fichier, rôle, taille, sha256). Le gabarit durable est `templates/montage-1x1/`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Deuxième version du montage avec une autre musique (26 October 2026, demande de Matthieu : « Meaning (Choral Version) » de Cascadeur à la place de Lamboley, les deux versions gardées) : `yt-dlp --no-playlist --flat-playlist --print "%(id)s | %(title)s | %(uploader)s | %(duration_string)s" "ytsearch8:<artiste titre>"` choisit la piste (ici `xnG0hIj-9GE`, la chaîne de l'artiste, 2:59), `yt-dlp -x --audio-format mp3 --audio-quality 0 -o "<Artiste - Titre> [%(id)s].%(ext)s" <URL>` la télécharge dans `Music/`, une copie va dans `Montage/Sources/06-...mp3`. Une VERSION est un second fichier de paramètres (`Params/montage-meaning.json`, copie de `montage.json` avec `audio.music.src`, `output.name`, `output.dir` = `Out-Meaning` et `output.index` = `Index-Meaning.md`) ; `python3 Scripts/Montage.py build --params Params/montage-meaning.json` fait tout dans son propre dossier, sans toucher à la première version. Temps réel : plan, audio et vidéo prennent environ 15 secondes, la vérification (35 contrôles) se lance après l'envoi du MP4. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Piège musique (26 October 2026) : `loudnorm` ne reste en mode linéaire que si la dynamique mesurée (LRA) est INFÉRIEURE à sa cible ; le choeur de Cascadeur mesure LRA 14,3 contre la cible de 11, donc il aurait été compressé. Le paramètre `audio.music.lra` (défaut 11) se règle au-dessus de la valeur mesurée (20 ici) : la musique garde toute sa dynamique (LRA 15,9 mesurée ensuite) et le gain reste constant. Cette piste commence presque en silence (niveau de la musique seule de -53 à -75 dB pendant les 5 premières secondes, -50 à -30 dB jusqu'à 20 s, puis jusqu'à -14 dB) : la normalisation aligne le niveau moyen, pas le début ; pour commencer plus tard dans la piste, mettre un nombre de secondes dans `audio.music.trimHead` (le silence de tête de 0,55 s est coupé en mode `auto`). (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Contrôle (26 October 2026) : la version Meaning est vérifiée 35 contrôles sur 35 et le test rouge et vert est fait (`verify --selftest --params Params/montage-meaning.json`) ; le gain du master est de +2,2 dB pour -14,0 LUFS et -1,2 dBTP. Fichiers : `Out-Meaning/` (MP4, MOV, plan, audio, filtergraph, verify), `Index-Meaning.md`. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Troisième musique, « How Long Is Now? » de YANA à partir de 2:28 (26 October 2026, demande de Matthieu : la version Cascadeur ne lui sert à rien, elle est supprimée ; l'ouverture reste sans musique) : `yt-dlp` id `dw3I76nGnhc` (la chaîne YANA, 3:40, 219,88 s), `startAt: "2:28"` (reste 71,88 s de piste pour 61,88 s à couvrir, donc aucune boucle), `placeAfter: "c1-sfx-logo-flare"` (le motion d'ouverture joue seul 6,0 s avec son propre son, la musique entre à 6,0 s avec son fondu de 0,33 s : niveau mesuré -43 dB à 6,0 s puis -12 dB à 6,5 s), `loop: true` avec `loopCrossfade` 1 s prêt si le montage s'allonge. Version `Out-Yana/` (MP4 et MOV), `Index-Yana.md`, 35 contrôles sur 35 dont « music fade in (music starts at 6.000 s) », master -14,1 LUFS et -1,4 dBTP, selftest rouge et vert. Pour démarrer avec la première image au lieu d'attendre le motion : `placeAt: 0` sans `placeAfter` (la phrase de Matthieu a hésité entre les deux, il a tranché pour attendre la fin du motion). (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Suppression (26 October 2026) : la version Cascadeur (`Out-Meaning/`, `Params/montage-meaning.json`, `Index-Meaning.md`, les deux copies du mp3) est effacée à sa demande, par chemins exacts ; elle se refait en une minute (`yt-dlp` puis `build`). La leçon sur le LRA reste valable. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 26 October 2026 : ZenRay Edit, l'app qui appelle Motion Design et SFX (27 October 2026, 18:15:50 +0100)
+>
+> - 26 October 2026 : dépôt `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayEdit` (port 3130, `Scripts/App.py`, entrée `zenray-edit` de launch.json). Il lit Motion Design et ZenRay SFX et relie un son à un film par `sfx.json` (ancre sur un repère du film). L'index qu'un agent doit lire pour ne pas se tromper : `ZenRayEdit/out/Library.md` (reconstruit par `Scripts/BuildIndex.py`, vérifié par `Scripts/CheckIndex.py`, vert et rouge). Aucun projet Assets global : chaque module garde son projet. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+> - 26 October 2026 : pour CONSULTER (voir tous les films et tous les sons), utiliser les galeries de l'app Motion ; pour LIER un son à un film, ZenRay Edit ou la piste Sons de l'éditeur Motion. (26 October 2026) (27 October 2026, 18:15:50 +0100)
+>
+> ## 27 October 2026 : moteur PDF Document et Cover Letter (A4 mono-page ultra-rapide) (27 October 2026, 18:15:50 +0100)
+>
+> - 27 October 2026 : moteur réutilisable et ultra-rapide (~1 seconde) pour générer des documents A4 et lettres de motivation conformes au système typographique ZenRay (GT Ultra 400 pour titres, chiffres, dates et métas ; Literata 400 pour le corps de texte ; Literata 500 pour les rôles, labels et sous-titres ; couleurs système #FDFDFC, #1F1F1E, accent #0A84FF, hairlines rgba(31, 31, 30, 0.10)). (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Gabarit : `/Users/zenray/.claude/skills/zenray-edit/templates/pdf-document/` contenant `template.html` (mise en page A4 paged-media avec `@page`, `@bottom-left` et `@bottom-right`), `params.json` (interface de paramètres HDA éditables sans modifier le code) et `README.md`. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - CLI : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.mjs` accepte en entrée un fichier Markdown (.md avec ou sans frontmatter), un fichier texte brut (.txt), un fichier JSON (.json) ou des arguments directs (`--text`, `--company`, `--recipient`, `--subject`, `--role`, `--out`, `--downloads`, `--slug`). (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Polices et rendu : lit les polices statiques depuis `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayWebsite/.cv-build/fonts/` et les injecte en base64 dans `@font-face` pour une autonomie totale sans dépendance externe ; rendu PDF via headless Chrome en ~900 ms ; miniature aperçu PNG 150 dpi via `pdftoppm` ; contrôle strict de pagination via python `pypdf` avec alerte si débordement au-delà d'une page. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Sortie et archivage : écrit par défaut dans `/Users/zenray/Downloads/<slug-ou-nom>.pdf` si `--out` n'est pas spécifié ; archive automatiquement le document, sa source, son PDF et sa miniature dans `designs/<date>-<slug>/` et dans ZenRay Assets via `file-design.mjs` dès que `--slug` est fourni. (27 October 2026) (27 October 2026, 18:15:50 +0100)
+> - Tests unitaires validés : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.test.mjs` (10/10 tests réussis). (27 October 2026) (27 October 2026, 18:15:50 +0100)
+
+## 27 October 2026, 18:15:57 +0100 : Prompt
+
+<!-- feedback-event:49df4c7f236523e525ce48f30f248fb072108a702acd590c04df8ba3c0c832b7 (27 October 2026, 18:15:57 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: prompt. (27 October 2026, 18:15:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:15:57 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-edit (27 October 2026, 18:15:57 +0100)
+>
+> # ZenRay Edit (7 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## PRIORITÉ 0 ABSOLUE : GÉNÉRATION IMMÉDIATE DE PDF ET COVER LETTERS EN 1,2 SECONDE (27 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> - RÈGLE IMPÉRATIVE POUR TOUT AGENT (Claude Code, Codex, Antigravity, sous-agents) : (27 October 2026, 18:15:57 +0100)
+>   Dès que Matthieu demande de créer, générer, exporter, modifier ou refaire un PDF, une cover letter ou un document imprimable A4 : (27 October 2026, 18:15:57 +0100)
+>   1. INTERDICTION FORMELLE d'écrire un script de génération ad-hoc en Python (ReportLab, Weasyprint, etc.), d'installer des paquets, de scripter Playwright à la main ou de bricoler du HTML/CSS from scratch. (27 October 2026, 18:15:57 +0100)
+>   2. EXÉCUTER DIRECTEMENT cette commande en une seule ligne : (27 October 2026, 18:15:57 +0100)
+>      `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.mjs <input.md|--text "..."> --company "<Studio>" --subject "<Objet>" --out "/Users/zenray/Downloads/<NomDuFichier>.pdf"` (27 October 2026, 18:15:57 +0100)
+>      (ou via le dispatcher : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zr-edit.mjs pdf ...`) (27 October 2026, 18:15:57 +0100)
+>   3. Ce script pré-généré exécute TOUT en 1,2 seconde chrono : (27 October 2026, 18:15:57 +0100)
+>      - Injection base64 des polices locales GT Ultra 400 et Literata 400/500 (zéro latence réseau, zéro CDN). (27 October 2026, 18:15:57 +0100)
+>      - Rendu direct via Google Chrome headless en ~1 000 ms. (27 October 2026, 18:15:57 +0100)
+>      - Génération automatique de l'aperçu PNG 150 dpi (`<Fichier>-preview-1.png`). (27 October 2026, 18:15:57 +0100)
+>      - Vérification stricte anti-débordement sur 1 seule page via pypdf. (27 October 2026, 18:15:57 +0100)
+>      - Copie immédiate dans `/Users/zenray/Downloads/`. (27 October 2026, 18:15:57 +0100)
+>   4. Preuves mesurées en conditions réelles (27 October 2026) : (27 October 2026, 18:15:57 +0100)
+>      - Eidos-Montréal (VFX Artist) : 1 211 ms (1 page stricte, 3 014 caractères). (27 October 2026, 18:15:57 +0100)
+>      - Sunblink (Environment Gameplay Designer) : 1 233 ms (1 page stricte, 2 838 caractères). (27 October 2026, 18:15:57 +0100)
+>
+> ## PRIORITÉ 0 ABSOLUE : PLUS JAMAIS RÉINVENTER LA ROUE, TOUT SE FAIT PAR TEMPLATES ET SCRIPTS DÉDIÉS EN 1 SECONDE (27 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> - Mots de Matthieu (27 October 2026) : « à l'avenir, je veux pas que ça reprenne 5 minutes à chaque fois que je crée une cover letter. Là, tu as pris très exactement 4 minutes pour créer un PDF, alors que le skill ZenRay Edit devrait te permettre de le créer ultra vite, immédiatement. Donc, crée tous les fichiers et tous les scripts dans ZenRay Edit et consigne la règle afin que tu refasses plus jamais l'erreur, jamais. Je veux que la prochaine fois que je te demande de faire un PDF, et même que je te demande de faire quoi que ce soit que peut faire le skill ZenRay Edit, je veux que tu pré-génères tous les scripts qui font qu'il les génère en une seconde, tu vois, via des templates. C'était le but de ZenRay Edit. » (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Règle fondamentale : interdiction absolue de recoder des scripts de génération ad-hoc ou de bricoler des pipelines à chaque demande. Tout média géré par ZenRay Edit (PDF, maquette HTML, Motion Design, SFX, article de skill) dispose d'un template pré-calculé et d'un script dédié, appelable via le point d'entrée unique `zr-edit.mjs` ou directement. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Point d'entrée unifié : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zr-edit.mjs <pdf|design|motion|sfx|article|file> [options]` (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 1. PDF instantané (1 seconde) : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.mjs <params.json|--title ...>` (ou `zr-edit.mjs pdf`). Utilise le template `/Users/zenray/.claude/skills/zenray-edit/templates/pdf-document/template.html`, polices GT Ultra 400 et Literata 400/500 intégrées en base64 sans requête réseau, compilation headless Chrome en 890 ms, prévisualisation PNG 150 dpi, vérification stricte 1 page sans débordement via pypdf, copie automatique dans `~/Downloads/` et archivage dans Assets. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 2. Maquette HTML instantanée : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-html-design.mjs <module> --title "<titre>"` (ou `zr-edit.mjs design`). Utilise le template `/Users/zenray/.claude/skills/zenray-edit/templates/html-design/template.html` et ses jetons HDA, trio typographique GT Ultra / Literata / GT Standard L, grille fluide mobile et desktop. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 3. Motion Design intégré : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zenray-edit-motion.mjs <--list|--render|--montage>` (ou `zr-edit.mjs motion`). Connecté aux 87 projets ZenRay Motion Design, déclinaison aux 4 ratios (16:9, 9:16, 1:1, 4:5), exécution HyperFrames sans navigateur personnel, rendu MP4 ou suite PNG. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 4. SFX intégré : `node /Users/zenray/.claude/skills/zenray-edit/scripts/zenray-edit-sfx.mjs <--list|--normalize|--link>` (ou `zr-edit.mjs sfx`). Connecté aux 208 éléments ZenRay SFX, normalisation loudness EBU R128 à -14.0 LUFS et plafond True Peak à -1.5 dBFS via ffmpeg, liaison atomique audio-vidéo dans `sfx.json` ou `chain.json`. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Preuve et suite de tests : 29 tests unitaires automatisés validés dans `scripts/*.test.mjs` (PDF, HTML, Motion, SFX, CLI unifié). (27 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## PRIORITÉ 0, PREMIÈRE PRIORITÉ D'USAGE : titres et nombres en GT Ultra, corps en Literata, reste de l'interface en GT Standard L (26 October 2026, 15:10) (27 October 2026, 18:15:57 +0100)
+>
+> - 26 October 2026 : une date, une heure, une durée, une plage, un montant ou une mesure est une valeur typographique indivisible : toute l’expression visible prend GT Ultra Regular 400, y compris le mois, les mots de liaison, les séparateurs, les unités et la devise (exemples : « 26 octobre 2026 », « October 2026 », « 9:00 AM », « 1 h 15 », « 10 000 € »). Ne jamais ne changer que les chiffres au milieu d’une date. Vérifier toutes les occurrences : calendrier, titre, bouton, champ, note, tableau, widget, compteur et détail ; dans une phrase ordinaire, seuls les nombres isolés prennent GT Ultra. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> - Mots de Matthieu (26 October 2026, grammaire seule) : « on va utiliser GT Ultra Regular pour les titres, sans forcément caps lock, ni forcément d'espace. Les chiffres, on peut aussi les mettre en GT Ultra. Si je récapitule : les titres en GT Ultra, les nombres en GT Ultra, le corps en Literata, et tout le reste de l'UI en GT Standard L. Toujours en première priorité pour l'utilisation. » Règle complète : `/Users/zenray/.claude/rules/Typography1.md`, section du 26 October 2026, 15:10. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - DÉFAUT de tout nouveau travail : TITRES GT Ultra Regular 400, casse libre, sans interlettrage imposé ; TOUS LES NOMBRES GT Ultra Regular 400 (corps, tableaux, boutons, titres) ; CORPS et TEXTE REÇU OU LU Literata 400 ; RESTE DE L'INTERFACE GT Standard L Regular 400 ; CODE AnthropicMono. Cette section remplace, sur les titres (GT Standard L Bold capitales) et sur les nombres (GT Standard L), les sections « typographie » plus bas, qui restent comme historique ; GT Sectra, Anthropic Serif et Inter restent des alternatives valables (voir la correction du même jour plus bas). (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Articles : `"fontSet": "gtultra"` dans la définition (et dans `ARTICLE.json` d'un skill). Toute définition NOUVELLE le met. Sans clé le rendu reste « sectra » octet pour octet (prouvé le 26 October 2026 : sortie de la définition de ZenRay Dictate identique, sha256 `87bdee61a2a5dcf2…`), `gtstandard` reste valide pour les articles qui l'emploient. Avec `gtultra`, chaque suite de chiffres du corps, des tableaux et des titres est enveloppée dans `<span class="num">` (sauf code, pre, script, style, svg) et prend GT Ultra. Casse et interlettrage des titres sont des variables du bloc (`--title-case`, `--title-track`, défauts `none` et `normal`), jamais des littéraux. Fichiers : `designs/_shared/fonts/GT-Ultra-Regular.woff2` (48 Ko), `GT-Standard-L-Regular.woff2`, `GT-Standard-L-Bold.woff2`, `Literata-latin.woff2` ; réglages dans `ARTICLE_SETTINGS.gtUltraFonts` et `gtUltraCss` de `scripts/render-project-article.mjs`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Preuve (26 October 2026) : article de ZenRay Dictate rendu avec `fontSet: gtultra` dans un Chromium isolé : h1 et h2 `GT Ultra 400`, 161 nombres en `GT Ultra`, paragraphes `Literata 400`, tableaux `GT Standard L`, code `AnthropicMono`, `document.fonts.check` vrai pour les trois familles, débordement 0 à 1280 et à 375 px. Contrôle réutilisable : `node scripts/CheckFontSet.cjs <article.html> <capture.png>`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## PRIORITÉ 0 : typographie, Literata et GT Standard L (26 October 2026, ordre de Matthieu) (27 October 2026, 18:15:57 +0100)
+>
+> - Mots de Matthieu (26 October 2026) : « update claude code et zenray edit avec simplement les nouvelles font : Literata et GT Standard L, en priorité par rapport à corps, titres, nombres. » Règle complète : `/Users/zenray/.claude/rules/Typography1.md`, section du 26 October 2026. Elle fixe le DÉFAUT prioritaire ; les polices citées plus bas (InterVariable, AnthropicSerif, GT Sectra, Medium 500) ne sont PAS abandonnées, voir la correction du 26 October 2026 ci-dessous. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - CORPS Literata 400 ; TITRES GT Standard L Bold 700, capitales, `.06em` ; INTERFACE et TOUS LES NOMBRES GT Standard L Regular 400 ; code AnthropicMono. Fichiers woff2 déjà dans `designs/_shared/fonts/` : `GT-Standard-L-Regular.woff2`, `GT-Standard-L-Bold.woff2`, `Literata-latin.woff2`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Articles : `render-project-article.mjs` accepte `"fontSet": "gtstandard"` dans la définition (et `fontSet` dans `ARTICLE.json` d'un skill, transmis par `refresh-skill-article.mjs`). Toute définition NOUVELLE le met ; sans cette clé le rendu reste « sectra », l'ancien, octet pour octet (prouvé le 26 October 2026 sur la définition de ZenRay Dictate : sortie identique avant et après, donc aucun article existant ne change à la reconstruction). Un nom inconnu lève une erreur. Le bloc de surcharge tient dans `ARTICLE_SETTINGS.gtStandardCss` et agit sur les variables du gabarit (`--sans`, `--serif`, `--title`). (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Maquettes et pages HTML : mêmes trois rôles, un jeton par rôle, jamais un nom de police en dur ; au moins une proposition de design peut garder un autre accent seulement si Matthieu le demande. Exemple de référence : `designs/2026-10-26-freelance-gt-standard/index.html`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Preuve (26 October 2026) : article de test rendu avec `fontSet: gtstandard` : titres 700 en capitales, corps Literata, interface GT Standard L, `document.fonts.check` vrai pour les trois faces, aucun débordement à 1280 et 375 px. Les articles existants (Registry.json) ne sont pas reconstruits en masse. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - CORRECTION (26 October 2026, mots de Matthieu, grammaire seule) : « je t'avais pas dit d'enlever complètement GT Sectra et Anthropic Serif, ni Inter, mais de mettre en priorité d'abord, par défaut, Literata et GT Standard L. » Donc : Literata et GT Standard L sont le défaut de tout nouveau travail (première proposition de design, articles `fontSet: gtstandard`, planches, visuels) ; GT Sectra LCG (coupe normale, jamais Display), Anthropic Serif et Inter restent valables comme alternatives, comme variantes quand Matthieu demande plusieurs designs (au moins une en GT Sectra LCG, règle du 23 October 2026) et pour les pages existantes. Le texte reçu ou lu est en Literata, les nombres en GT Standard L. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Contrôle connu, non lié : `python3 scripts/CheckContract.py` échoue déjà (« Bundle inventory changed », inventaire du bundle ancien) ; il n'a pas été réenregistré ici. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## PRIORITÉ 0 : chaque HTML fait avec zenray-edit est rangé dans le skill ET poussé dans Assets (23 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> - Question de Matthieu (23 October 2026) : « chaque ZenRay Edit est directement lié au skill ZenRay Edit, chaque HTML est relié à ZenRay Edit et ensuite tout est push dans Assets du projet zenray-edit ? » Réponse : oui, et c'est obligatoire. (23 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Tout HTML de design produit sous ce skill (maquette, galerie de propositions, planche) se termine par `node /Users/zenray/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets-du-chantier>` : copie dans `designs/<date>-<slug>/`, ligne dans `designs/INDEX.md`, copie dans le projet Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/` et `~/.claude/tmp/tmp-zenray-edit/Designs/`), copie dans le projet du chantier, puis inventaire et archive Assets. Sans cette commande le design n'est pas fini. (23 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Le choix de Matthieu s'ajoute par `file-design.mjs --decide <slug> --choice <n> --note "<texte>"`, jamais en réécrivant une ligne. (23 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 25 October 2026, PRIORITÉ 0 (demande de Matthieu) : toute réponse zenray-edit se termine par le chemin ABSOLU complet du HTML autonome des propositions (`/Users/zenray/.claude/tmp/tmp-<nom>-<date>/index.html`), en lien cliquable, pour qu'il l'ouvre dans le Finder et compare les propositions dans son propre navigateur, fenêtre entière. Même quand les propositions vivent dans une app (ZenRayProgress, etc.), on livre AUSSI ce HTML autonome, toutes les propositions côte à côte. Je l'ouvre en plus dans le navigateur interne (servi en local, car une page `file://` n'y est pas pilotable) pour vérifier, jamais dans son navigateur personnel. Cause : le 25 October 2026, l'onglet Abonnement Max a été livré seulement dans le site, sans HTML ni chemin. (25 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Piège payé le 23 October 2026 : relancer `file-design.mjs` pour « vérifier » refile un doublon (`-v2`) ; pour contrôler, lire `designs/INDEX.md` et lister `Memory1/Projects/zenray-edit/Designs/`. Les deux designs du Plan de ce jour ont d'abord été livrés sans la commande, puis rangés. (23 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+>
+> Atelier de création et d’édition, de la demande à un média vérifié et modifiable. Lire [ActiveContract.md](references/ActiveContract.md), puis seulement les références du mode utile. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> - Reprendre l’identité Assets existante, son contexte et son feedback avec zenray-assets ; travailler dans l’atelier ou les sources effectivement liées. Une conversation ne se réattribue jamais implicitement. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Pour un texte de Matthieu, corriger uniquement grammaire, orthographe, conjugaison et transcription manifestement erronée. Conserver vocabulaire, rythme, ordre, répétitions et contenu ; réécriture, réorganisation et traduction exigent une demande explicite. Lire [TextEditing.md](references/TextEditing.md). (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Chercher un gabarit avant de construire : `node scripts/zr-design.mjs list`, puis `get <id>`. Instancier la définition existante ; paramètres globaux, de famille et d’instance distincts. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Images et post : `python3 scripts/zr-hda-instance.py <source> --dest <atelier/instance> --mode light --post <draft>`. Heavy sert une URL locale pour WebGL ; ouvrir cette URL uniquement dans le navigateur interne. `--force` conserve textes, réglages et sorties, avec historique de code. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Composition : `scripts/new-project.sh <name> <atelier>` puis `<instance>/render.sh`. Le fichier export.json centralise dimensions, facteur, format et limites ; un facteur absent atteint au moins 3840 pixels sur le grand côté. Les sources et le master sont conservés même si une livraison échoue. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Avant traitement média lourd, appliquer ffmpeg-hardware-check ; utiliser PDF, Houdini ou téléchargement seulement si le mode le nécessite. Aucun script historique externe absent ne vaut capacité vérifiée. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Vérifier dimensions, poids, codec/durée et alpha selon le média, regarder le rendu réel en navigateur isolé ; fournir sources et exports identifiés. Archiver via Assets et vérifier le cloud avant de l’annoncer ; publication publique seulement dans le périmètre autorisé. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## Montage / motion design (10 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> - Une vidéo de motion design se reproduit depuis une référence mesurée : analyse, storyboard, paramètres HDA, composition HyperFrames, rendu, contrat de vérification. Méthode complète : `~/.claude/skills/zenray-motion-design/SKILL.md`. (10 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Référence de premier jet : `zenray-motion-design-01` (OneKey Pro 2, 68,05 s), vérifiée par `Verify.py` avec tous les contrôles réussis en v3. (10 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Chaque valeur de marque vit dans `params/tokens.json` ; chaque plan et chaque légende dans `params/timeline.json` ; la chorégraphie dans `params/choreography.json`. Ne jamais recopier une valeur dans le gabarit. (10 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Une référence téléchargée reste dans le scratchpad, sans archivage ni publication ; seul le rendu produit part vers l'atelier. (10 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Rendu : `HYPERFRAMES_BROWSER_PATH` sur le shell géré par HyperFrames, jamais le Chrome personnel. (10 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 11 October 2026 : passe 2, l'animatique : le montage reprend la structure mesurée (coupes, caméra, tempo) et chaque asset manquant devient un emplacement nommé et animé ; les assets faisables en code sont faits, les autres reçoivent un prompt validé avant toute génération. Méthode : section « Passe 2 » de `~/.claude/skills/zenray-motion-design/SKILL.md`. (11 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 11 October 2026 : génération d'assets : Google Flow n'a pas d'API ; la voie conseillée est l'API Gemini (Veo 3.1, images, Lyria) avec une clé rangée par Matthieu dans le trousseau macOS ; rien ne part avant la validation de la fiche A00 et des prompts. (11 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## Modes et références ciblées (7 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> | Mode | Références | Date | (27 October 2026, 18:15:57 +0100)
+> |---|---|---| (27 October 2026, 18:15:57 +0100)
+> | Correction et rédaction | TextEditing.md ; legacy/EditText.md pour historique | 7 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Photo et cadrage | legacy/PhotoWorkflow.md ; legacy/EditorCorrections.md ; post-editor.md | 7 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Composition et carrousel | legacy/CompositionFoundation.md ; legacy/CompositionRecipes.md | 7 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Template depuis référence | template-creator.md ; legacy/DesignLibrary.md | 7 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | PDF instantané (1s) | templates/pdf-document/README.md ; scripts/render-pdf-document.mjs | 27 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Maquette HTML instantanée | templates/html-design/README.md ; scripts/render-html-design.mjs | 27 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Motion Design et SFX intégrés | templates/motion-sfx/README.md ; scripts/zenray-edit-motion.mjs ; scripts/zenray-edit-sfx.mjs | 27 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Reel et short | legacy/ShortsPipeline.md ; legacy/ShortsCorrections.md | 7 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | UI paramétrique | legacy/ParameterPanels.md ; legacy/UiContract.md ; legacy/NativeUiReference.md si besoin natif | 7 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Post social et vignette | legacy/SocialText.md ; legacy/VignetteWorkflow.md ; legacy/PostEditorContract.md | 7 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Montage et motion design | ~/.claude/skills/zenray-motion-design/SKILL.md (analyse, storyboard, HyperFrames, contrat de vérification) | 10 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Animatique et inventaire d'assets | ~/.claude/skills/zenray-motion-design/SKILL.md, section Passe 2 (caméra mesurée, emplacements nommés, prompts, son, fiche) | 11 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Titre animé Vogun jaune ou blanc | templates/vogun-yellow-title/README.md (gabarit paramétrique, rendu `RenderTitle.cjs`, preuve) ; règles dans ~/.claude/skills/zenray-houdini/references/shorts/VogunTitles.md | 14 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Photo de profil | references/StudioPhotos.md ; skill zenray-studio-photos | 23 October 2026 | (27 October 2026, 18:15:57 +0100)
+> | Montage final 1:1 (clips, musique normalisée, carte de fin Motion Design, MP4 et MOV) | templates/montage-1x1/README.md ; section du 26 October 2026 de ce SKILL.md | 26 October 2026 | (27 October 2026, 18:15:57 +0100)
+>
+> Les 15 blocs historiques, les corpus d’origine et leur provenance restent consultables par [INDEX.md](references/INDEX.md). Les anciennes consignes sont des recettes historiques ; ActiveContract.md gouverne les commandes actuelles et tranche leurs contradictions. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## Preuves et contrôles (7 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> - `python3 scripts/index-skill.py --verify-only` vérifie les archives historiques et leurs empreintes ; `python3 scripts/CheckContract.py` vérifie les empreintes du bundle courant, routes, catalogue, entrées actives et configuration d’export. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - `python3 scripts/verify-post-instance.py <images> <fixture-neuve>` vérifie la reprise sans perte. Les vérificateurs navigateur exigent Playwright disponible dans le runtime, tournent isolés et produisent leurs captures dans la fixture. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Distinguer contrôles structurels, rendu réellement mesuré et cloud réellement vérifié ; une preuve ne couvre que ce qu’elle inspecte. (7 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 8 October 2026 : Vitesse de rotation uniforme depuis une prise de vue réelle (27 October 2026, 18:15:57 +0100)
+>
+> - 8 October 2026 (demande de Matthieu) : un plateau tournant filmé à la main tourne à vitesse variable (départ à l'arrêt, ralentissement, nouvelle poussée). `python3 scripts/UniformTurn.py <src> <out.mp4> --seconds 5 --fps 24 --size 1080x1920 --k 3` rend un tour à vitesse angulaire constante pour la durée voulue. (8 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 8 October 2026 : méthode mesurée, jamais devinée : corrélation de phase image par image sur une fenêtre centrale (`--win y0,y1,x0,x1` en fractions) donne le décalage horizontal de la surface ; sa somme cumulée est l'angle ; on coupe le début et la fin à l'arrêt (lissage sur 4 images, seuil `--thr`) ; minterpolate mci ×K ; chaque image de sortie prend l'image interpolée dont l'angle tombe sur la droite. Écart-type de vitesse mesuré 2,5 px par image avant, 0,88 après (pot de poterie, 8 October 2026). (8 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 8 October 2026 : limites : une caméra qui bouge ajoute son décalage à la mesure ; le fond de la fenêtre doit être le pot ; sortie sans audio ; la qualité est celle de la source (une source 1024×576 est agrandie en lanczos). Vérifier en remesurant la sortie avec le même script. (8 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 8 October 2026 : titre Vogun jaune : recette dans `zenray-houdini/references/shorts/VogunTitles.md` ; exemple de montage complet (grade, titre trois lignes Vogun et Yu Mincho, easeOutBack d'entrée, rendu alpha ProRes 4444) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/Montage.py`. (8 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 8 October 2026 : Sound Design / Edit Sound (27 October 2026, 18:15:57 +0100)
+>
+> - 8 October 2026 : mode son : transformer un effet sonore court (interface, jeu) en restant proche de la source ; recette validée `python3 scripts/SoundF1.py <source.flac> <sortie.wav>` (gonflement inversé de 1,2 s, corps une octave plus bas déclenché à −20 ms, réverbération douce), résultat de référence `assets/sound/F1_Trigger_minus20ms.flac`. Protocole complet, mesures et limites : [SoundDesign.md](references/SoundDesign.md). (8 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 8 October 2026 : ajouter ici seulement ce que Matthieu a validé à l'oreille ; les essais non retenus ne se consignent pas. (8 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+>
+> ## 9 October 2026 : tour uniforme SANS fantômes (remplace l'interpolation minterpolate) (27 October 2026, 18:15:57 +0100)
+>
+> - 9 October 2026 : cause des bandes blanches qui apparaissent et disparaissent dans un tour de plateau : `minterpolate` (UniformTurn.py) ne suit pas une surface texturée qui tourne ; il mélange deux positions et des lignes blanches se dédoublent dans une partie des images. Utiliser `python3 scripts/UniformTurnWarp.py <src> <out.mp4> --seconds 12.5` : angle mesuré par corrélation de phase, champ de déplacement horizontal mesuré sur 10 bandes verticales, et l'image source la plus proche est déplacée du reste (au plus une demi-image), sans mélange de deux images. (9 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 9 October 2026 : mesuré sur le pot de poterie : netteté de A 2,56 (source 2,91, ancienne méthode 2,49), irrégularité de netteté d'image à image 0,063 (ancienne méthode 0,121, source 0,104) ; B 0,085 contre 0,119. Une première version qui mélangeait deux images déplacées était plus floue (0,162) : ne jamais mélanger. (9 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 9 October 2026 : limites : un mouvement de caméra à la main reste mesuré avec le pot ; la vitesse d'angle vient d'une fenêtre centrale. Les anciens scripts restent pour comparaison. (9 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 9 October 2026 : montage motion design complet de référence (sous-titres lettre par lettre calés sur le tempo détecté, zooms sur les temps forts, zoom au raccord, SFX calés sur l'attaque mesurée) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/FinalMontage3.py`. (9 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 9 October 2026 : Leçons HTML illustrées et calculateurs procéduraux (27 October 2026, 18:15:57 +0100)
+>
+> - 9 October 2026 (demande de Matthieu) : une leçon se fait en HTML autonome, niveau 12 ans, pas à pas, avec images réelles, schémas SVG, glossaire, quiz et SIMULATIONS interactives (curseurs) plutôt que du texte seul. Exemple de référence : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-roof-tiles/index.html`. Polices embarquées (InterVariable, AnthropicSerif, AnthropicMono en woff2 copiés depuis `ZenRayProgress/public/fonts`), thème clair et sombre par `:root`. (9 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 9 October 2026 : toute leçon se vérifie dans le navigateur interne sur un serveur local, largeur étroite comprise (aucun débordement horizontal, tables dans un bloc défilant), et ses nombres se recalculent à la main : une erreur de tuiles de 340 px (6 × 340 + 7 × 8 dépasse 2048) a été trouvée en écrivant la leçon. (9 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 9 October 2026 : pour tout système procédural, le calculateur HTML de test est dans le skill `zenray-houdini` : `templates/roof-tile-calculator/index.html`. L'adapter (champs, règle, sorties) à un autre système avant de toucher Houdini. (9 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 12 October 2026 : Effacer une marque d'une texture (logo, silhouette d'échelle) par greffe de texture (27 October 2026, 18:15:57 +0100)
+>
+> - 12 October 2026 : `python3 scripts/PatchFill.py <in> <out> --crop x,y,w,h --rect x,y,w,h [--rect ...] --search 700 --search-y 12 --ring 18 --feather 16`. Le `--crop` s'applique d'abord (garder la moitié height d'une planche), les rectangles sont en coordonnées après recadrage. Numpy et Pillow seulement, environ 1 s. (12 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 12 October 2026 : méthode : l'anneau de pixels autour du trou est comparé à chaque place candidate par corrélation normalisée plus une pénalité de contraste ; la meilleure place est recopiée dans le trou, sa luminosité calée par un plan ajusté sur l'anneau, puis fondue sur le bord. Rien n'est inventé, la texture vient de la même image. (12 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 12 October 2026 : pièges payés : un simple écart au carré choisit des zones plates et bouche le trou d'une tache lisse ; un calage de luminosité constant laisse un rectangle plus clair ; sur une roche en strates, chercher dans les mêmes rangées (`--search-y` petit) garde les lignes alignées. Vérifier toujours sur un zoom avant/après. (12 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 12 October 2026 : exemple : planche de Javier Perez, moitié droite, silhouette `--rect 126,866,48,96` et logo `--rect 850,910,102,44`, atelier `/Users/zenray/.claude/tmp/tmp-height-javier-perez-clean/`. Un aperçu ombré en gris n'est pas une height linéaire : il sert de référence de mesure, pas de carte finale. (12 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 14 October 2026 : maquettes du rework Assets et titre Vogun rangés ici (27 October 2026, 18:15:57 +0100)
+>
+> - 14 October 2026 : les trois maquettes du rework ZenRay Assets (Tube, détails, page projet) et leurs décisions sont dans `templates/zenray-assets-mockups/rework-12-october-2026/` ; son README donne les choix de Matthieu et le code de production correspondant. (14 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 14 October 2026 : le titre animé Vogun jaune `#FFFF00` de Vegetation Collection 01 est un gabarit paramétrique dans `templates/vogun-yellow-title/` (durées, lignes, couleur et ombre dans un JSON, rendu 4K transparent par `RenderTitle.cjs`). (14 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 14 October 2026 : tout index de design est rangé automatiquement (27 October 2026, 18:15:57 +0100)
+>
+> - 14 October 2026 : dès qu'un index de design (galerie de propositions) est créé pour Matthieu, la dernière étape est `node ~/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets>`. Il copie l'index dans `designs/<date>-<slug>/` (polices partagées), ajoute une ligne au registre `designs/INDEX.md` et, avec `--project`, copie l'index dans `Memory1/Projects/<id>/Designs/`. Sans cette étape le design n'est pas fini. (14 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 14 October 2026 : son choix s'ajoute par `file-design.mjs --decide <slug> --choice <A|B|C>`, jamais en réécrivant une ligne. `designs/` est un registre vivant, hors du lot attesté par `CheckContract.py`. (14 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 14 October 2026 : la lecture du registre par projet dans `zenray-assets` n'existe pas encore ; aujourd'hui seule la copie dans la mémoire du projet est faite (colonne « Projet Assets » du registre). (14 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 18 October 2026 : archivage automatique dans le projet ZenRay Assets `zenray-edit` et typographie Medium `500` (27 October 2026, 18:15:57 +0100)
+>
+> - 18 October 2026 : à chaque appel, `scripts/file-design.mjs` copie l'index dans `designs/<date>-<slug>/`, ajoute la ligne à `designs/INDEX.md`, copie systématiquement dans le projet ZenRay Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/<folder>/` et `~/.claude/tmp/tmp-zenray-edit/Designs/<folder>/`, plus `--project <id>` si fourni), lance `sync-skill.sh zenray-edit` et déclenche `Client.mjs inventory zenray-edit` puis `Client.mjs archive zenray-edit`. (18 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 18 October 2026 : interdiction absolue de toute fonte Light (`300`/`350`, `AnthropicSerif-Light.ttf` banni car trop AI-like). Utiliser uniquement `AnthropicSerif Medium` (`AnthropicSerif-Medium.ttf`, `500`) et `InterVariable Medium` (`500`). (18 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+>
+> ## 20 October 2026 : articles de projet (27 October 2026, 18:15:57 +0100)
+>
+> - Contrat, commande et validation : [ProjectArticles.md](references/ProjectArticles.md). (20 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 23 October 2026 : thème Liquid Glass (27 October 2026, 18:15:57 +0100)
+>
+> - Référence visuelle : `references/liquid-glass/liquid-glass-claude.png`. Gabarit vérifié : `templates/liquid-glass/` (README : jetons, onglet de verre unique par `clip-path: path()`, alignement mesuré, poids 315 Ko). Instance d'origine : ZenRay Knowledge V5, `/Users/zenray/.claude/tmp/tmp-zenray-knowledge-23-october-2026/ZenRayKnowledgeDesignsV5.html`. (23 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Fond du verre : le wallpaper de Create (`ZenRayProgress/public/wallpaper.webp`) dans `body::before`, jamais sur un ancêtre ; jamais deux `backdrop-filter` imbriqués. (23 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 23 October 2026 : titres d'article en GT Sectra LCG italique (27 October 2026, 18:15:57 +0100)
+>
+> - 23 October 2026 : tout article ou page fait avec ce skill met ses TITRES en GT Sectra LCG Regular italique (chiffres et corps droits, Anthropic Serif) ; c'est le défaut du générateur d'articles (`titleStyle`). Règle : `/Users/zenray/.claude/rules/Typography1.md`, section du 23 October 2026, 18:20. (23 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 25 October 2026 : thème Papier pour les nouveaux articles, QLMarkdown B (27 October 2026, 18:15:57 +0100)
+>
+> - Choix de Matthieu (25 October 2026) : « QLMarkdown B (Papier éditorial) : baseSize=18 parfait. Tu peux même appliquer ce thème aussi aux articles neutres qui sont générés par ZenRay Assets et par ZenRay Edit, à l'avenir uniquement, pas les articles existants. » B est le thème actif de QLMarkdown. (25 October 2026) (27 October 2026, 18:15:57 +0100)
+> - `scripts/render-project-article.mjs` a une option `"theme"` : `papier` (défaut pour toute définition nouvelle) ou `galerie` (le gabarit d'avant). Les valeurs de Papier (couleurs claires et sombres, corps 18 px, interligne 1,7, colonne de 68 caractères, en-tête centré) se lisent dans `templates/qlmarkdown-themes/ThemeEngine.js`, design B : une seule source pour Quick Look et les articles. Un nom de thème inconnu lève une erreur. (25 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Les définitions existantes qui se régénèrent encore sont épinglées `"theme": "galerie"`, sans changer leur date de modification : `zenray-calendar-plan/ARTICLE.json`, `zenray-sales/ARTICLE.json`, la définition UV-Match Height et les deux `Article.json` de `zenray-houdini/docs`. `refresh-skill-article.mjs` transmet `theme` depuis ARTICLE.json ; un nouvel ARTICLE.json sans `theme` donne Papier. Rendu avec galerie identique octet pour octet à l'ancien générateur ; `refresh-articles.mjs --check` vert. (25 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Piège payé (25 October 2026) : `refresh-articles` compare aussi la TAILLE des entrées, pas seulement la date ; épingler un fichier le marque donc à reconstruire. Comme la reconstruction aurait changé l'article publié UV-Match Height (gabarit modifié le 23 October 2026), son empreinte a été enregistrée par `--baseline` sans le republier. (25 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 26 October 2026 : montage final 1:1 (séquence de clips, musique normalisée, carte de fin ZenRay Motion Design) et ce que ZenRay Edit sait de ZenRay SFX et de ZenRay Motion Design (27 October 2026, 18:15:57 +0100)
+>
+> - Demande de Matthieu (26 October 2026) : monter dans l'ordre le logo ZenRay SFX, l'évolution de la voiture à 0,125 s par image, le tour complet, le tour en fil de fer, avec la musique de Mathieu Lamboley normalisée dès le début et des fondus de 0,33 s, et pour finir la carte « Apple MacBook Pro : Personal. Private. Powerful. » de ZenRay Motion Design avec le texte « Matthieu Huguet 3D Tech Artist », en 1:1 sans aucun recadrage, MP4 et MOV, fichier de montage et de séquence, index mapping en .md, tout poussé dans ZenRay Assets (projet zenray-meshes). Tout est fait par le gabarit `templates/montage-1x1/` (README), instance : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Montage/`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Commande : `python3 Scripts/EndTitle.py` puis `python3 Scripts/Montage.py build` dans l'atelier ; une seule source de valeurs, `Params/montage.json` (séquence, carte de fin, musique, master, seuils de vérification). Résultat vérifié : 4 073 images à 60 images par seconde, 67,883 s, 1080 x 1080, 35 contrôles sur 35 verts, test rouge puis vert fait. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Orthographe (26 October 2026, correction de Matthieu : « Matthieu a deux t ») : son nom s'écrit MATTHIEU. La dictée avait écrit « Mathieu » et je l'ai recopié tel quel dans la carte de fin ; la carte a été refaite. « Mathieu Lamboley » (le compositeur) s'écrit bien avec un seul t. Avant tout rendu qui porte un nom propre, relire le texte du projet et les paramètres. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Format : le moteur Motion Design exporte `1x1` en 1080 x 1080 (`FORMATS` de `motion/server.py`) ; le montage sort donc en 1080 carré (le format carré des réseaux), 60 images par seconde (le clip SFX et la carte de fin sont à 60). Les clips à 8 images par seconde se répètent (60 / 8 = 7,5 : cadence de 7 puis 8 images) ; 53,125 s x 60 = 3 187,5 images, arrondies à 3 188 (`round` de Python, nombre pair). Le fil de fer vient de sa version 2048 réduite en lanczos (le 1024 avait du moiré). Aucun clip n'est recadré : mise à l'échelle seulement. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Couleur (26 October 2026, piège) : les MP4 de la voiture ont été faits depuis des PNG RGB par ffmpeg, qui encode en bt601 par défaut SANS balise ; un lecteur les lit en bt709. swscale ne change pas la matrice entre deux formats YUV : pour la rendre juste il faut le filtre `colorspace=space=bt709:ispace=smpte170m:...` (le gris est invariant, seules les couleurs saturées bougent). Une suite de PNG se convertit par `scale=out_color_matrix=bt709:out_range=tv` (`sws_dither=ed` contre les bancs du halo). Tout le montage est balisé bt709, plage tv, et vérifié par ffprobe. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Audio (26 October 2026, pièges) : (1) la piste mp3 commence par 0,155 s de silence (mesuré par `silencedetect`) : coupé, la musique démarre tout de suite ; (2) elle dépasse 0 dBFS une fois décodée (+1,34 dBTP) : tous les intermédiaires en `pcm_f32le`, jamais en 24 bits avant le gain ; (3) `loudnorm` en deux passes `linear=true` est exact pour la musique seule (LRA 4), mais sur le mélange dont la crête du clip SFX est à -0,5 dBTP il bascule en mode dynamique et baisse la musique de 1,5 dB pendant plusieurs secondes : le master est donc UN gain constant (cible -14 LUFS) suivi d'un limiteur rapide (`alimiter`, plafond -1,5 dBFS, attaque 2 ms, relâchement 40 ms, `level=0`), gain corrigé par mesure jusqu'à -14,0 LUFS et pic réel -1,3 dBTP ; (4) fondus de 0,33 s sur la musique seule, mesurés (premiers 40 ms à -45 dB, 27 dB sous le niveau stable). (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - ZenRay Motion Design vu de ZenRay Edit (26 October 2026) : un motion est un PROJET `~/.claude/tmp/tmp-zenray-motion-design/motion-projects/<id>/project.json` (schéma `zrmd/motion-project@1`, `format` parmi `16x9`, `9x16`, `1x1`, `4x5`, `fps`, scènes avec gabarit et paramètres). Pour en dériver un : `sys.path.insert(0, ".../ZenRayMotionDesign/motion"); import server`, puis `server.read_project(id)`, copie profonde, changement du texte, du `format`, du `fps`, `server.write_project(nouvel_id, p)`, `server.cook(id, dossier)` (page HTML), `server.hyperframes(page, "render", "-f", "60", "--format", "png-sequence", "-o", dossier, timeout=...)` (images sans perte `frame_000001.png`, une par image) ou `"snapshot", "--at", "1.5,2.0"` (PNG d'instants). `python3 .../motion/bin/RunHyperframes.mjs render --help` donne les options (`--resolution square-4k` rend à 2160 pour réduire ensuite proprement). L'export de l'app (`run_export`) ajoute le son de la page et un `loudnorm` à -14 LUFS, un seul à la fois ; un rendu direct par `server.hyperframes` n'a pas cette limite. Le gabarit `ap-title` (titres lumineux Apple) a une ligne `items` : `texte | cx | cy | taille | début | fin | dIn | dOut | outLead`, des tables `keys` (couleurs du texte) et `gkeys` (couleurs du halo) `item | temps | c1 | c2...` comptées depuis le début de l'item, et le plan 1920 x 1080 est recalé par `stageAdaptive` pour les autres formats (en 1:1 le texte de 29 lettres occupe 95 % de la largeur sans rien couper). (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Tenue ajoutée à un motion mesuré (26 October 2026, `EndTitle.py`) : la séquence Apple s09 ne dure que 1,75 s, trop court pour lire cinq mots ; une TENUE de 1,0 s s'insère en repoussant d'autant les lignes de `keys` et `gkeys` dont le temps est au moins 1,1 s (le début de l'effacement), la fin de l'item et la durée de la scène, sans toucher aux couleurs ni au timing mesurés de l'apparition. Paramètres `hold` et `holdFromItemTime` du bloc `endTitle`. Le projet dérivé reste modifiable dans l'app (`zenray-meshes-end-title-ppm`). (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - ZenRay SFX vu de ZenRay Edit (26 October 2026) : un son se fabrique dans `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRaySFX` (recette, trois propositions A, B, C par piste, `out/proposals/<motion>/sfxN-A.wav`), s'accorde sur les repères du film (`cues`, `anchorCue`, `hit`) et se range dans la chaîne `ZenRayEdit/out/montage-chain-<x>.json` (film + options de sons par index mapping). Une vidéo FINALE avec son est faite par `ZenRaySFX/Scripts/RenderFinal.py` : HyperFrames rend la page du motion à 4K et 60 images par seconde, ffmpeg la ramène à 2048 en lanczos et pose la piste masterisée dessous (AAC 256 k) ; le carré est le même projet avec `format: 1x1`. Pour un montage, on prend ce MP4 tel quel (image ET son, 6,0 s, 60 images par seconde, 2048 x 2048, bt709) : le montage mélange son son à la musique à son propre niveau, sans le toucher, à partir de la première image. Les sons des clips se marquent `"audio": true` dans `montage.json`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Vérification (26 October 2026) : contrôles du vérificateur ouverts par `python3 Scripts/Montage.py verify` ; pour un nouveau montage, toujours lancer aussi `verify --selftest` (rouge sur le clip SFX seul, vert sur le montage). Un PSNR « inf » sur une image noire est normal (identique octet pour octet). Garder `Out/plan.json` et `Out/filtergraph.txt` : ils disent les images exactes de chaque clip et la chaîne ffmpeg. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Rangement (26 October 2026) : l'atelier du montage est dans le TMP du projet Assets (`tmp-zenray-meshes/Montage/`), donc inventorié et archivé avec lui ; `Index.md` est l'index mapping (identifiant, fichier, rôle, taille, sha256). Le gabarit durable est `templates/montage-1x1/`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Deuxième version du montage avec une autre musique (26 October 2026, demande de Matthieu : « Meaning (Choral Version) » de Cascadeur à la place de Lamboley, les deux versions gardées) : `yt-dlp --no-playlist --flat-playlist --print "%(id)s | %(title)s | %(uploader)s | %(duration_string)s" "ytsearch8:<artiste titre>"` choisit la piste (ici `xnG0hIj-9GE`, la chaîne de l'artiste, 2:59), `yt-dlp -x --audio-format mp3 --audio-quality 0 -o "<Artiste - Titre> [%(id)s].%(ext)s" <URL>` la télécharge dans `Music/`, une copie va dans `Montage/Sources/06-...mp3`. Une VERSION est un second fichier de paramètres (`Params/montage-meaning.json`, copie de `montage.json` avec `audio.music.src`, `output.name`, `output.dir` = `Out-Meaning` et `output.index` = `Index-Meaning.md`) ; `python3 Scripts/Montage.py build --params Params/montage-meaning.json` fait tout dans son propre dossier, sans toucher à la première version. Temps réel : plan, audio et vidéo prennent environ 15 secondes, la vérification (35 contrôles) se lance après l'envoi du MP4. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Piège musique (26 October 2026) : `loudnorm` ne reste en mode linéaire que si la dynamique mesurée (LRA) est INFÉRIEURE à sa cible ; le choeur de Cascadeur mesure LRA 14,3 contre la cible de 11, donc il aurait été compressé. Le paramètre `audio.music.lra` (défaut 11) se règle au-dessus de la valeur mesurée (20 ici) : la musique garde toute sa dynamique (LRA 15,9 mesurée ensuite) et le gain reste constant. Cette piste commence presque en silence (niveau de la musique seule de -53 à -75 dB pendant les 5 premières secondes, -50 à -30 dB jusqu'à 20 s, puis jusqu'à -14 dB) : la normalisation aligne le niveau moyen, pas le début ; pour commencer plus tard dans la piste, mettre un nombre de secondes dans `audio.music.trimHead` (le silence de tête de 0,55 s est coupé en mode `auto`). (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Contrôle (26 October 2026) : la version Meaning est vérifiée 35 contrôles sur 35 et le test rouge et vert est fait (`verify --selftest --params Params/montage-meaning.json`) ; le gain du master est de +2,2 dB pour -14,0 LUFS et -1,2 dBTP. Fichiers : `Out-Meaning/` (MP4, MOV, plan, audio, filtergraph, verify), `Index-Meaning.md`. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Troisième musique, « How Long Is Now? » de YANA à partir de 2:28 (26 October 2026, demande de Matthieu : la version Cascadeur ne lui sert à rien, elle est supprimée ; l'ouverture reste sans musique) : `yt-dlp` id `dw3I76nGnhc` (la chaîne YANA, 3:40, 219,88 s), `startAt: "2:28"` (reste 71,88 s de piste pour 61,88 s à couvrir, donc aucune boucle), `placeAfter: "c1-sfx-logo-flare"` (le motion d'ouverture joue seul 6,0 s avec son propre son, la musique entre à 6,0 s avec son fondu de 0,33 s : niveau mesuré -43 dB à 6,0 s puis -12 dB à 6,5 s), `loop: true` avec `loopCrossfade` 1 s prêt si le montage s'allonge. Version `Out-Yana/` (MP4 et MOV), `Index-Yana.md`, 35 contrôles sur 35 dont « music fade in (music starts at 6.000 s) », master -14,1 LUFS et -1,4 dBTP, selftest rouge et vert. Pour démarrer avec la première image au lieu d'attendre le motion : `placeAt: 0` sans `placeAfter` (la phrase de Matthieu a hésité entre les deux, il a tranché pour attendre la fin du motion). (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Suppression (26 October 2026) : la version Cascadeur (`Out-Meaning/`, `Params/montage-meaning.json`, `Index-Meaning.md`, les deux copies du mp3) est effacée à sa demande, par chemins exacts ; elle se refait en une minute (`yt-dlp` puis `build`). La leçon sur le LRA reste valable. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 26 October 2026 : ZenRay Edit, l'app qui appelle Motion Design et SFX (27 October 2026, 18:15:57 +0100)
+>
+> - 26 October 2026 : dépôt `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayEdit` (port 3130, `Scripts/App.py`, entrée `zenray-edit` de launch.json). Il lit Motion Design et ZenRay SFX et relie un son à un film par `sfx.json` (ancre sur un repère du film). L'index qu'un agent doit lire pour ne pas se tromper : `ZenRayEdit/out/Library.md` (reconstruit par `Scripts/BuildIndex.py`, vérifié par `Scripts/CheckIndex.py`, vert et rouge). Aucun projet Assets global : chaque module garde son projet. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+> - 26 October 2026 : pour CONSULTER (voir tous les films et tous les sons), utiliser les galeries de l'app Motion ; pour LIER un son à un film, ZenRay Edit ou la piste Sons de l'éditeur Motion. (26 October 2026) (27 October 2026, 18:15:57 +0100)
+>
+> ## 27 October 2026 : moteur PDF Document et Cover Letter (A4 mono-page ultra-rapide) (27 October 2026, 18:15:57 +0100)
+>
+> - 27 October 2026 : moteur réutilisable et ultra-rapide (~1 seconde) pour générer des documents A4 et lettres de motivation conformes au système typographique ZenRay (GT Ultra 400 pour titres, chiffres, dates et métas ; Literata 400 pour le corps de texte ; Literata 500 pour les rôles, labels et sous-titres ; couleurs système #FDFDFC, #1F1F1E, accent #0A84FF, hairlines rgba(31, 31, 30, 0.10)). (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Gabarit : `/Users/zenray/.claude/skills/zenray-edit/templates/pdf-document/` contenant `template.html` (mise en page A4 paged-media avec `@page`, `@bottom-left` et `@bottom-right`), `params.json` (interface de paramètres HDA éditables sans modifier le code) et `README.md`. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - CLI : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.mjs` accepte en entrée un fichier Markdown (.md avec ou sans frontmatter), un fichier texte brut (.txt), un fichier JSON (.json) ou des arguments directs (`--text`, `--company`, `--recipient`, `--subject`, `--role`, `--out`, `--downloads`, `--slug`). (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Polices et rendu : lit les polices statiques depuis `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayWebsite/.cv-build/fonts/` et les injecte en base64 dans `@font-face` pour une autonomie totale sans dépendance externe ; rendu PDF via headless Chrome en ~900 ms ; miniature aperçu PNG 150 dpi via `pdftoppm` ; contrôle strict de pagination via python `pypdf` avec alerte si débordement au-delà d'une page. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Sortie et archivage : écrit par défaut dans `/Users/zenray/Downloads/<slug-ou-nom>.pdf` si `--out` n'est pas spécifié ; archive automatiquement le document, sa source, son PDF et sa miniature dans `designs/<date>-<slug>/` et dans ZenRay Assets via `file-design.mjs` dès que `--slug` est fourni. (27 October 2026) (27 October 2026, 18:15:57 +0100)
+> - Tests unitaires validés : `node /Users/zenray/.claude/skills/zenray-edit/scripts/render-pdf-document.test.mjs` (10/10 tests réussis). (27 October 2026) (27 October 2026, 18:15:57 +0100)
+
+## 27 October 2026, 18:16:30 +0100 : Iteration
+
+<!-- feedback-event:5b7ab821cb056ed729303d5d65ac355f30541aef5c37afdf21c0cd665dba669c (27 October 2026, 18:16:30 +0100) -->
+- Project: zenray-calendar-plan-23-october-2026; kind: iteration. (27 October 2026, 18:16:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/38575095-b716-47ed-af1d-bf22b8ff30eb.jsonl. (27 October 2026, 18:16:30 +0100)
+
+> Je regarde le rendu avant de te l'envoyer. (27 October 2026, 18:16:30 +0100)
